@@ -1,0 +1,1250 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	
+
+	<title>ILIAS für Lehre und Lernen – Universität Stuttgart: Bei ILIAS anmelden</title>
+
+	<style>
+		
+	</style>
+
+	
+	<link rel="stylesheet" type="text/css" href="./Services/COPage/css/content.css?version=7.7_2022-03-09" />
+	
+	<link rel="stylesheet" type="text/css" href="./Services/COPage/css/syntaxhighlight.css?version=7.7_2022-03-09" />
+	
+	<link rel="stylesheet" type="text/css" href="./node_modules/mediaelement/build/mediaelementplayer.min.css?version=7.7_2022-03-09" />
+	
+	<link rel="stylesheet" type="text/css" href="./Services/Accordion/css/accordion.css?version=7.7_2022-03-09" />
+	
+	<link rel="stylesheet" type="text/css" href="./libs/bower/bower_components/owl.carousel/dist/assets/owl.carousel.css?version=7.7_2022-03-09" />
+	
+	<link rel="stylesheet" type="text/css" href="./Services/COPage/css/placeholder.css?version=7.7_2022-03-09" />
+	
+	<link rel="stylesheet" type="text/css" href="./templates/default/delos.css?vers=7-7-2022-03-09-$Id$&version=7.7_2022-03-09" />
+	
+	<link rel="stylesheet" type="text/css" href="./templates/default/delos_cont.css?vers=7-7-2022-03-09&version=7.7_2022-03-09" />
+	
+	<link rel="stylesheet" type="text/css" href="./node_modules/jstree/dist/themes/default/style.min.css?version=7.7_2022-03-09" />
+	
+
+	
+	<script src="./node_modules/jquery/dist/jquery.js?version=7.7_2022-03-09"></script>
+	
+	<script src="./node_modules/jquery-migrate/dist/jquery-migrate.min.js?version=7.7_2022-03-09"></script>
+	
+	<script src="./node_modules/jquery-ui-dist/jquery-ui.js?version=7.7_2022-03-09"></script>
+	
+	<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js?version=7.7_2022-03-09"></script>
+	
+	<script src="./node_modules/maphilight/jquery.maphilight.min.js?version=7.7_2022-03-09"></script>
+	
+	<script src="./src/UI/templates/js/Core/ui.js?version=7.7_2022-03-09"></script>
+	
+	<script src="./src/UI/templates/js/Modal/modal.js?version=7.7_2022-03-09"></script>
+	
+	<script src="./Services/JavaScript/js/Basic.js?version=7.7_2022-03-09"></script>
+	
+	<script src="./src/GlobalScreen/Client/dist/GS.js?version=7.7_2022-03-09"></script>
+	
+	<script src="./src/UI/templates/js/Page/stdpage.js?version=7.7_2022-03-09"></script>
+	
+	<script src="./src/UI/templates/js/MainControls/dist/mainbar.js?version=7.7_2022-03-09"></script>
+	
+	<script src="./src/UI/templates/js/MainControls/metabar.js?version=7.7_2022-03-09"></script>
+	
+	<script src="./src/UI/templates/js/MainControls/footer.js?version=7.7_2022-03-09"></script>
+	
+	<script src="./src/UI/templates/js/MainControls/system_info.js?version=7.7_2022-03-09"></script>
+	
+	<script src="./src/UI/templates/js/Button/button.js?version=7.7_2022-03-09"></script>
+	
+	<script src="./libs/bower/bower_components/moment/min/moment-with-locales.min.js?version=7.7_2022-03-09"></script>
+	
+	<script src="./libs/bower/bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js?version=7.7_2022-03-09"></script>
+	
+	<script src="./src/UI/templates/js/MainControls/slate.js?version=7.7_2022-03-09"></script>
+	
+	<script src="./src/UI/templates/js/Counter/counter.js?version=7.7_2022-03-09"></script>
+	
+	<script src="./Services/COPage/js/ilCOPagePres.js?version=7.7_2022-03-09"></script>
+	
+	<script src="./node_modules/mediaelement/build/mediaelement-and-player.min.js?version=7.7_2022-03-09"></script>
+	
+	<script src="./Services/MediaObjects/js/MediaElementHelper.js?version=7.7_2022-03-09"></script>
+	
+	<script src="./libs/bower/bower_components/yui2/build/yahoo-dom-event/yahoo-dom-event.js?version=7.7_2022-03-09"></script>
+	
+	<script src="./libs/bower/bower_components/yui2/build/connection/connection-min.js?version=7.7_2022-03-09"></script>
+	
+	<script src="./Services/Accordion/js/accordion.js?version=7.7_2022-03-09"></script>
+	
+	<script src="./libs/bower/bower_components/owl.carousel/dist/owl.carousel.js?version=7.7_2022-03-09"></script>
+	
+	<script src="./node_modules/linkifyjs/dist/linkify.min.js?version=7.7_2022-03-09"></script>
+	
+	<script src="./node_modules/linkifyjs/dist/linkify-jquery.min.js?version=7.7_2022-03-09"></script>
+	
+	<script src="./Services/Link/js/ilExtLink.js?version=7.7_2022-03-09"></script>
+	
+	<script src="./Services/COPage/js/ilCOPageQuestionHandler.js?version=7.7_2022-03-09"></script>
+	
+	<script src="./libs/bower/bower_components/yui2/build/animation/animation-min.js?version=7.7_2022-03-09"></script>
+	
+	<script src="Services/Form/js/Form.js?version=7.7_2022-03-09"></script>
+	
+	<script src="./Services/UIComponent/Explorer2/js/Explorer2.js?version=7.7_2022-03-09"></script>
+	
+	<script src="./node_modules/jstree/dist/jstree.js?version=7.7_2022-03-09"></script>
+	
+	<script src="./Services/Help/js/ilHelp.js?version=7.7_2022-03-09"></script>
+	
+	<script src="./Services/BackgroundTasks/js/background_task_refresh.js?version=7.7_2022-03-09"></script>
+	
+</head>
+
+<body>
+
+	<div class="il-layout-page">
+
+		<header>
+			<div class="header-inner">
+				<div class="il-logo">
+					
+<a href="https://ilias3.uni-stuttgart.de/goto_Uni_Stuttgart_root_1.html">
+
+
+
+<img src="./templates/default/images/HeaderIcon.svg" class="img-standard" alt="ILIAS" />
+
+
+
+
+
+</a>
+
+					<div class="il-pagetitle">
+						ILIAS für Lehre und Lernen – Universität Stuttgart &#127482;&#127462;
+					</div>
+				</div>
+
+				
+				<ul class="il-maincontrols-metabar" role="menubar" style="visibility: hidden" aria-label="Metaleiste" id="il_ui_fw_6261377b0a4141_29189270" ><!--if done via class/css-files, visibility is being applied too late -->
+	
+	<li role="none">
+		<a class="il-link link-bulky" href="https://ilias3.uni-stuttgart.de"  id="il_ui_fw_6261377b085402_77990228"  ><span class="glyph" aria-label="Hilfe" role="img">
+<span class="glyphicon
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ glyphicon-question-sign
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+" aria-hidden="true"></span>
+
+
+
+
+
+
+
+</span>
+<span class="bulky-label">Hilfe</span></a>
+		
+	</li>
+	
+	<li role="none">
+		<button class="btn btn-bulky" id="il_ui_fw_6261377b088947_59380937"  role="menuitem"  aria-haspopup="true"    ><span class="glyph" aria-label="Sprache wechseln" role="img">
+<span class="glyphicon
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ glyphicon-lang
+
+
+
+
+
+
+
+
+" aria-hidden="true"></span>
+
+
+
+
+
+
+
+</span>
+<span class="bulky-label">Sprache</span></button>
+
+		
+		<div class="il-metabar-slates">
+			<div class="il-maincontrols-slate disengaged" id="il_ui_fw_6261377b09b016_73758477">
+	<div class="il-maincontrols-slate-content" data-replace-marker="content">
+		<a class="il-link link-bulky" href="https://ilias3.uni-stuttgart.de/login.php?target=file_2897528_download&cmd=force_login&lang=de"   >
+<img
+ class="icon none small"
+ src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KDQoJLnN0NHtkaXNwbGF5Om5vbmU7ZmlsbDojRjJGMkYyO30NCgkuc3Q1e2Rpc3BsYXk6bm9uZTtmaWxsOm5vbmU7c3Ryb2tlOiM0QzY0ODY7c3Ryb2tlLXdpZHRoOjM7c3Ryb2tlLW1pdGVybGltaXQ6MTA7fQ0KCS5zdDZ7ZGlzcGxheTpub25lO30NCgkuc3Q3e2Rpc3BsYXk6aW5saW5lO2ZpbGw6IzRDNjQ4Njt9DQoJLnN0OHtkaXNwbGF5Om5vbmU7ZmlsbDojNEM2NDg2O30NCgkuc3Q5e2ZpbGw6IzRDNjQ4Njt9DQoNCjwvc3R5bGU+DQo8ZyBpZD0iZGVmYXVsdCI+DQoJPHBhdGggaWQ9ImdyYXVlX0Zsw6RjaGUiIGNsYXNzPSJzdDQiIGQ9Ik0yNi41LDI2LjdoLTIxYy0wLjYsMC0xLTAuNC0xLTFWNy4zYzAtMC42LDAuNC0xLDEtMWgyMWMwLjYsMCwxLDAuNCwxLDF2MTguMw0KCQlDMjcuNSwyNi4yLDI3LjEsMjYuNywyNi41LDI2Ljd6Ii8+DQoJPHBhdGggY2xhc3M9InN0NSIgZD0iTTI1LjMsMjYuN0g2LjdjLTAuNiwwLTEtMC40LTEtMVY3LjFjMC0wLjYsMC40LTEsMS0xaDE4LjZjMC42LDAsMSwwLjQsMSwxdjE4LjYNCgkJQzI2LjMsMjYuMiwyNS44LDI2LjcsMjUuMywyNi43eiIvPg0KCTxnIGlkPSJhYmdlcnVuZGV0IiBjbGFzcz0ic3Q2Ij4NCgkJPHBhdGggY2xhc3M9InN0NyIgZD0iTTExLDI0SDdWN2g0VjRINi43QzUuMyw0LDQsNC44LDQsNi4xdjE4QzQsMjUuNSw1LjMsMjcsNi43LDI3SDExVjI0eiIvPg0KCQk8cGF0aCBjbGFzcz0ic3Q3IiBkPSJNMjUuMyw0SDIxdjNoNHYxN2gtNHYzaDQuM2MxLjQsMCwyLjctMS41LDIuNy0yLjh2LTE4QzI4LDQuOCwyNi43LDQsMjUuMyw0eiIvPg0KCTwvZz4NCgk8ZyBjbGFzcz0ic3Q2Ij4NCgkJPHBvbHlnb24gY2xhc3M9InN0NyIgcG9pbnRzPSIxMCwyNSA3LDI1IDcsOCAxMCw4IDEwLDUgNCw1IDQsMjggMTAsMjggCQkiLz4NCgkJPHBvbHlnb24gY2xhc3M9InN0NyIgcG9pbnRzPSIyMiw1IDIyLDggMjUsOCAyNSwyNSAyMiwyNSAyMiwyOCAyOCwyOCAyOCw1IAkJIi8+DQoJPC9nPg0KCTxwb2x5Z29uIGNsYXNzPSJzdDgiIHBvaW50cz0iNiwyNiA2LDcgMTAsNyAxMCw1IDQsNSA0LDI4IDEwLDI4IDEwLDI2IAkiLz4NCgk8Zz4NCgkJPHBvbHlnb24gY2xhc3M9InN0OSIgcG9pbnRzPSIxMCwyNSA2LDI1IDYsNyAxMCw3IDEwLDUgNCw1IDQsMjcgMTAsMjcgCQkiLz4NCgkJPHBvbHlnb24gY2xhc3M9InN0OSIgcG9pbnRzPSIyMiw1IDIyLDcgMjYsNyAyNiwyNSAyMiwyNSAyMiwyNyAyOCwyNyAyOCw1IAkJIi8+DQoJPC9nPg0KPC9nPg0KPHRleHQKICAgc3R5bGU9IgogICAgICBmb250LXN0eWxlOm5vcm1hbDsKICAgICAgZm9udC13ZWlnaHQ6bm9ybWFsOwogICAgICBmb250LXNpemU6MTRweDsKICAgICAgZm9udC1mYW1pbHk6c2Fucy1zZXJpZjsKICAgICAgbGV0dGVyLXNwYWNpbmc6MHB4OwogICAgICBmaWxsOiMwMDA7CiAgICAgIGZpbGwtb3BhY2l0eToxOwogICAgIgogICAgeD0iNTAlIgogICAgeT0iNTUlIgogICAgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIKICAgIHRleHQtYW5jaG9yPSJtaWRkbGUiCiAgPmRlPC90ZXh0Pjwvc3ZnPg==" alt="Deutsch"
+
+ data-abbreviation="de"
+/>
+<span class="bulky-label">Deutsch</span></a><a class="il-link link-bulky" href="https://ilias3.uni-stuttgart.de/login.php?target=file_2897528_download&cmd=force_login&lang=en"   >
+<img
+ class="icon none small"
+ src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KDQoJLnN0NHtkaXNwbGF5Om5vbmU7ZmlsbDojRjJGMkYyO30NCgkuc3Q1e2Rpc3BsYXk6bm9uZTtmaWxsOm5vbmU7c3Ryb2tlOiM0QzY0ODY7c3Ryb2tlLXdpZHRoOjM7c3Ryb2tlLW1pdGVybGltaXQ6MTA7fQ0KCS5zdDZ7ZGlzcGxheTpub25lO30NCgkuc3Q3e2Rpc3BsYXk6aW5saW5lO2ZpbGw6IzRDNjQ4Njt9DQoJLnN0OHtkaXNwbGF5Om5vbmU7ZmlsbDojNEM2NDg2O30NCgkuc3Q5e2ZpbGw6IzRDNjQ4Njt9DQoNCjwvc3R5bGU+DQo8ZyBpZD0iZGVmYXVsdCI+DQoJPHBhdGggaWQ9ImdyYXVlX0Zsw6RjaGUiIGNsYXNzPSJzdDQiIGQ9Ik0yNi41LDI2LjdoLTIxYy0wLjYsMC0xLTAuNC0xLTFWNy4zYzAtMC42LDAuNC0xLDEtMWgyMWMwLjYsMCwxLDAuNCwxLDF2MTguMw0KCQlDMjcuNSwyNi4yLDI3LjEsMjYuNywyNi41LDI2Ljd6Ii8+DQoJPHBhdGggY2xhc3M9InN0NSIgZD0iTTI1LjMsMjYuN0g2LjdjLTAuNiwwLTEtMC40LTEtMVY3LjFjMC0wLjYsMC40LTEsMS0xaDE4LjZjMC42LDAsMSwwLjQsMSwxdjE4LjYNCgkJQzI2LjMsMjYuMiwyNS44LDI2LjcsMjUuMywyNi43eiIvPg0KCTxnIGlkPSJhYmdlcnVuZGV0IiBjbGFzcz0ic3Q2Ij4NCgkJPHBhdGggY2xhc3M9InN0NyIgZD0iTTExLDI0SDdWN2g0VjRINi43QzUuMyw0LDQsNC44LDQsNi4xdjE4QzQsMjUuNSw1LjMsMjcsNi43LDI3SDExVjI0eiIvPg0KCQk8cGF0aCBjbGFzcz0ic3Q3IiBkPSJNMjUuMyw0SDIxdjNoNHYxN2gtNHYzaDQuM2MxLjQsMCwyLjctMS41LDIuNy0yLjh2LTE4QzI4LDQuOCwyNi43LDQsMjUuMyw0eiIvPg0KCTwvZz4NCgk8ZyBjbGFzcz0ic3Q2Ij4NCgkJPHBvbHlnb24gY2xhc3M9InN0NyIgcG9pbnRzPSIxMCwyNSA3LDI1IDcsOCAxMCw4IDEwLDUgNCw1IDQsMjggMTAsMjggCQkiLz4NCgkJPHBvbHlnb24gY2xhc3M9InN0NyIgcG9pbnRzPSIyMiw1IDIyLDggMjUsOCAyNSwyNSAyMiwyNSAyMiwyOCAyOCwyOCAyOCw1IAkJIi8+DQoJPC9nPg0KCTxwb2x5Z29uIGNsYXNzPSJzdDgiIHBvaW50cz0iNiwyNiA2LDcgMTAsNyAxMCw1IDQsNSA0LDI4IDEwLDI4IDEwLDI2IAkiLz4NCgk8Zz4NCgkJPHBvbHlnb24gY2xhc3M9InN0OSIgcG9pbnRzPSIxMCwyNSA2LDI1IDYsNyAxMCw3IDEwLDUgNCw1IDQsMjcgMTAsMjcgCQkiLz4NCgkJPHBvbHlnb24gY2xhc3M9InN0OSIgcG9pbnRzPSIyMiw1IDIyLDcgMjYsNyAyNiwyNSAyMiwyNSAyMiwyNyAyOCwyNyAyOCw1IAkJIi8+DQoJPC9nPg0KPC9nPg0KPHRleHQKICAgc3R5bGU9IgogICAgICBmb250LXN0eWxlOm5vcm1hbDsKICAgICAgZm9udC13ZWlnaHQ6bm9ybWFsOwogICAgICBmb250LXNpemU6MTRweDsKICAgICAgZm9udC1mYW1pbHk6c2Fucy1zZXJpZjsKICAgICAgbGV0dGVyLXNwYWNpbmc6MHB4OwogICAgICBmaWxsOiMwMDA7CiAgICAgIGZpbGwtb3BhY2l0eToxOwogICAgIgogICAgeD0iNTAlIgogICAgeT0iNTUlIgogICAgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIKICAgIHRleHQtYW5jaG9yPSJtaWRkbGUiCiAgPmVuPC90ZXh0Pjwvc3ZnPg==" alt="English"
+
+ data-abbreviation="en"
+/>
+<span class="bulky-label">English</span></a>
+	</div>
+</div>
+
+		</div>
+		
+	</li>
+	
+	<li role="none">
+		<button class="btn btn-bulky" id="il_ui_fw_6261377b09ca81_49476250"  role="menuitem"  aria-haspopup="true"    ><span class="glyph" aria-label="Aufdecken" role="img">
+<span class="glyphicon
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ glyphicon-option-vertical
+
+
+
+
+
+
+
+
+
+" aria-hidden="true"></span>
+
+
+<span class="il-counter">
+	
+	<span class="badge badge-notify il-counter-status" style="display:none">0</span>
+	
+	
+</span>
+
+
+
+<span class="il-counter">
+	
+	
+	<span class="badge badge-notify il-counter-novelty" style="display:none">0</span>
+	
+</span>
+
+
+
+
+</span>
+<span class="bulky-label">more</span></button>
+
+		
+		<div class="il-metabar-slates">
+			<div class="il-maincontrols-slate disengaged" id="il_ui_fw_6261377b0a3e71_82246073" role="menu">
+	<div class="il-maincontrols-slate-content" data-replace-marker="content">
+		
+	</div>
+</div>
+
+		</div>
+		
+	</li>
+	
+</ul>
+
+			</div>
+		</header>
+
+		<div class="breadcrumbs">
+			
+		</div>
+
+		<div class="il-system-infos">
+			
+		</div>
+
+		<div class="nav il-maincontrols">
+			<div class="il-maincontrols-mainbar" id="il_ui_fw_6261377b0f6801_98507160">
+	<nav class="il-mainbar" aria-label="Hauptleiste">
+		
+		<div class="il-mainbar-tools-button">
+			<button class="btn btn-bulky engaged" id="il_ui_fw_6261377b0ef3b7_46680838"     aria-pressed="true"  >
+<img
+ class="icon custom small"
+ src="./templates/default/images/outlined/icon_tool.svg" alt="-more-"
+
+
+/>
+<span class="bulky-label">Tools</span></button>
+
+		</div>
+		
+
+		<div class="il-mainbar-triggers">
+			<ul class="il-mainbar-entries" role="menubar" style="visibility: hidden"><!--if done via class/css-files, visibility is being applied too late -->
+				
+				<li role="none"><button class="btn btn-bulky" id="il_ui_fw_6261377b0a8732_47097488"  role="menuitem"     >
+<img
+ class="icon rep small outlined"
+ src="./templates/default/images/outlined/icon_rep.svg" alt="Magazin"
+
+
+/>
+<span class="bulky-label">Magazin</span></button>
+</li>
+				
+				<li role="none"><button class="btn btn-bulky" id="il_ui_fw_6261377b0b6440_35390540"  role="menuitem"     >
+<img
+ class="icon custom small"
+ src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9IiMwMDAiIGQ9Ik00OTQgNjEuMzYzbC04Mi41OCA3Ny45MzQgNzguOTk0IDEzMi45NiAzLjU4Ni00LjQ1OFY2MS4zNjJ6TTE4IDYyLjV2MjI1Ljg5M2M0LjQ4LjU4MiA5Ljg2My45MDMgMTUuMjk1Ljk2IDExLjg3LjEyNSAyMS42NTQtLjY1IDI3LjE1LTEuMTQ0TDExMy4xIDE1NC45NzQgMTggNjIuNXptMzg5LjE1NCAxMDQuODZsLTcuMDQgNC41NTZjLS4xNS4wOTctNS4zNjIgMy4zMzYtNi44OTMgNC4yOWwtMTAuNjA1IDYuNDIuMTUuMDljLTQuOTE0IDMuMDU3LTYuMjggMy45MTctMTEuODU3IDcuMzgtMi44MyAxLjc1Ny0yLjkgMS43OTgtNS41ODQgMy40NjUtMjAuMjktMTAuOTA3LTQyLjMwNi0xOS4yOS02Ny45OTgtMjUuODgyLTMyLjMxMiA5Ljc2Mi02Ni41NDIgMjMuODg4LTEwMC43MjIgMzcuMTQyIDE0LjE5IDE3LjA4NyAyOS45NiAyMi42NTEgNDUuODQ1IDIyLjg1IDE4LjQyLjIzIDM3LjI1LTcuNzggNTAuMjE4LTE2Ljc1NGw3LjQtNS4xMiA3LjQyNiAxMC43MyAxMTUuNDUzIDgzLjMzIDQ1LjExMi0yOS45ODctNjAuOTA2LTEwMi41MXpNMTI2LjQ3NyAxNzAuMUw4MS4xMSAyODQuODg3IDk3Ljc2IDI5Ny42OWwzMC43OTUtMzQuOTA1IDIuNDY3LTIuNzk1IDMuNzItLjIzMmMxLjUtLjA5NCAyLjk4LS4xMzggNC40NC0uMTMgMTAuMjEyLjA2NiAxOS4zNDIgMi43MTYgMjYuMTkgOC43NiA1LjA3MiA0LjQ3MiA4LjQ0NCAxMC40MjYgMTAuNCAxNy4zMmwyLjI4LS4xNDJjMTEuOTk1LS43NSAyMi44MDIgMS43MjUgMzAuNjMgOC42MyA3LjgyNyA2LjkwNyAxMS42MyAxNy4zMjMgMTIuMzggMjkuMzJsLjA3IDEuMDhjNi40NCAxLjIxNiAxMi4yMDUgMy43NTIgMTYuODkzIDcuODg4IDcuODI4IDYuOTA2IDExLjYzIDE3LjMyIDEyLjM4IDI5LjMxN2wuMTk3IDMuMTJjLjY0Mi4yMDIgMS4yNzUuNDI0IDEuOS42NThsMi4wMzMtMi44NTMgNS40Ny03LjY3OCAyLjgxMy0zLjk1IDcuMzMgNS4yMjMgNTkuNDI4IDQyLjMzNmM2LjQ2NC0xLjU5NCAxMC4zMTctNC4wNzUgMTIuNDYtNy4wODYgMi4xNDctMy4wMTIgMy4yMzMtNy40NyAyLjYyNC0xNC4xMDdsLTcxLjI1OC01MS4wMy03LjMxOC01LjI0IDUuMTktNy4yNDYgNi42Ny05LjM2NSA3LjMzIDUuMjIzIDgwLjMzNSA1Ny4yMjZjNi40NjQtMS41OTMgMTAuMzItNC4wNzQgMTIuNDYzLTcuMDg1IDIuMTQ0LTMuMDEgMy4yMy03LjQ1NyAyLjYyNS0xNC4wODJsLTkyLjM5OC02NS41NS03LjM0LTUuMjEgMTAuNDE0LTE0LjY4IDcuMzQzIDUuMjA4IDkyLjQxNCA2NS41NjVjNi40Ny0xLjU5NCAxMC4zMjctNC4wNzUgMTIuNDczLTcuMDg4IDIuMTQ4LTMuMDE1IDMuMjMzLTcuNDc2IDIuNjItMTQuMTI1bC0xMTAuNDQtNzkuNzFjLTE0LjY1NSA4LjY4OC0zMy40MDIgMTUuNjQ4LTUzLjU1NyAxNS4zOTYtMjMuNTg3LS4yOTUtNDguODE3LTExLjU2Ni02Ny4zNzctNDAuMDVhOSA5IDAgMCAxIDQuMzQzLTEzLjMyN2MxMy4wMTQtNC45NDUgMjYuMTYzLTEwLjE3IDM5LjM0My0xNS4zNTRsLTkyLjA1Ni02LjgzNHptMTIuOTAyIDEwNy42MmwtNDcuNTY0IDUzLjkxYy45MjcgNi43NDYgMy4wNCAxMC45NDIgNS44ODcgMTMuNDU0IDIuODQ3IDIuNTEyIDcuMjc1IDQuMDg1IDE0LjA4NCA0LjE2NGw0Ny41NjMtNTMuOTA4Yy0uOTI3LTYuNzQ3LTMuMDQtMTAuOTQ1LTUuODg3LTEzLjQ1Ny0yLjg0Ny0yLjUxMi03LjI3NC00LjA4NC0xNC4wODQtNC4xNjJ6bTQzLjMwOCAyNS44MWwtNTMuNzEzIDYwLjg4Yy45MjYgNi43NDcgMy4wNCAxMC45NDUgNS44ODYgMTMuNDU3IDIuODUgMi41MSA3LjI3NSA0LjA4MyAxNC4wODUgNC4xNmw1My43MTMtNjAuODc4Yy0uOTI2LTYuNzQ4LTMuMDQtMTAuOTQ0LTUuODg3LTEzLjQ1Ny0yLjg0Ni0yLjUxMi03LjI3My00LjA4NS0xNC4wODMtNC4xNjR6bTI5LjM0IDM4LjI4NmwtNDcuNTYgNTMuOTFjLjkyNyA2Ljc0NiAzLjA0IDEwLjk0MyA1Ljg4NyAxMy40NTYgMi44NDggMi41MTIgNy4yNzUgNC4wODMgMTQuMDg0IDQuMTYyTDIzMiAzNTkuNDRjLS45MjctNi43NS0zLjA0LTEwLjk0Ny01Ljg4Ny0xMy40Ni0yLjg0Ny0yLjUxMi03LjI3NC00LjA4My0xNC4wODQtNC4xNjJ6bTI0LjcwMiAzOS4xMzdsLTM4Ljc5NCA0NC4yOGMuOTI1IDYuNzYgMy4wMzggMTAuOTYyIDUuODg4IDEzLjQ3NiAyLjg0NSAyLjUxIDcuMjY3IDQuMDgyIDE0LjA2NyA0LjE2M2wzOC43OTYtNDQuMjhjLS45MjYtNi43NTgtMy4wNC0xMC45Ni01Ljg5LTEzLjQ3Ni0yLjg0NC0yLjUxLTcuMjY2LTQuMDgtMTQuMDY2LTQuMTYyem0zNS4zNDIgNC43OWMxLjY5NCA0LjYyIDIuNjczIDkuNzQgMy4wMTQgMTUuMTkybC4yMzIgMy43MDQtOC4yNzcgOS40NDggMjYuNzI0IDE5LjAzN2M2LjQ2NC0xLjU5NCAxMC4zMTYtNC4wNzUgMTIuNDYtNy4wODYgMi4xNDUtMy4wMSAzLjIzMy03LjQ2NCAyLjYyOC0xNC4wOTNsLTM2Ljc4LTI2LjJ6Ii8+PC9zdmc+" alt="Unterstützung, Beratung, Vernetzung"
+
+
+/>
+<span class="bulky-label">Unterstützung, Beratung, Vernetzung</span></button>
+</li>
+				
+				<li role="none"><button class="btn btn-bulky" id="il_ui_fw_6261377b0e57c5_04018892"  role="menuitem"     ><span class="glyph" aria-label="Mehr zeigen" role="img">
+<span class="glyphicon
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ glyphicon-option-horizontal
+
+
+
+
+
+
+
+
+
+
+" aria-hidden="true"></span>
+
+
+
+
+
+
+
+</span>
+<span class="bulky-label">Mehr</span></button>
+</li>
+				
+			</ul>
+		</div>
+	</nav>
+
+	<div class="il-mainbar-slates">
+		<div class="il-mainbar-tools-entries">
+			<ul class="il-mainbar-tools-entries-bg" role="menubar">
+				
+				<li class="il-mainbar-tool-trigger-item" role="none"><button class="btn btn-bulky" id="il_ui_fw_6261377b0eb774_69491731"  role="menuitem"     >
+<img
+ class="icon hlps small outlined"
+ src="./templates/default/images/outlined/icon_hlps.svg" alt="Hilfe"
+
+
+/>
+<span class="bulky-label">Hilfe</span></button>
+</li>
+				
+			</ul>
+			
+		</div>
+		
+		<div class="il-maincontrols-slate disengaged" id="il_ui_fw_6261377b0b4895_45365089" data-depth-level="1" role="menu">
+	<div class="il-maincontrols-slate-content" data-replace-marker="content">
+		<a class="il-link link-bulky" href="https://ilias3.uni-stuttgart.de/goto_Uni_Stuttgart_root_1.html"   >
+<img
+ class="icon root small outlined"
+ src="./templates/default/images/outlined/icon_root.svg" alt="Magazin - Einstiegsseite"
+
+
+/>
+<span class="bulky-label">Magazin - Einstiegsseite</span></a><button class="btn btn-bulky" id="il_ui_fw_6261377b0b0854_10546856"      >
+<img
+ class="icon custom small"
+ src="./templates/default/images/outlined/icon_reptr.svg" alt="Baumansicht"
+
+
+/>
+<span class="bulky-label">Baumansicht</span></button>
+<div class="il-maincontrols-slate disengaged" id="il_ui_fw_6261377b0b45d2_87951765" data-depth-level="2">
+	<div class="il-maincontrols-slate-content" data-replace-marker="content">
+		...
+	</div>
+</div>
+
+	</div>
+</div>
+
+		
+		<div class="il-maincontrols-slate disengaged" id="il_ui_fw_6261377b0e3235_51139759" data-depth-level="1" role="menu">
+	<div class="il-maincontrols-slate-content" data-replace-marker="content">
+		<a class="il-link link-bulky" href="https://ilias3.uni-stuttgart.de/goto.php?target=cat_24&client_id=Uni_Stuttgart"   >
+<img
+ class="icon custom small"
+ src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgd2lkdGg9Ijk1LjA5OHB4IiBoZWlnaHQ9Ijk1LjA5OHB4IiB2aWV3Qm94PSIwIDAgOTUuMDk4IDk1LjA5OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgOTUuMDk4IDk1LjA5ODsiDQoJIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGc+DQoJCTxwYXRoIGQ9Ik00Ny41NDksMEMyMS4yODgsMCwwLDIxLjI4OCwwLDQ3LjU0OXMyMS4yODgsNDcuNTQ5LDQ3LjU0OSw0Ny41NDljMjYuMjYyLDAsNDcuNTQ5LTIxLjI4OCw0Ny41NDktNDcuNTQ5DQoJCQlTNzMuODExLDAsNDcuNTQ5LDB6IE00Ny41NDksODUuMDk4QzI2Ljg0NCw4NS4wOTgsMTAsNjguMjUzLDEwLDQ3LjU0OVMyNi44NDQsMTAsNDcuNTQ5LDEwczM3LjU0OSwxNi44NDUsMzcuNTQ5LDM3LjU0OQ0KCQkJUzY4LjI1NCw4NS4wOTgsNDcuNTQ5LDg1LjA5OHoiLz4NCgkJPHBhdGggZD0iTTc3LjY2NSwyOS45MTFjLTAuMjUtMC40MjgtMC43NTUtMC42MzMtMS4yMzEtMC41MDNsLTMzLjc4Myw5LjIxM2MtMC4xODYsMC4wNTItMC4zNTUsMC4xNTEtMC40OTIsMC4yODhMMTcuNTk2LDYzLjg2NQ0KCQkJYy0wLjM0NiwwLjM1NC0wLjQxNCwwLjg5NS0wLjE2NCwxLjMyYzAuMjUsMC40MjgsMC43NTUsMC42MzUsMS4yMzIsMC41MDRsMzMuNzgzLTkuMjE0YzAuMDkzLTAuMDI0LDAuMTgyLTAuMDYyLDAuMjY1LTAuMTENCgkJCWMwLjA4My0wLjA0OSwwLjE1OS0wLjEwOCwwLjIyOC0wLjE3OGwyNC41NjItMjQuOTU3Qzc3Ljg0OCwzMC44NzksNzcuOTE1LDMwLjMzNyw3Ny42NjUsMjkuOTExeiBNMjYuNzA1LDU5Ljc1NmwxNi40Ni0xNi43MjUNCgkJCWw2LjE3OSwxMC41NTFMMjYuNzA1LDU5Ljc1NnoiLz4NCgk8L2c+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8L3N2Zz4NCg==" alt="Lehre und Lernen digital – Einstieg"
+
+
+/>
+<span class="bulky-label">Lehre und Lernen digital – Einstieg</span></a><a class="il-link link-bulky" href="https://ilias3.uni-stuttgart.de/goto.php?target=lm_1897919&client_id=Uni_Stuttgart"   >
+<img
+ class="icon custom small"
+ src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+Cjxzdmcgd2lkdGg9IjExNTlweCIgaGVpZ2h0PSIxMTU5cHgiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgeG1sbnM6c2VyaWY9Imh0dHA6Ly93d3cuc2VyaWYuY29tLyIgc3R5bGU9ImZpbGwtcnVsZTpldmVub2RkO2NsaXAtcnVsZTpldmVub2RkO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoyOyI+CiAgICA8ZyBpZD0iRWJlbmUxIj4KICAgIDwvZz4KICAgIDxnPgogICAgICAgIDxwYXRoIGQ9Ik0wLDBMMTE1OC4zMywwTDExNTguMzMsMTE1OC4zM0wwLDExNTguMzNMMCwwWk03OTcuNTMzLDg5MC4zNzFDNzk2Ljg3NSw5NDguMyA4NDUuNTkyLDk3My45NzUgODk3LjYsOTczLjk3NUM5NjEuNDUsOTczLjk3NSA5OTUuMzUsOTQxLjcyMSA5OTUuMzUsODk4LjZDOTk1LjM1LDg0NS4yNzkgOTQyLjY5Miw4MzQuNDIxIDkyNS41NzUsODMwLjEzOEM4NjYuNjU4LDgxNSA4NTUuNDY3LDgxMi42OTYgODU1LjQ2Nyw3OTQuNTkyQzg1NS40NjcsNzc0Ljg0NiA4NzQuNTU4LDc2Ny45MzMgODkxLjAxNyw3NjcuOTMzQzkxNS42OTYsNzY3LjkzMyA5MzUuNzcxLDc3NS4xNzUgOTM3LjQyOSw4MDMuNDc5TDk4Ny40NSw4MDMuNDc5Qzk4Ny40NSw3NDkuMTcxIDk0Mi4zNjMsNzI3Ljc3OSA4OTMuMzE3LDcyNy43NzlDODUwLjg2Myw3MjcuNzc5IDgwNS40MzMsNzUwLjgxNyA4MDUuNDMzLDc5OC44NzVDODA1LjQzMyw4NDIuOTc1IDg0MC42NTgsODU2LjQ3MSA4NzUuNTQyLDg2NS42ODdDOTEwLjEwNCw4NzQuOTA0IDk0NS4zMTcsODc5LjE4MyA5NDUuMzE3LDkwNC41MjVDOTQ1LjMxNyw5MjguNTU0IDkxNy42NzUsOTMzLjgxNyA4OTkuNTY3LDkzMy44MTdDODcxLjkyNSw5MzMuODE3IDg0Ny41NzEsOTIxLjYzOCA4NDcuNTcxLDg5MC4zNzFMNzk3LjUzMyw4OTAuMzcxWk01NDIuMzcxLDk2OC4zNzlMNTk0LjcwOCw5NjguMzc5TDYxMy4xNDIsOTE2LjA0Nkw3MDEuMDE3LDkxNi4wNDZMNzE4LjgsOTY4LjM3OUw3NzIuNDQ2LDk2OC4zNzlMNjg0LjU2Miw3MzMuMzc1TDYzMS41NzksNzMzLjM3NUw1NDIuMzcxLDk2OC4zNzlaTTQ2MS45NjcsOTY4LjM3OUw1MTMuNjQyLDk2OC4zNzlMNTEzLjY0Miw3MzMuMzc1TDQ2MS45NjcsNzMzLjM3NUw0NjEuOTY3LDk2OC4zNzlaTTI1NC4zMjUsOTY4LjM3OUw0MjAuNTQyLDk2OC4zNzlMNDIwLjU0Miw5MjQuOTI5TDMwNiw5MjQuOTI5TDMwNiw3MzMuMzc1TDI1NC4zMjUsNzMzLjM3NUwyNTQuMzI1LDk2OC4zNzlaTTE1Ny4yMzMsOTY4LjM3OUwyMDguOTEyLDk2OC4zNzlMMjA4LjkxMiw3MzMuMzc1TDE1Ny4yMzMsNzMzLjM3NUwxNTcuMjMzLDk2OC4zNzlaTTY1Ny4yNDIsNzkxLjNMNjU3LjksNzkxLjNMNjg3LjUyMSw4NzcuNTMzTDYyNi42MzMsODc3LjUzM0w2NTcuMjQyLDc5MS4zWiIgc3R5bGU9ImZpbGw6dXJsKCNfUmFkaWFsMSk7ZmlsbC1ydWxlOm5vbnplcm87Ii8+CiAgICA8L2c+CiAgICA8ZGVmcz4KICAgICAgICA8cmFkaWFsR3JhZGllbnQgaWQ9Il9SYWRpYWwxIiBjeD0iMCIgY3k9IjAiIHI9IjEiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDE0OC41NzMsMTQxLjkyMSwtMTQxLjkyMSwxNDguNTczLDAuNjg2NTIzLDEuNzA3MDYpIj48c3RvcCBvZmZzZXQ9IjAiIHN0eWxlPSJzdG9wLWNvbG9yOnJnYig2OSw5OSwxMzUpO3N0b3Atb3BhY2l0eToxIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjpyZ2IoMCw2MiwxMDMpO3N0b3Atb3BhY2l0eToxIi8+PC9yYWRpYWxHcmFkaWVudD4KICAgIDwvZGVmcz4KPC9zdmc+Cg==" alt="ILIAS an der Universität Stuttgart"
+
+
+/>
+<span class="bulky-label">ILIAS an der Universität Stuttgart</span></a><a class="il-link link-bulky" href="https://ilias3.uni-stuttgart.de/goto.php?target=lm_1897918&client_id=Uni_Stuttgart"   >
+<img
+ class="icon custom small"
+ src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgd2lkdGg9IjQ4Ni4wOTZweCIgaGVpZ2h0PSI0ODYuMDk2cHgiIHZpZXdCb3g9IjAgMCA0ODYuMDk2IDQ4Ni4wOTYiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQ4Ni4wOTYgNDg2LjA5NjsiDQoJIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPHBhdGggZD0iTTE0MS4yMDUsMzY3LjQ4NmwtMjIuNjI1LTIyLjYyNUwzNDQuODYxLDExOC41OGwyMi42MjUsMjIuNjI1TDE0MS4yMDUsMzY3LjQ4NnogTTI1MC4xNzMsMzAzLjc5OGwtNjMuNjg4LDYzLjY4OA0KCQlsLTIyLjY1NiwyMi42NTVsLTIyLjYyNSwyMi42MjVjLTEyLjUsMTIuNS0zMi43NSwxMi41LTQ1LjI1LDBsLTIyLjYyNS0yMi42MjVjLTEyLjUtMTIuNTMtMTIuNS0zMi43NSwwLTQ1LjI4bDIyLjYyNS0yMi42MjUNCgkJbDIyLjYyNS0yMi42MjVsNjMuNzE5LTYzLjcyYy0zNS42NTYtMTYuOTA2LTc5LjUtMTEtMTA4Ljk2OSwxOC40N2wtNDUuMjUsNDUuMjVjLTM3LjQzOCwzNy40MzgtMzcuNDM4LDk4LjM0NCwwLDEzNS43OA0KCQlsMjIuNjI1LDIyLjYyNWMzNy40MzgsMzcuNDM4LDk4LjM0NCwzNy40MzgsMTM1Ljc4MSwwbDQ1LjI1LTQ1LjI1QzI2MS4yMDUsMzgzLjI5OCwyNjcuMDgsMzM5LjQyMywyNTAuMTczLDMwMy43OTh6DQoJCSBNNDU4LjAxNyw1MC43MDRsLTIyLjYyNS0yMi42MjVjLTM3LjQzOC0zNy40MzgtOTguMzQ0LTM3LjQzOC0xMzUuNzgxLDBsLTQ1LjI0OSw0NS4yNWMtMjkuNDcsMjkuNDY5LTM1LjM3NSw3My4zMTItMTguNDcsMTA4Ljk2OQ0KCQlsNjMuNzE5LTYzLjcxOWwyMi42MjUtMjIuNjI1bDIyLjYyNS0yMi42MjVjMTIuNS0xMi41LDMyLjc1LTEyLjUsNDUuMjgxLDBsMjIuNjI1LDIyLjYyNWMxMi41LDEyLjUsMTIuNDY5LDMyLjc4MSwwLDQ1LjI1DQoJCWwtMjIuNjI1LDIyLjYyNWwtMjIuNjU2LDIyLjY1NmwtNjMuNzE5LDYzLjcxOWMzNS42NTYsMTYuODc1LDc5LjUzMSwxMSwxMDktMTguNDY5bDQ1LjI1LTQ1LjI1DQoJCUM0OTUuNDU1LDE0OS4wNDgsNDk1LjQ1NSw4OC4xNDIsNDU4LjAxNyw1MC43MDR6Ii8+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8L3N2Zz4NCg==" alt="Die C@MPUS-ILIAS-Schnittstelle"
+
+
+/>
+<span class="bulky-label">Die C@MPUS-ILIAS-Schnittstelle</span></a><a class="il-link link-bulky" href="https://ilias3.uni-stuttgart.de/goto.php?target=cat_1880008&client_id=Uni_Stuttgart"   >
+<img
+ class="icon custom small"
+ src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCIgWw0KCTwhRU5USVRZIG5zX2V4dGVuZCAiaHR0cDovL25zLmFkb2JlLmNvbS9FeHRlbnNpYmlsaXR5LzEuMC8iPg0KCTwhRU5USVRZIG5zX2FpICJodHRwOi8vbnMuYWRvYmUuY29tL0Fkb2JlSWxsdXN0cmF0b3IvMTAuMC8iPg0KCTwhRU5USVRZIG5zX2dyYXBocyAiaHR0cDovL25zLmFkb2JlLmNvbS9HcmFwaHMvMS4wLyI+DQoJPCFFTlRJVFkgbnNfdmFycyAiaHR0cDovL25zLmFkb2JlLmNvbS9WYXJpYWJsZXMvMS4wLyI+DQoJPCFFTlRJVFkgbnNfaW1yZXAgImh0dHA6Ly9ucy5hZG9iZS5jb20vSW1hZ2VSZXBsYWNlbWVudC8xLjAvIj4NCgk8IUVOVElUWSBuc19zZncgImh0dHA6Ly9ucy5hZG9iZS5jb20vU2F2ZUZvcldlYi8xLjAvIj4NCgk8IUVOVElUWSBuc19jdXN0b20gImh0dHA6Ly9ucy5hZG9iZS5jb20vR2VuZXJpY0N1c3RvbU5hbWVzcGFjZS8xLjAvIj4NCgk8IUVOVElUWSBuc19hZG9iZV94cGF0aCAiaHR0cDovL25zLmFkb2JlLmNvbS9YUGF0aC8xLjAvIj4NCl0+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zOng9IiZuc19leHRlbmQ7IiB4bWxuczppPSImbnNfYWk7IiB4bWxuczpncmFwaD0iJm5zX2dyYXBoczsiDQoJIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMzJweCIgaGVpZ2h0PSIzMnB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDMyIDMyIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxzd2l0Y2g+DQoJPGcgaTpleHRyYW5lb3VzPSJzZWxmIj4NCgkJPGc+DQoJCQk8cmVjdCB4PSIwIiBmaWxsPSJub25lIiB3aWR0aD0iMzIiIGhlaWdodD0iMzIiLz4NCgkJCTxnPg0KCQkJCTxnPg0KCQkJCQk8ZGVmcz4NCgkJCQkJCTxwYXRoIGlkPSJTVkdJRF8xXyIgZD0iTTYsNGMwLDAtMiwwLTIsMnYxMWMwLDAsMCwyLDIsMmgxdjVsNC4xNjYtNUgxNXYtM2MwLTIsMi0yLDItMmg3VjZjMCwwLDAtMi0yLTJINnoiLz4NCgkJCQkJPC9kZWZzPg0KCQkJCQk8Y2xpcFBhdGggaWQ9IlNWR0lEXzJfIj4NCgkJCQkJCTx1c2UgeGxpbms6aHJlZj0iI1NWR0lEXzFfIiAgb3ZlcmZsb3c9InZpc2libGUiLz4NCgkJCQkJPC9jbGlwUGF0aD4NCgkJCQkJDQoJCQkJCQk8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzNfIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9Ii0zODIuODQ3MSIgeTE9Ii0yOTYuNjQzIiB4Mj0iLTM4MS44NDcxIiB5Mj0iLTI5Ni42NDMiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMTkuOTk5OSAwIDAgMTkuOTk5OSA3NjYwLjkwNTMgNTk0Ni44MzE1KSI+DQoJCQkJCQk8c3RvcCAgb2Zmc2V0PSIwIiBzdHlsZT0ic3RvcC1jb2xvcjojMDEyMzU2Ii8+DQoJCQkJCQk8c3RvcCAgb2Zmc2V0PSIwLjAxOTgiIHN0eWxlPSJzdG9wLWNvbG9yOiMwMTIzNTYiLz4NCgkJCQkJCTxzdG9wICBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiMwRDM0NzkiLz4NCgkJCQkJPC9saW5lYXJHcmFkaWVudD4NCgkJCQkJPHJlY3QgeD0iNCIgeT0iNCIgY2xpcC1wYXRoPSJ1cmwoI1NWR0lEXzJfKSIgZmlsbD0idXJsKCNTVkdJRF8zXykiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPg0KCQkJCTwvZz4NCgkJCTwvZz4NCgkJCTxyZWN0IHg9IjciIHk9IjciIGZpbGw9IiNGRkZGRkYiIHdpZHRoPSIxMy45OTkiIGhlaWdodD0iMSIvPg0KCQkJPHJlY3QgeD0iNyIgeT0iMTAiIGZpbGw9IiNGRkZGRkYiIHdpZHRoPSIxMy45OTkiIGhlaWdodD0iMSIvPg0KCQkJPHJlY3QgeD0iNyIgeT0iMTMiIGZpbGw9IiNGRkZGRkYiIHdpZHRoPSI1LjUiIGhlaWdodD0iMSIvPg0KCQkJPGc+DQoJCQkJPGc+DQoJCQkJCTxkZWZzPg0KCQkJCQkJPHBhdGggaWQ9IlNWR0lEXzRfIiBkPSJNMTcuNiwxNWMtMS41LDAtMS41LDEuNTQ5LTEuNSwxLjU0OXY2LjE5N2MwLDEuNTQ5LDEuNSwxLjU0OSwxLjUsMS41NDloNC4zNzV2My44NzNsMy4xMjUtMy44NzNoMS41DQoJCQkJCQkJYzEuNSwwLDEuNS0xLjU0OSwxLjUtMS41NDl2LTYuMTk3QzI4LjEsMTUsMjYuNiwxNSwyNi42LDE1SDE3LjZ6Ii8+DQoJCQkJCTwvZGVmcz4NCgkJCQkJPGNsaXBQYXRoIGlkPSJTVkdJRF81XyI+DQoJCQkJCQk8dXNlIHhsaW5rOmhyZWY9IiNTVkdJRF80XyIgIG92ZXJmbG93PSJ2aXNpYmxlIi8+DQoJCQkJCTwvY2xpcFBhdGg+DQoJCQkJCQ0KCQkJCQkJPGxpbmVhckdyYWRpZW50IGlkPSJTVkdJRF82XyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSItNDM2LjU4NzkiIHkxPSItMzA2LjEyMTciIHgyPSItNDM1LjU4NzkiIHkyPSItMzA2LjEyMTciIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoLTEyIDAgMCAxMiAtNTIxMC45NTUxIDM2OTUuMDQzOSkiPg0KCQkJCQkJPHN0b3AgIG9mZnNldD0iMCIgc3R5bGU9InN0b3AtY29sb3I6IzZDQTEzNiIvPg0KCQkJCQkJPHN0b3AgIG9mZnNldD0iMC45OTcyIiBzdHlsZT0ic3RvcC1jb2xvcjojNDk4MjM5Ii8+DQoJCQkJCQk8c3RvcCAgb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojNDk4MjM5Ii8+DQoJCQkJCTwvbGluZWFyR3JhZGllbnQ+DQoJCQkJCTxyZWN0IHg9IjE2LjEiIHk9IjE1IiBjbGlwLXBhdGg9InVybCgjU1ZHSURfNV8pIiBmaWxsPSJ1cmwoI1NWR0lEXzZfKSIgd2lkdGg9IjEyIiBoZWlnaHQ9IjEzLjE2OCIvPg0KCQkJCTwvZz4NCgkJCTwvZz4NCgkJCTxyZWN0IHg9IjE4LjEiIHk9IjE3IiBmaWxsPSIjRkZGRkZGIiB3aWR0aD0iOCIgaGVpZ2h0PSIxIi8+DQoJCQk8cmVjdCB4PSIxOC4xIiB5PSIyMCIgZmlsbD0iI0ZGRkZGRiIgd2lkdGg9IjUuNSIgaGVpZ2h0PSIxIi8+DQoJCTwvZz4NCgk8L2c+DQo8L3N3aXRjaD4NCjwvc3ZnPg0K" alt="Community – Austausch zur digitalen Lehre"
+
+
+/>
+<span class="bulky-label">Community – Austausch zur digitalen Lehre</span></a>
+<hr class="il-divider-with-label" />
+<h4 class="il-divider">Für Dozent*innen</h4>
+
+<a class="il-link link-bulky" href="https://ilias3.uni-stuttgart.de/goto.php?target=lm_2585183&client_id=Uni_Stuttgart"   >
+<img
+ class="icon custom small"
+ src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gU3ZnIFZlY3RvciBJY29ucyA6IGh0dHA6Ly93d3cub25saW5ld2ViZm9udHMuY29tL2ljb24gLS0+DQo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMTAwMCAxMDAwIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMDAwIDEwMDAiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPG1ldGFkYXRhPiBTdmcgVmVjdG9yIEljb25zIDogaHR0cDovL3d3dy5vbmxpbmV3ZWJmb250cy5jb20vaWNvbiA8L21ldGFkYXRhPg0KPGc+PHBhdGggZD0iTTQ5NS42LDE1OC42di0zLjNsMTE4LjUsMjA1LjFMODUxLDQwOS4zTDY4OC41LDU4MC4ybDEwLjQsMTExLjljLTAuNyw1LjctMC4xLDExLjQsMS42LDE2LjhsMC42LDYuM2wxLjMtMS4zYzQuNCw5LjYsMTIuNSwxNy41LDIzLjIsMjEuMmMyMS4xLDcuNCw0NC4xLTMuNyw1MS41LTI0LjhsMC45LTMuN2MwLjUtMS40LDAuNi0yLjcsMS00LjFoMS44bC0wLjctNS45YzAuNS01LjYtMC4zLTExLjEtMi0xNi4zbC04LjQtNjYuOUw5ODAsMzg5Yy0xLTE1LjQtNy41LTI5LjctMTguMS00MC43bC0yOTctNTcuMUw1MTEuNiwxMy41Yy0xMC42LTIuOS0yMS43LTMtMzIuMy0wLjNMMzI1LjksMjkxLjNsLTI5OCw1Ny4zYy0xMC4zLDEwLjctMTYuNywyNC42LTE3LjksMzkuNmwyMTEuMiwyMjUuNWwtMzcuOCwzMDIuN2M4LjgsMTIuOCwyMiwyMS43LDM2LjgsMjUuNmwyNzUuMi0xMjkuMWw1My43LDI1LjJ2LTAuM2MwLjgsMC40LDEuNiwwLjgsMi41LDEuMWMyMS43LDcuNiw0NS41LTMuOCw1My4xLTI1LjVsMC45LTMuOGM3LjItMjAuNy0yLjktNDMtMjIuNi01MS43bDAuNi0xLjNsLTg3LjktMzguNUwyNzIuMSw4MjMuNGwzMy0yNDRMMTQ3LjYsNDEyLjRsMjMyLTUwLjVMNDk1LjYsMTU4LjZ6IE05NzcuNiw3NDZjLTE2LjUtMTYuNS00My4zLTE2LjUtNTkuOSwwbC0xNDAuNywxNDBsLTU1LjktNTUuNGMtMTYuNS0xNi41LTQzLjMtMTYuNS01OS45LDBjLTE2LjUsMTYuNS0xNi41LDQzLjMsMCw1OS44bDgxLjQsODAuN2MxLjMsMS44LDIsMy44LDMuNiw1LjRjOC41LDguNSwxOS43LDEyLjUsMzAuOCwxMi4yYzExLjEsMC4zLDIyLjQtMy43LDMwLjktMTIuMmMxLjctMS43LDIuNC0zLjcsMy43LTUuNWwxNjUuOS0xNjUuMUM5OTQuMSw3ODkuMyw5OTQuMSw3NjIuNSw5NzcuNiw3NDZ6Ii8+PC9nPg0KPC9zdmc+" alt="Empfehlungen für hybride Lehrszenarien"
+
+
+/>
+<span class="bulky-label">Empfehlungen für hybride Lehrszenarien</span></a><a class="il-link link-bulky" href="https://ilias3.uni-stuttgart.de/goto.php?target=lm_2147629&client_id=Uni_Stuttgart"   >
+<img
+ class="icon custom small"
+ src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgMzIgMzIiIHZlcnNpb249IjEuMSI+CjxnIGlkPSJzdXJmYWNlMSI+CjxwYXRoIHN0eWxlPSIgIiBkPSJNIDYuODEyNSAyLjQwNjI1IEwgNS40MDYyNSAzLjgxMjUgTCA3LjUgNS45MDYyNSBMIDguOTA2MjUgNC41IFogTSAyNS4xODc1IDIuNDA2MjUgTCAyMy4wOTM3NSA0LjUgTCAyNC41IDUuOTA2MjUgTCAyNi41OTM3NSAzLjgxMjUgWiBNIDE2IDMuMDMxMjUgQyAxNS42NzE4NzUgMy4wMzUxNTYgMTUuMzM1OTM4IDMuMDU0Njg4IDE1IDMuMDkzNzUgQyAxNC45ODgyODEgMy4wOTM3NSAxNC45ODA0NjkgMy4wOTM3NSAxNC45Njg3NSAzLjA5Mzc1IEMgMTAuOTE0MDYzIDMuNTU4NTk0IDcuNjg3NSA2LjgzNTkzOCA3LjEyNSAxMC44NzUgQyA2LjY3NTc4MSAxNC4xMjUgOC4wMTU2MjUgMTcuMDcwMzEzIDEwLjI1IDE4Ljk2ODc1IEMgMTEuMjA3MDMxIDE5Ljc4OTA2MyAxMS43OTY4NzUgMjAuODgyODEzIDEyIDIyIEwgMTIgMjggTCAxNC4yODEyNSAyOCBDIDE0LjYyODkwNiAyOC41OTc2NTYgMTUuMjYxNzE5IDI5IDE2IDI5IEMgMTYuNzM4MjgxIDI5IDE3LjM3MTA5NCAyOC41OTc2NTYgMTcuNzE4NzUgMjggTCAyMCAyOCBMIDIwIDI0IEwgMjAuMDkzNzUgMjQgTCAyMC4wOTM3NSAyMi44MTI1IEMgMjAuMDkzNzUgMjEuMzQ3NjU2IDIwLjg1NTQ2OSAxOS44NjcxODggMjIuMDkzNzUgMTguNzE4NzUgQyAyMy43NSAxNy4wNjI1IDI1IDE0LjcwNzAzMSAyNSAxMiBDIDI1IDcuMDU4NTk0IDIwLjkzMzU5NCAyLjk4NDM3NSAxNiAzLjAzMTI1IFogTSAxNiA1LjAzMTI1IEMgMTkuODYzMjgxIDQuOTc2NTYzIDIzIDguMTQwNjI1IDIzIDEyIEMgMjMgMTQuMDkzNzUgMjIuMDMxMjUgMTUuOTM3NSAyMC42ODc1IDE3LjI4MTI1IEwgMjAuNzE4NzUgMTcuMzEyNSBDIDE5LjM3NSAxOC41NjY0MDYgMTguNTE1NjI1IDIwLjIwNzAzMSAxOC4yODEyNSAyMiBMIDEzLjkwNjI1IDIyIEMgMTMuNjg3NSAyMC4yODUxNTYgMTIuOTQ5MjE5IDE4LjYyODkwNiAxMS41NjI1IDE3LjQzNzUgQyA5Ljc5Njg3NSAxNS45MzM1OTQgOC43NDIxODggMTMuNjc1NzgxIDkuMDkzNzUgMTEuMTI1IEMgOS41MzEyNSA3Ljk3MjY1NiAxMi4wODU5MzggNS40NDE0MDYgMTUuMjE4NzUgNS4wOTM3NSBDIDE1LjQ4MDQ2OSA1LjA2MjUgMTUuNzQyMTg4IDUuMDM1MTU2IDE2IDUuMDMxMjUgWiBNIDIgMTIgTCAyIDE0IEwgNSAxNCBMIDUgMTIgWiBNIDI3IDEyIEwgMjcgMTQgTCAzMCAxNCBMIDMwIDEyIFogTSA3LjUgMjAuMDkzNzUgTCA1LjQwNjI1IDIyLjE4NzUgTCA2LjgxMjUgMjMuNTkzNzUgTCA4LjkwNjI1IDIxLjUgWiBNIDI0LjUgMjAuMDkzNzUgTCAyMy4wOTM3NSAyMS41IEwgMjUuMTg3NSAyMy41OTM3NSBMIDI2LjU5Mzc1IDIyLjE4NzUgWiBNIDE0IDI0IEwgMTggMjQgTCAxOCAyNiBMIDE0IDI2IFogIi8+CjwvZz4KPC9zdmc+Cg==" alt="Empfehlungen für online angebotene Lehrveranstaltungen"
+
+
+/>
+<span class="bulky-label">Empfehlungen für online angebotene Lehrveranstaltungen</span></a><a class="il-link link-bulky" href="https://ilias3.uni-stuttgart.de/goto.php?target=cat_1880929&client_id=Uni_Stuttgart"   >
+<img
+ class="icon custom small"
+ src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDMyIDMyIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxkZWZzPg0KCQk8cmVjdCBpZD0iU1ZHSURfMV8iIHg9IjIiIHk9IjIiIHdpZHRoPSIyOCIgaGVpZ2h0PSIyOCIvPg0KCTwvZGVmcz4NCgk8Y2xpcFBhdGggaWQ9IlNWR0lEXzJfIj4NCgkJPHVzZSB4bGluazpocmVmPSIjU1ZHSURfMV8iICBvdmVyZmxvdz0idmlzaWJsZSIvPg0KCTwvY2xpcFBhdGg+DQoJPHBhdGggY2xpcC1wYXRoPSJ1cmwoI1NWR0lEXzJfKSIgZmlsbD0iI0M4MEEwQSIgZD0iTTE2LDMuOGMyLjgsMCw1LjMsMC45LDcuMywyLjVsLTIuOSwyLjljLTEuMy0wLjgtMi44LTEuMy00LjQtMS4zDQoJCXMtMy4xLDAuNS00LjQsMS4zTDguNyw2LjJDMTAuNyw0LjcsMTMuMiwzLjgsMTYsMy44IE0zLjgsMTZjMC0yLjgsMC45LTUuMywyLjQtNy4zbDIuOSwyLjljLTAuOCwxLjMtMS4zLDIuOC0xLjMsNC40DQoJCWMwLDEuNiwwLjUsMy4xLDEuMyw0LjRsLTIuOSwyLjlDNC43LDIxLjMsMy44LDE4LjgsMy44LDE2IE0xNiwyMi40Yy0zLjUsMC02LjQtMi45LTYuNC02LjRjMC0zLjUsMi45LTYuNCw2LjQtNi40DQoJCWMzLjUsMCw2LjQsMi45LDYuNCw2LjRDMjIuNCwxOS41LDE5LjUsMjIuNCwxNiwyMi40IE0xNiwyOC4yYy0yLjgsMC01LjMtMC45LTcuMy0yLjRsMi45LTIuOWMxLjMsMC44LDIuOCwxLjMsNC40LDEuMw0KCQljMS42LDAsMy4xLTAuNSw0LjQtMS4zbDIuOSwyLjlDMjEuMywyNy4zLDE4LjgsMjguMiwxNiwyOC4yIE0yNS44LDguN2MxLjUsMiwyLjQsNC42LDIuNCw3LjNjMCwyLjgtMC45LDUuMy0yLjUsNy4zbC0yLjktMi45DQoJCWMwLjgtMS4zLDEuMy0yLjgsMS4zLTQuNGMwLTEuNi0wLjUtMy4xLTEuMy00LjRMMjUuOCw4Ljd6IE0zMCwxNmMwLTcuNy02LjMtMTQtMTQtMTRDOC4zLDIsMiw4LjMsMiwxNmMwLDcuNyw2LjMsMTQsMTQsMTQNCgkJQzIzLjcsMzAsMzAsMjMuNywzMCwxNiIvPg0KPC9nPg0KPC9zdmc+DQo=" alt="Hilfe zur Selbsthilfe"
+
+
+/>
+<span class="bulky-label">Hilfe zur Selbsthilfe</span></a><a class="il-link link-bulky" href="https://ilias3.uni-stuttgart.de/goto.php?target=cat_2348263&client_id=Uni_Stuttgart"   >
+<img
+ class="icon custom small"
+ src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+Cjxzdmcgd2lkdGg9IjEwMDBweCIgaGVpZ2h0PSIxMDAwcHgiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgeG1sbnM6c2VyaWY9Imh0dHA6Ly93d3cuc2VyaWYuY29tLyIgc3R5bGU9ImZpbGwtcnVsZTpldmVub2RkO2NsaXAtcnVsZTpldmVub2RkO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoyOyI+CiAgICA8ZyB0cmFuc2Zvcm09Im1hdHJpeCgwLjEsMCwwLC0wLjEsMCw1MTIpIj4KICAgICAgICA8Zz4KICAgICAgICAgICAgPHBhdGggZD0iTTcyNTEuMyw0OTYxLjVDNzE3NC41LDQ4NzkgNzAxMS40LDQ2MTAuMyA2OTE5LjMsNDQxOC4zQzY3NjkuNiw0MTA1LjUgNjY3OS40LDM3ODMgNjYzMS40LDM0MDEuMUM2NjAwLjcsMzE1Ny4zIDY2MDYuNCwyNTI1LjkgNjY0MSwyMDk2QzY2NTguMywxODk2LjQgNjY3OS40LDE1ODEuNiA2Njg5LDEzOTkuM0M2NzMxLjIsNjkxLjEgNjYyOS41LDE1My43IDYzNzQuMiwtMjY2LjdDNjI2Mi45LC00NTIuOSA2MDk0LC02NzUuNSA2MDY1LjIsLTY3Ny40QzYwNDAuMywtNjc3LjQgNDIxMy4xLDExNDkuOCA0MjEzLjEsMTE3NC43QzQyMTUsMTIyOC40IDQ2NjIuMiwxNTI3LjggNDg2MS44LDE2MDguNUw0OTY1LjQsMTY1MC43TDU2NjIuMiw5NTRDNjQ1OC43LDE1Ny41IDYzNzAuNCwyMDcuNCA2NDI5LjksNTI0LjFMNjQ2Mi41LDY5MS4xTDU5MzAuOCwxMjIyLjhDNTYzNy4xLDE1MTYuNCA1NDA2LjgsMTc2MC4yIDU0MTYuNCwxNzY2QzU0NTguNiwxNzkyLjkgNTk2Ny4yLDE4MTkuNyA2MTk1LjYsMTgwNi4zTDY0NDEuMywxNzkyLjlMNjQyOS44LDE5NjMuN0M2NDIyLjEsMjA1Ny43IDY0MTAuNiwyMTgyLjUgNjQwMi45LDIyNDAuMUw2MzkxLjQsMjM0NS43TDYwNzQuNywyMzUxLjVDNTAyNC44LDIzNzAuNyA0MzI0LjMsMjA5OC4yIDM2NjIuMSwxNDA5LjFDMzEyMi44LDg0Ni43IDI4NjkuNCwyNTEuNyAyODA4LC02MDIuM0MyNzg4LjgsLTg3OC43IDI3OTAuNywtMTAxMyAyODIxLjQsLTE1ODEuMUMyODYzLjYsLTIzMDguNSAyODY3LjUsLTI4NDUuOSAyODMyLjksLTMwOTUuNEMyNzY1LjcsLTM1ODEgMjYxMC4zLC0zOTg3LjkgMjM0NS40LC00MzY2QzIzMjYuMiwtNDM5Ni43IDIzNDcuMywtNDQyNS41IDI1MTQuMywtNDU5Mi41QzI2NjQsLTQ3NDIuMiAyNzEwLjEsLTQ3NzguNyAyNzI5LjMsLTQ3NjEuNEMyNzgxLjEsLTQ3MTkuMiAyOTcxLjEsLTQ0MTUuOSAzMDYxLjMsLTQyMzEuN0MzMzc2LjEsLTM1OTIuNSAzNDU0LjgsLTI5NzYuNSAzMzc2LjEsLTE3MzAuOEMzMzM2LC0xMDkzLjkgMzM0Ny41LC01MjIgMzQwNSwtMjMwLjJDMzQ4MS44LDE0OS44IDM2MjcuNiw0ODkuNiAzODMzLDc2Ny45TDM5MzAuOSw5MDAuM0w0ODU5LjksLTI4LjdMNTc4OC45LC05NTUuN0w1NzM1LjEsLTk5OS45QzU2MjMuOCwtMTA5MC4xIDU0MDguOCwtMTIyNC41IDUyNTcuMiwtMTI5NS41QzQ5ODQuNywtMTQyMi4yIDUwODAuNiwtMTQ3OS43IDQzMzcuOSwtNzM3QzM5NzksLTM3Ni4yIDM2NzkuNiwtODIuNSAzNjczLjgsLTgyLjVDMzY1OC40LC04Mi41IDM2NDMuMSwtMTU1LjQgMzYwOC41LC0zNzAuNEwzNTgxLjYsLTUzMy41TDQwNjMuMywtMTAxNS4zQzQ1MDAuOSwtMTQ1NC44IDQ1MzkuMywtMTQ5OSA0NDk3LjEsLTE1MTAuNUM0NDc0LjEsLTE1MTguMiA0MjU5LjEsLTE1MjkuNyA0MDIzLC0xNTM1LjVMMzU5My4xLC0xNTQ3TDM2MDYuNSwtMTgwOEMzNjE0LjIsLTE5NzYuOSAzNjI3LjYsLTIwNzIuOSAzNjQzLC0yMDgyLjVDMzY3NS42LC0yMTAzLjYgNDA2OS4xLC0yMTAxLjcgNDM1OC45LC0yMDc4LjdDNTE0NS44LC0yMDE1LjQgNTc1NC4yLC0xNzUwLjUgNjI4Ny44LC0xMjM4LjFDNjgxNy41LC03MzEuNCA3MDkyLC0yMTguOSA3MjA5LjEsNDgzLjVDNzI0Ny41LDcwNC4yIDcyNDEuNywxNTU4LjMgNzE5OS41LDIwMDkuM0M3MTUxLjUsMjUyOS40IDcxNDAsMjk3Ni42IDcxNjYuOSwzMjU2LjlDNzIxMSwzNzA3LjkgNzM0OS4yLDQxMjQuNCA3NTY0LjIsNDQ0OC44Qzc2MjEuOCw0NTM3LjEgNzY2Ny45LDQ2MTEuOSA3NjY3LjksNDYxNy43Qzc2NjcuOSw0NjI1LjQgNzU4My40LDQ3MTMuNyA3NDc5LjgsNDgxNy4zTDcyOTEuNyw1MDA1LjRMNzI1MS4zLDQ5NjEuNVoiIHN0eWxlPSJmaWxsOnJnYig4LDQ1LDEwNyk7ZmlsbC1ydWxlOm5vbnplcm87Ii8+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik03NDc3LjgsMzcyNy40Qzc0NTYuNywzNjU4LjMgNzQzMy43LDM1NjIuMyA3NDI3LjksMzUxMi40TDc0MTYuNCwzNDIwLjNMNzk1My44LDI4ODIuOUM4MjUxLjMsMjU4Ny4zIDg0OTMuMSwyMzM5LjcgODQ5My4xLDIzMzRDODQ5My4xLDIzMDUuMiA4MDkwLDIyNjguNyA3NzU4LDIyNjguN0w3Mzk1LjIsMjI2OC43TDc0MDYuNywyMTgyLjNDNzQxMi41LDIxMzQuMyA3NDIyLjEsMjAxMS41IDc0MjkuNywxOTA5LjhMNzQ0My4xLDE3MjEuN0w3ODAwLjEsMTcyMS43QzgzMjYsMTcyMS43IDg2NzkuMSwxNzgxLjIgOTA4NC4xLDE5MzIuOEM5MzIwLjIsMjAyMS4xIDk1NzcuNCwyMTYxLjIgOTc2Ny40LDIyOTkuNEw5ODk5LjgsMjM5Ny4zTDk3MDkuOCwyNTg3LjNDOTYwNi4xLDI2OTAuOSA5NTE0LDI3NzcuMyA5NTA2LjMsMjc3Ny4zQzk0OTYuNywyNzc3LjMgOTQ1MC42LDI3NDguNSA5NDAwLjcsMjcxMkM5Mjk1LjEsMjYzNy4yIDg5ODQuMiwyNDcwLjIgODk0Ny44LDI0NzAuMkM4OTM0LjQsMjQ3MC4yIDg2MTMuOCwyNzgxLjEgODIzMy44LDMxNjEuMkM3ODUzLjgsMzU0MS4yIDc1MzcuMSwzODUyLjIgNzUyOS40LDM4NTIuMkM3NTIyLDM4NTIuMiA3NDk4LjksMzc5Ni41IDc0NzcuOCwzNzI3LjRaIiBzdHlsZT0iZmlsbDpyZ2IoOCw0NSwxMDcpO2ZpbGwtcnVsZTpub256ZXJvOyIvPgogICAgICAgICAgICA8cGF0aCBkPSJNMTgwNi4zLC0xNTA0LjZDMTIwMy42LC0xNTY4IDY1MC44LC0xNzczLjMgMjE3LjEsLTIwOTJMMTAwLC0yMTc4LjNMMjkwLC0yMzY4LjNDMzkzLjYsLTI0NzEuOSA0ODUuOCwtMjU1OC4zIDQ5My40LC0yNTU4LjNDNTAzLC0yNTU4LjMgNTQ5LjEsLTI1MjkuNSA1OTksLTI0OTMuMUM2NTAuOCwtMjQ1Ni42IDc2Ny45LC0yMzg3LjUgODYxLjksLTIzMzcuNkwxMDMyLjcsLTIyNDcuNEwxNzQ4LjYsLTI5NjMuM0MyNTY2LjIsLTM3ODEgMjQ2Ni40LC0zNzI1LjMgMjU0NywtMzQwOC42TDI1ODcuMywtMzI0NS41TDIwMjQuOSwtMjY4My4xQzE2MTIuMiwtMjI3MC40IDE0NzIuMSwtMjExOC44IDE0OTUuMiwtMjExMS4yQzE1ODkuMiwtMjA3NC43IDE5OTQuMiwtMjAzNC40IDIyODkuOCwtMjAzMi41TDI2MjEuOCwtMjAzMC42TDI2MTAuMywtMTc4MS4xQzI2MDIuNiwtMTY0Mi45IDI1OTQuOSwtMTUyMC4xIDI1OTEuMSwtMTUwNi43QzI1ODEuNywtMTQ3OS43IDIwNjEuNSwtMTQ3Ny44IDE4MDYuMywtMTUwNC42WiIgc3R5bGU9ImZpbGw6cmdiKDgsNDUsMTA3KTtmaWxsLXJ1bGU6bm9uemVybzsiLz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPgo=" alt="Kursvorlagen"
+
+
+/>
+<span class="bulky-label">Kursvorlagen</span></a><a class="il-link link-bulky" href="https://ilias3.uni-stuttgart.de/goto.php?target=cat_1898450&client_id=Uni_Stuttgart"   >
+<img
+ class="icon custom small"
+ src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pjxzdmcgd2lkdGg9IjMycHgiIGhlaWdodD0iMzJweCIgdmlld0JveD0iMCAwIDMyIDMyIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAzMiAzMiIgaWQ9IlN0b2NrX2N1dCIgdmVyc2lvbj0iMS4xIiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48ZGVzYy8+PGc+PHBhdGggZD0iTTcsMjVINiAgIGMtMi43NjEsMC01LTIuMjM5LTUtNXYwYzAtMi43NjEsMi4yMzktNSw1LTVoMVYyNXoiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwMDAwMCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2Utd2lkdGg9IjIiLz48cGF0aCBkPSJNMjYsMjVoLTFWMTVoMSAgIGMyLjc2MSwwLDUsMi4yMzksNSw1djBDMzEsMjIuNzYxLDI4Ljc2MSwyNSwyNiwyNXoiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwMDAwMCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2Utd2lkdGg9IjIiLz48cGF0aCBkPSJNNSwxNXYtMyAgIEM1LDUuOTI1LDkuOTI1LDEsMTYsMWgwYzYuMDc1LDAsMTEsNC45MjUsMTEsMTF2MyIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwMDAwIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS13aWR0aD0iMiIvPjxwYXRoIGQ9Ik0yNywyNXY0ICAgYzAsMS4xMDUtMC44OTUsMi0yLDJoLTMiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwMDAwMCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2Utd2lkdGg9IjIiLz48bGluZSBmaWxsPSJub25lIiBzdHJva2U9IiMwMDAwMDAiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLXdpZHRoPSIyIiB4MT0iMTgiIHgyPSIyMCIgeTE9IjMxIiB5Mj0iMzEiLz48bGluZSBmaWxsPSJub25lIiBzdHJva2U9IiMwMDAwMDAiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLXdpZHRoPSIyIiB4MT0iMTYiIHgyPSIxNiIgeTE9IjI0IiB5Mj0iMjYiLz48cGF0aCBkPSJNMTYsMjJ2LTIuNjE1ICAgYzAtMS40NDEsMC44NzctMi43MzYsMi4yMTUtMy4yNzFsMCwwQzE5Ljg5NywxNS40NDEsMjEsMTMuODEyLDIxLDEydjBjMC0yLjc2MS0yLjIzOS01LTUtNWgwYy0yLjc2MSwwLTUsMi4yMzktNSw1djAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwMDAwMCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2Utd2lkdGg9IjIiLz48L2c+PC9zdmc+" alt="Beratung, Support und Schulungsangebote"
+
+
+/>
+<span class="bulky-label">Beratung, Support und Schulungsangebote</span></a><a class="il-link link-bulky" href="https://ilias3.uni-stuttgart.de/goto.php?target=cat_2079195&client_id=Uni_Stuttgart"   >
+<img
+ class="icon custom small"
+ src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+Cjxzdmcgd2lkdGg9IjMycHgiIGhlaWdodD0iMzJweCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxuczpzZXJpZj0iaHR0cDovL3d3dy5zZXJpZi5jb20vIiBzdHlsZT0iZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjI7Ij4KICAgIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgc3R5bGU9ImZpbGw6bm9uZTsiLz4KICAgIDxjbGlwUGF0aCBpZD0iX2NsaXAxIj4KICAgICAgICA8cGF0aCBkPSJNMjUsN0wyNSw5LjUwMUMyNSwxMC40MzkgMjQuMjM3LDExIDIzLjUsMTFMMjAuNSwxMUMxOS41NjEsMTEgMTksMTAuMjM4IDE5LDkuNTAxTDE5LDdMMTMsN0wxMyw5LjUwMUMxMywxMC40MzkgMTIuMjM3LDExIDExLjUsMTFMOC41LDExQzcuNTYyLDExIDcsMTAuMjM4IDcsOS41MDFMNyw3TDQsN0M0LDcgMy41LDcgMy41LDcuNUwzLjUsMjguNUMzLjUsMjguNSAzLjUsMjkgNCwyOUwyOCwyOUMyOCwyOSAyOC41LDI5IDI4LjUsMjguNUwyOC41LDcuNUMyOC41LDcuNSAyOC41LDcgMjgsN0wyNSw3WiIvPgogICAgPC9jbGlwUGF0aD4KICAgIDxnIGNsaXAtcGF0aD0idXJsKCNfY2xpcDEpIj4KICAgICAgICA8cGF0aCBkPSJNMjguNSw3TDMuNSw3TDMuNSwyOUwyOC41LDI5TDI4LjUsN1pNMTEuMjUsMjEuNUw2Ljc1LDIxLjVMNi43NSwyNS41TDExLjI1LDI1LjVMMTEuMjUsMjEuNVpNMTguMjUsMjEuNUwxMy43NSwyMS41TDEzLjc1LDI1LjVMMTguMjUsMjUuNUwxOC4yNSwyMS41Wk0yNS4yNSwyMS41TDIwLjc1LDIxLjVMMjAuNzUsMjUuNUwyNS4yNSwyNS41TDI1LjI1LDIxLjVaTTExLjI1LDE1TDYuNzUsMTVMNi43NSwxOUwxMS4yNSwxOUwxMS4yNSwxNVpNMTguMjUsMTVMMTMuNzUsMTVMMTMuNzUsMTlMMTguMjUsMTlMMTguMjUsMTVaTTI1LjI1LDE1TDIwLjc1LDE1TDIwLjc1LDE5TDI1LjI1LDE5TDI1LjI1LDE1WiIgc3R5bGU9ImZpbGw6dXJsKCNfTGluZWFyMik7Ii8+CiAgICA8L2c+CiAgICA8Y2xpcFBhdGggaWQ9Il9jbGlwMyI+CiAgICAgICAgPHBhdGggZD0iTTguNSw0QzguNSw0IDgsNCA4LDQuNUw4LDkuNUM4LDkuNSA4LDEwIDguNSwxMEwxMS41LDEwQzExLjUsMTAgMTIsMTAgMTIsOS41TDEyLDQuNUMxMiw0LjUgMTIsNCAxMS41LDRMOC41LDRaIi8+CiAgICA8L2NsaXBQYXRoPgogICAgPGcgY2xpcC1wYXRoPSJ1cmwoI19jbGlwMykiPgogICAgICAgIDxyZWN0IHg9IjgiIHk9IjQiIHdpZHRoPSI0IiBoZWlnaHQ9IjYiIHN0eWxlPSJmaWxsOnVybCgjX0xpbmVhcjQpOyIvPgogICAgPC9nPgogICAgPGNsaXBQYXRoIGlkPSJfY2xpcDUiPgogICAgICAgIDxwYXRoIGQ9Ik0yMC41LDRDMjAuNSw0IDIwLDQgMjAsNC41TDIwLDkuNUMyMCw5LjUgMjAsMTAgMjAuNSwxMEwyMy41LDEwQzIzLjUsMTAgMjQsMTAgMjQsOS41TDI0LDQuNUMyNCw0LjUgMjQsNCAyMy41LDRMMjAuNSw0WiIvPgogICAgPC9jbGlwUGF0aD4KICAgIDxnIGNsaXAtcGF0aD0idXJsKCNfY2xpcDUpIj4KICAgICAgICA8cmVjdCB4PSIyMCIgeT0iNCIgd2lkdGg9IjQiIGhlaWdodD0iNiIgc3R5bGU9ImZpbGw6dXJsKCNfTGluZWFyNik7Ii8+CiAgICA8L2c+CiAgICA8ZGVmcz4KICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9Il9MaW5lYXIyIiB4MT0iMCIgeTE9IjAiIHgyPSIxIiB5Mj0iMCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMS4zNDcxMWUtMTUsMjEuOTk5OSwtMjEuOTk5OSwxLjM0NzExZS0xNSwxNS45OTkzLDcuMDAxMjkpIj48c3RvcCBvZmZzZXQ9IjAiIHN0eWxlPSJzdG9wLWNvbG9yOnJnYig3NiwxMDAsMTM0KTtzdG9wLW9wYWNpdHk6MSIvPjxzdG9wIG9mZnNldD0iMC4wMiIgc3R5bGU9InN0b3AtY29sb3I6cmdiKDc2LDEwMCwxMzQpO3N0b3Atb3BhY2l0eToxIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjpyZ2IoOTAsMTE5LDE2MCk7c3RvcC1vcGFjaXR5OjEiLz48L2xpbmVhckdyYWRpZW50PgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iX0xpbmVhcjQiIHgxPSIwIiB5MT0iMCIgeDI9IjEiIHkyPSIwIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCg0LDAsMCw0LDguMDAwMSw3KSI+PHN0b3Agb2Zmc2V0PSIwIiBzdHlsZT0ic3RvcC1jb2xvcjpyZ2IoMSwzNSw4Nik7c3RvcC1vcGFjaXR5OjEiLz48c3RvcCBvZmZzZXQ9IjAuMDIiIHN0eWxlPSJzdG9wLWNvbG9yOnJnYigxLDM1LDg2KTtzdG9wLW9wYWNpdHk6MSIvPjxzdG9wIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6cmdiKDEzLDUyLDEyMSk7c3RvcC1vcGFjaXR5OjEiLz48L2xpbmVhckdyYWRpZW50PgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iX0xpbmVhcjYiIHgxPSIwIiB5MT0iMCIgeDI9IjEiIHkyPSIwIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCg0LDAsMCw0LDIwLjAwMDEsNykiPjxzdG9wIG9mZnNldD0iMCIgc3R5bGU9InN0b3AtY29sb3I6cmdiKDEsMzUsODYpO3N0b3Atb3BhY2l0eToxIi8+PHN0b3Agb2Zmc2V0PSIwLjAyIiBzdHlsZT0ic3RvcC1jb2xvcjpyZ2IoMSwzNSw4Nik7c3RvcC1vcGFjaXR5OjEiLz48c3RvcCBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOnJnYigxMyw1MiwxMjEpO3N0b3Atb3BhY2l0eToxIi8+PC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KPC9zdmc+Cg==" alt="Terminkoordination Scheinklausuren"
+
+
+/>
+<span class="bulky-label">Terminkoordination Scheinklausuren</span></a>
+<hr class="il-divider-with-label" />
+<h4 class="il-divider">Für Student*innen</h4>
+
+<a class="il-link link-bulky" href="https://ilias3.uni-stuttgart.de/goto.php?target=cat_1969087&client_id=Uni_Stuttgart"   >
+<img
+ class="icon custom small"
+ src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj48c3ZnIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxuczpzZXJpZj0iaHR0cDovL3d3dy5zZXJpZi5jb20vIiBzdHlsZT0iZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjI7Ij48ZyBpZD0iRWJlbmVfMiI+PGcgaWQ9IkViZW5lXzEtMiI+PHBhdGggZD0iTTEzLjQ0NSwxMy4zM2MxLjU5NCwwLjgwMSAzLjQ3NywwLjgwMSA1LjA3MSwwbDEuNjI1LDIuODE1bDEuNjcyLDIuODk3Yy0xLjQzOSwwLjk4MSAtMi4zNSwyLjU3MSAtMi40NjksNC4zMDlsLTYuNjg0LDBjLTAuMTAxLC0xLjc2MiAtMS4wMTYsLTMuMzggLTIuNDc1LC00LjM3NGwxLjYzNSwtMi44MzJsMS42MjUsLTIuODE1bTUuNDU4LC0xLjYxN2MtMS42NzcsMS40MjggLTQuMTY2LDEuNDI4IC01Ljg0MywwbC0yLjIzMiwzLjg2MWwtMi4yMjYsMy44NmMyLjA0NSwwLjc2NiAzLjI1MywyLjkxNCAyLjg0NSw1LjA2bDkuMDk1LDBjLTAuMzczLC0yLjEyNyAwLjgzNCwtNC4yMzggMi44NTUsLTQuOTk2bC0yLjI2NSwtMy45MjRsLTIuMjI5LC0zLjg2MVoiIHN0eWxlPSJmaWxsOiM0YzY1ODY7ZmlsbC1ydWxlOm5vbnplcm87Ii8+PHBhdGggZD0iTTE1Ljk4LDMuNzc3YzIuNDcyLDAgNC41MDYsMi4wMzQgNC41MDYsNC41MDZjMCwyLjQ3MiAtMi4wMzQsNC41MDYgLTQuNTA2LDQuNTA2Yy0yLjQ3MiwwIC00LjUwNiwtMi4wMzQgLTQuNTA2LC00LjUwNmMwLC0yLjQ3MiAyLjAzNCwtNC41MDYgNC41MDYsLTQuNTA2bTAsLTEuMTQyYy0zLjA5OCwwIC01LjY0OCwyLjU0OSAtNS42NDgsNS42NDhjMCwzLjA5OSAyLjU1LDUuNjQ4IDUuNjQ4LDUuNjQ4YzMuMDk5LDAgNS42NDksLTIuNTQ5IDUuNjQ5LC01LjY0OGMtMC4wMDQsLTMuMDk3IC0yLjU1MiwtNS42NDQgLTUuNjQ5LC01LjY0OFoiIHN0eWxlPSJmaWxsOiM0YzY1ODY7ZmlsbC1ydWxlOm5vbnplcm87Ii8+PHBhdGggZD0iTTI0Ljk4LDE5LjIxMWMyLjQ3LDAuMDAyIDQuNTAyLDIuMDM2IDQuNTAyLDQuNTA2YzAsMi40NzIgLTIuMDM0LDQuNTA2IC00LjUwNiw0LjUwNmMtMi40NzIsMCAtNC41MDYsLTIuMDM0IC00LjUwNiwtNC41MDZjMCwtMS44NzQgMS4xNjksLTMuNTYxIDIuOTI0LC00LjIxOWMwLjUwNywtMC4xOSAxLjA0NCwtMC4yODggMS41ODYsLTAuMjg3bTAsLTEuMTQyYy0zLjA5OCwwIC01LjY0OCwyLjU0OSAtNS42NDgsNS42NDhjMCwzLjA5OSAyLjU1LDUuNjQ4IDUuNjQ4LDUuNjQ4YzMuMDk5LDAgNS42NDksLTIuNTQ5IDUuNjQ5LC01LjY0OGMwLC0wLjAwNiAwLC0wLjAxMyAwLC0wLjAxOWMwLC0zLjA4OCAtMi41NDIsLTUuNjI5IC01LjYzLC01LjYyOWMtMC4wMDYsMCAtMC4wMTIsMCAtMC4wMTksMFoiIHN0eWxlPSJmaWxsOiM0YzY1ODY7ZmlsbC1ydWxlOm5vbnplcm87Ii8+PHBhdGggZD0iTTcuMDIsMTkuMTQ4YzIuNDcyLDAgNC41MDYsMi4wMzQgNC41MDYsNC41MDZjMCwyLjQ3MSAtMi4wMzQsNC41MDUgLTQuNTA2LDQuNTA1Yy0yLjQ3MiwwIC00LjUwNiwtMi4wMzQgLTQuNTA2LC00LjUwNWMwLC0wLjAwOCAwLC0wLjAxNiAwLC0wLjAyNGMwLC0yLjQ1OSAyLjAyMywtNC40ODMgNC40ODIsLTQuNDgzYzAuMDA4LDAgMC4wMTYsMCAwLjAyNCwwLjAwMW0wLC0xLjE0M2MtMy4wOTgsMC4wMDEgLTUuNjQ3LDIuNTUgLTUuNjQ3LDUuNjQ5YzAsMy4wOTggMi41NDksNS42NDggNS42NDgsNS42NDhjMy4wOTgsMCA1LjY0OCwtMi41NSA1LjY0OCwtNS42NDhjMCwtMi4zNSAtMS40NjYsLTQuNDY1IC0zLjY2NiwtNS4yOWMtMC42MzQsLTAuMjM3IC0xLjMwNiwtMC4zNTkgLTEuOTgzLC0wLjM1OVoiIHN0eWxlPSJmaWxsOiM0YzY1ODY7ZmlsbC1ydWxlOm5vbnplcm87Ii8+PC9nPjwvZz48L3N2Zz4=" alt="Leben, Lernen und Vernetzen"
+
+
+/>
+<span class="bulky-label">Leben, Lernen und Vernetzen</span></a><a class="il-link link-bulky" href="https://ilias3.uni-stuttgart.de/goto.php?target=cat_2114195&client_id=Uni_Stuttgart"   >
+<img
+ class="icon custom small"
+ src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE4LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDI4MCAyODAiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDI4MCAyODA7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxwYXRoIGQ9Ik0xODMuMDI4LDQzLjAyOEg5Ni45NzJDNDMuNTAxLDQzLjAyOCwwLDg2LjUyOSwwLDE0MHM0My41MDEsOTYuOTcyLDk2Ljk3Miw5Ni45NzJoODYuMDU3DQoJCUMyMzYuNDk5LDIzNi45NzIsMjgwLDE5My40NzEsMjgwLDE0MFMyMzYuNDk5LDQzLjAyOCwxODMuMDI4LDQzLjAyOHogTTE4My4wMjgsMjE4Ljk3Mkg5Ni45NzJDNTMuNDI3LDIxOC45NzIsMTgsMTgzLjU0NSwxOCwxNDANCgkJczM1LjQyNy03OC45NzIsNzguOTcyLTc4Ljk3Mmg4Ni4wNTdDMjI2LjU3Myw2MS4wMjgsMjYyLDk2LjQ1NSwyNjIsMTQwUzIyNi41NzMsMjE4Ljk3MiwxODMuMDI4LDIxOC45NzJ6Ii8+DQoJPHBhdGggZD0iTTE3Ny4wMjksMTI5LjMyNmwtNDIuMjA4LTM1LjI5Yy05LjA1OC03LjU3My0yMi44MzgtMS4xMzMtMjIuODM4LDEwLjY3NHY3MC41OGMwLDExLjgwNywxMy43OCwxOC4yNDgsMjIuODM4LDEwLjY3NA0KCQlsNDIuMjA4LTM1LjI5QzE4My42ODEsMTQ1LjExMywxODMuNjgxLDEzNC44ODcsMTc3LjAyOSwxMjkuMzI2eiIvPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=" alt="Neu an der Uni Stuttgart? So gelingt dein digitaler Start!"
+
+
+/>
+<span class="bulky-label">Neu an der Uni Stuttgart? So gelingt dein digitaler Start!</span></a>
+	</div>
+</div>
+
+		
+		<div class="il-maincontrols-slate disengaged" id="il_ui_fw_6261377b0e9c37_84335369" data-depth-level="1" role="menu">
+	<div class="il-maincontrols-slate-content" data-replace-marker="content">
+		
+	</div>
+</div>
+
+		
+		<div class="il-maincontrols-slate disengaged" id="il_ui_fw_6261377b0ede98_06523457" data-depth-level="1" role="menu">
+	<div class="il-maincontrols-slate-content" data-replace-marker="content">
+		<div id='ilHelpPanel'>&nbsp;</div>
+	</div>
+</div>
+
+		
+
+		<div class="il-mainbar-close-slates">
+			<button class="btn btn-bulky" id="il_ui_fw_6261377b0f31e3_21065465"      ><span class="glyph" aria-label="Zurück" role="img">
+<span class="glyphicon
+
+
+
+
+
+
+
+ glyphicon-chevron-left
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+" aria-hidden="true"></span>
+
+
+
+
+
+
+
+</span>
+<span class="bulky-label">close</span></button>
+
+		</div>
+
+	</div>
+
+</div>
+
+		</div>
+
+		<!-- html5 main-tag is not supported in IE / div is needed -->
+		<main class="il-layout-page-content">
+			<div>
+				
+				
+
+
+
+<div id="mainspacekeeper" class="container-fluid ">
+	<div class="row" style="position: relative;">
+		
+		<div id="fixed_content" class=" ilContentFixed" >
+			<div id="mainscrolldiv" >
+				
+
+				
+
+				<div class="media il_HeaderInner">
+					
+
+					
+					<div class="media-body">
+						
+						
+					</div>
+				</div>
+
+				
+
+				
+
+				<div class="ilClearFloat"></div>
+
+				
+				<div class="ilTabsContentOuter"><div class="clearfix"></div>
+				
+				<span class="ilAccHidden"><a id="after_sub_tabs" name="after_sub_tabs"></a></span>
+				
+				
+				
+				
+				
+
+					<div>
+						
+					</div>
+
+
+					<div class="container-fluid" id="ilContentContainer">
+						<div class="row">
+
+							<div id="il_center_col" class="col-sm-12">
+								
+								
+								
+
+<div class="ilMessageBox">
+	
+	
+</div>
+
+<ul id="ilTopBarNav" class="">
+    
+</ul>
+
+
+
+<div>
+	
+	
+
+
+ 
+<script>
+<!--
+focus();
+//-->
+</script>
+
+<a class="small" id="ilPageShowAdvContent" style="display:none; text-align:right;" href="#"><span>Vertiefungswissen anzeigen</span><span>Vertiefungswissen verbergen</span></a><!--COPage-PageTop--><!--ilPageTocH11--><h1 id="ilPageTocA11" class="ilc_Paragraph ilc_heading1_Headline1"><!--PageTocPH-->Universität Stuttgart — Lehre & Lernen online<!--Break--></h1><div align="center">		<form id="form_"
+class="form-horizontal preventDoubleSubmission"
+
+
+name="formlogin"
+action="ilias.php?lang=de&target=file_2897528_download&cmd=post&cmdClass=ilstartupgui&cmdNode=123&baseClass=ilStartUpGUI&rtoken=" method="post" novalidate="novalidate">
+
+<div class="form-horizontal">
+<!-- todo: HIDE_LABELS_STYLE -->
+
+
+<!-- Please note the usage of datatable attribute which is non-standard
+	but ensures that JAWS treats this table as a layout table -->
+<!-- removed a width="" -->
+
+
+
+
+
+		<div class="ilFormHeader clearfix"><h2 class="ilHeader">Bei ILIAS anmelden</h2>
+		<div class="ilFormCmds">
+				
+				
+		</div>
+		<div class="ilHeaderDesc"></div>
+		</div>
+
+
+
+
+
+
+<div class="form-group" id="il_prop_cont_username">
+	<label  for="username"  class="col-sm-3 control-label">Benutzername <span class="asterisk">*</span></label>
+	<div class="col-sm-9">
+
+
+
+
+
+
+
+
+
+
+		
+
+			
+	<input aria-label="Benutzername" class="form-control"  type="text"  id="username"  maxlength="200" name="username"   required="required"/> 
+	
+	
+	
+	
+		
+				
+		
+
+
+
+
+		</div>
+	</div> <!-- end of ilFormRow -->
+	<!-- <script type="text/javascript">
+	$(function() {
+		il.Form.initItem('', );
+	});
+	</script> -->
+
+
+
+
+
+<div class="form-group" id="il_prop_cont_password">
+	<label  for="password"  class="col-sm-3 control-label">Passwort <span class="asterisk">*</span></label>
+	<div class="col-sm-9">
+
+
+
+
+
+
+
+
+
+
+		
+
+		
+<input class="form-control" type="password" size="20" id="password"  name="password"   required="required" /><br />
+
+
+		
+				
+		
+
+
+
+
+		</div>
+	</div> <!-- end of ilFormRow -->
+	<!-- <script type="text/javascript">
+	$(function() {
+		il.Form.initItem('', );
+	});
+	</script> -->
+
+
+
+
+
+
+	<div class="ilFormFooter clearfix">
+		<div class="col-sm-6 ilFormRequired">
+
+
+			<span class="asterisk">*</span><span class="small"> Erforderliche Angabe</span>
+
+		&nbsp;</div>
+		<div class="col-sm-6 ilFormCmds">
+
+		<input class="btn btn-default btn-sm" type="submit" name="cmd[doStandardAuthentication]" value="Anmelden"  />
+
+		</div>
+	</div><!-- end of ilFormRow -->
+
+</div>
+</form>
+		</div><div class="row row-flex row-flex-wrap"><div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6"><div class="flex-col flex-grow"><div style="height:100%"><div class="ilc_section_Information ilCOPageSection"><!--ilPageTocH212--><h2 id="ilPageTocA212" class="ilc_Paragraph ilc_heading2_Headline2"><!--PageTocPH-->Aktuelle Ankündigungen<!--Break--></h2><div class="ilc_section_Mnemonic ilCOPageSection"><!--ilPageTocH213--><h2 id="ilPageTocA213" class="ilc_Paragraph ilc_heading2_Headline2"><!--PageTocPH--><span class="ilc_text_inline_Strong">Neuerungen und Änderungen in ILIAS 7</span><!--Break--></h2><div class="ilc_Paragraph ilc_text_block_Standard">Auf der folgenden Inhaltseite sammeln wir für Sie Hinweise, Tipp und Tricks rund um die neue ILIAS-Version: <a class="ilc_link_IntLink" href="./goto.php?target=copa_2609729" target="_top" id="il__obj_2609729_71_1">ILIAS 7: Neuerungen und Änderungen</a><!--Break--></div><!--Break--></div><div><div class="ilc_va_cntr_VAccordCntr" id="ilc_accordion_71_2"><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">Neu: Webex-Integration in Kursen und Gruppen<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_Paragraph ilc_text_block_Standard">Mit dem Objekt <span class="ilc_text_inline_Emph"><a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="https://ilias3.uni-stuttgart.de/goto_Uni_Stuttgart_git_22381.html">Virtueller Meetingraum</a></span> können Sie einen Webex-Raum direkt aus einem ILIAS-Kurs oder einer -Gruppe heraus anlegen. Innerhalb eines virtuellen Meetingraums lassen sich eine oder mehrere geplante Meetings (also termingebundene Räume) direkt aus ILIAS erstellen. Teilnehmer*innen können dann über dieses Objekt in Ihrem Kurs direkt beitreten.<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard"><!--Break--></div><div class="ilc_section_Information ilCOPageSection"><div class="ilc_Paragraph ilc_text_block_Standard">Der virtuelle Meetingraum i.d.R. in allen seit Anfang Juli neu angelegten Kursen und Gruppen zur Verfügung (Ausnahme: Nach Inhalte übernehmen aus einem älteren Kurse fehlt die Berechtigung).<!--Break--></div><!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><script type="text/javascript">					$(function () {						il.Accordion.add({							id: 'ilc_accordion_71_2',							toggle_class: 'il_VAccordionToggleDef',							toggle_act_class: 'il_VAccordionToggleActiveDef',							content_class: 'il_VAccordionContentDef',							width: null,							height: null,							orientation: 'vertical',							behaviour: 'AllClosed',							save_url: '',							active_head_class: 'ilc_va_iheada_VAccordIHeadActive',							int_id: '',							multi: false							});						});				</script></div><div><div class="ilc_va_cntr_VAccordCntr" id="ilc_accordion_71_3"><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">Scheinklausur-Terminkoordination<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_Paragraph ilc_text_block_Standard">Zur besseren Koordination von Scheinklausuren und anderen größeren Tests (im weiteren Sinne) in ILIAS haben wir eine Datensammlung angelegt und bitte alle Lehrenden, künftige Termine dort ab sofort einzutragen: <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="https://ilias3.uni-stuttgart.de/goto_Uni_Stuttgart_cat_2079195.html?cmd=force_login">Terminkoordination Scheinklausuren</a><!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard"><span class="ilc_text_inline_Emph">(Anmeldung notwendig.)</span><!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><script type="text/javascript">					$(function () {						il.Accordion.add({							id: 'ilc_accordion_71_3',							toggle_class: 'il_VAccordionToggleDef',							toggle_act_class: 'il_VAccordionToggleActiveDef',							content_class: 'il_VAccordionContentDef',							width: null,							height: null,							orientation: 'vertical',							behaviour: 'AllClosed',							save_url: '',							active_head_class: 'ilc_va_iheada_VAccordIHeadActive',							int_id: '',							multi: false							});						});				</script></div><div><div class="ilc_va_cntr_VAccordCntr" id="ilc_accordion_71_4"><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">Datensammlung: »Eintrag hinzufügen« in neuen Kurse und Gruppen ab sofort Standard<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_Paragraph ilc_text_block_Standard"><span class="ilc_text_inline_Emph">31.05.2021</span><!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard">In (ab heute Nachmittag) neu angelegten Kursen und Gruppen ist die grundsätzliche Berechtigung <span class="ilc_text_inline_Emph">Eintrag hinzufügen</span> in <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="https://iliasdocuworld.qualitus.de/goto.php?target=pg_2602_124&client_id=iliasdocuworld">Datensammlungen</a> für Kurs-/Gruppenmitglieder ab sofort standardmäßig eingestellt. (Unabhängig davon müssen Kurs-/Gruppenadministrator*innen dies in den jeweiligen Tabelleneinstellungen in einer Datensammlung selbstverständlich nach wie vor explizit freigeben.)<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard">Damit entfällt die Notwendigkeit der Objekt-Vorlage <span class="ilc_text_inline_Emph">Datensammlung mit Eintragen-Recht für Kurs-/Gruppenmitglieder</span>, die Ende vergangen Jahres eingeführt wurde. Die Vorlage wurde deaktiviert.<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard">Für die Freischaltung des Eintragen-Rechtes für Kurs- oder Gruppenmitglieder bei bereits vorhandenen Datensammlungen (also solchen, die in älteren Kurse/Gruppen bzw. noch nicht mit der o.g. Vorlage erzeugt wurden) schreiben Sie bitte eine Mail mit dem <a class="ilc_link_IntLink" href="./goto.php?target=st_311169" target="_top" id="il__st_311169_71_2">Link zu dieser Seite</a> vom Info-Reiter des Objekts an den ILIAS-Support.<!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><script type="text/javascript">					$(function () {						il.Accordion.add({							id: 'ilc_accordion_71_4',							toggle_class: 'il_VAccordionToggleDef',							toggle_act_class: 'il_VAccordionToggleActiveDef',							content_class: 'il_VAccordionContentDef',							width: null,							height: null,							orientation: 'vertical',							behaviour: 'AllClosed',							save_url: '',							active_head_class: 'ilc_va_iheada_VAccordIHeadActive',							int_id: '',							multi: false							});						});				</script></div><div><div class="ilc_va_cntr_VAccordCntr" id="ilc_accordion_71_5"><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">Hinweis für Dozent*innen: Änderung am Verhalten der Formelfrage<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_Paragraph ilc_text_block_Standard"><span class="ilc_text_inline_Emph">04.05.2021</span><!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard">An der zum Kernfunktionsumfang von ILIAS gehörenden <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="https://iliasdocuworld.qualitus.de/goto.php?target=pg_1984_123&client_id=iliasdocuworld">Formelfrage</a> wurde Mitte Oktober 2020 von den Zuständigen Entwickler*innen aus der ILIAS-Community aufgrund von Bug-Reports eine Änderungen an der Berechnung der Präzision eingeführt, nach der überzählige Nachkommastellen nicht mehr gerundet, sondern einfach weggelassen (»cutting« statt »abgerundet«).<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard">Dem haben in der Folge alleridngs  wiederum zahlreiche langjährige Nutzer*innen aus der Community, die auf das alte Verhalten Eingestellt waren, widersprochen. Nach einer längeren Diskussion haben die Entwickler*innen das urpsrünglichen »Rundungs-Verhalten« nun wieder hergegestellt.<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard">Bitte stellen Sie sich beim Einsatz der Formelfrage entsprechend darauf ein.<!--Break--></div><div><div class="ilc_va_cntr_VAccordCntr" id="ilc_accordion_71_6"><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">Beispiele für zwischenzeitliche sowie ursprüngliche/neue Verhalten der Formelfrage<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_Paragraph ilc_text_block_Standard">Durch die Mitte Oktober 2020 eingeführten Änderungen an der Berechnung der Präzision ergab sich folgendes Verhalten:<!--Break--></div><div class="ilc_Code"><table class="ilc_Sourcecode" cellpadding="0" cellspacing="0" border="0">		<tr valign="top"><td class="ilc_Sourcecode"><pre class="ilc_Code ilc_code_block_Code">Formelfrage mit $r0= 1.76899 (Präzision = 0)<br/>Gerundete Lösung: 2 Bewertung durch ILIAS: Falsch, 0 Punkte<br/>Musterlösung von ILIAS: 1<br/>Formelfrage mit $r1= 1.76899 (Präzision = 1)<br/>Gerundete Lösung: 1.8 Bewertung durch ILIAS: Falsch, 0 Punkte<br/>Musterlösung von ILIAS: 1.7<br/>Formelfrage mit $r2= 1.76899 (Präzision = 2)<br/>Gerundete Lösung: 1.77 Bewertung durch ILIAS: Falsch, 0 Punkte<br/>Musterlösung von ILIAS: 1.76</pre></td></tr>		</table></div><div class="ilc_Paragraph ilc_text_block_Standard">Wenn man also bisher mit der Formelfrage gearbeitet hat, hat man die oben stehende gerundete Lösung erwartet. ILIAS hat aber die »Musterlösung« berechnet.<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard">Ende März 2021 wurde das alte Verhalten wieder hergestellt (und bei uns nun zwangsläufig übernommen):<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard">Ergibt die Berechnung der für <code class="ilc_code_inline_CodeInline">$r1</code> hinterlegten Formel eine reelle Zahl, welche mehr von Null verschiedene Nachkommastellen enthält, als durch den Parameter »Präzision« vorgegeben sind, dann muss ILIAS zur Ermittlung der »Musterlösung« diese reelle Zahl auf die geforderte Anzahl von Nachkommastellen reduzieren.  Es wird auf die geforderte Anzahl von Nachkommastellen (mathematisch) gerundet.<!--Break--></div><div class="ilc_Code"><table class="ilc_Sourcecode" cellpadding="0" cellspacing="0" border="0">		<tr valign="top"><td class="ilc_Sourcecode"><pre class="ilc_Code ilc_code_block_Code">Formelfrage mit $r0= 1.76899 (Präzision = 0)<br/>Gerundete Lösung: 2 Bewertung durch ILIAS: Richtig<br/>Musterlösung von ILIAS: 2<br/>Formelfrage mit $r1= 1.76899 (Präzision = 1)<br/>Gerundete Lösung: 1.8 Bewertung durch ILIAS: Richtig<br/>Musterlösung von ILIAS: 1.8<br/>Formelfrage mit $r2= 1.76899 (Präzision = 2)<br/>Gerundete Lösung: 1.77 Bewertung durch ILIAS: Richtig<br/>Musterlösung von ILIAS: 1.77</pre></td></tr>		</table></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><script type="text/javascript">					$(function () {						il.Accordion.add({							id: 'ilc_accordion_71_6',							toggle_class: 'il_VAccordionToggleDef',							toggle_act_class: 'il_VAccordionToggleActiveDef',							content_class: 'il_VAccordionContentDef',							width: null,							height: null,							orientation: 'vertical',							behaviour: 'AllClosed',							save_url: '',							active_head_class: 'ilc_va_iheada_VAccordIHeadActive',							int_id: '',							multi: false							});						});				</script></div><div class="ilc_Paragraph ilc_text_block_Standard">Wenn Sie eine Mathematik-Frage mit größerer Präsizion (und, dank angebundenem CAS (<a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="https://maxima.sourceforge.io">Maxima</a>) umfangreicheren Möglichkeiten) benötigen, nutzen Sie stattdessen bitte die STACK-Frage, die wie seit dem Wintersemester 2020/21 über ein Plugin zur Verfügung stellen können. <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="https://docu.ilias.de/goto_docu_lm_5824.html">Die Dokumentation dazu findet sich auf ilias.de.</a><!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><script type="text/javascript">					$(function () {						il.Accordion.add({							id: 'ilc_accordion_71_5',							toggle_class: 'il_VAccordionToggleDef',							toggle_act_class: 'il_VAccordionToggleActiveDef',							content_class: 'il_VAccordionContentDef',							width: null,							height: null,							orientation: 'vertical',							behaviour: 'AllClosed',							save_url: '',							active_head_class: 'ilc_va_iheada_VAccordIHeadActive',							int_id: '',							multi: false							});						});				</script></div><div><div class="ilc_va_cntr_VAccordCntr" id="ilc_accordion_71_7"><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">Wichtige Hinweise zur Online-Lehre für Dozent*innen<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_Paragraph ilc_text_block_Standard">Vom Rektorat und von der Studierendenvertretung (stuvus) verabschiedet: Die offiziellen <a class="ilc_link_IntLink" href="./goto.php?target=lm_2147629" target="_top" id="il__obj_2147629_71_3">Empfehlungen für online angebotene Lehrveranstaltungen</a> der Universität Stuttgart. <!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><script type="text/javascript">					$(function () {						il.Accordion.add({							id: 'ilc_accordion_71_7',							toggle_class: 'il_VAccordionToggleDef',							toggle_act_class: 'il_VAccordionToggleActiveDef',							content_class: 'il_VAccordionContentDef',							width: null,							height: null,							orientation: 'vertical',							behaviour: 'AllClosed',							save_url: '',							active_head_class: 'ilc_va_iheada_VAccordIHeadActive',							int_id: '',							multi: false							});						});				</script></div><!--Break--></div><div class="ilc_section_Information ilCOPageSection"><div><div class="ilc_va_cntr_VAccordCntr" id="ilc_accordion_71_8"><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">BMBF-Handreichung zum Thema Urheberrecht<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_Paragraph ilc_text_block_Standard">Das Bundesministerium für Bildung und Forschung hat unter dem Titel <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="https://www.bmbf.de/upload_filestore/pub/Handreichung_UrhWissG.pdf">Urheberrecht in der Wissenschaft – Ein Überblick für Forschung, Lehre und Bibliotheken</a> herausgegeben, auf die wir hiermit unverbindlich und ohne Gewähr hinweisen möchten.<!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><script type="text/javascript">					$(function () {						il.Accordion.add({							id: 'ilc_accordion_71_8',							toggle_class: 'il_VAccordionToggleDef',							toggle_act_class: 'il_VAccordionToggleActiveDef',							content_class: 'il_VAccordionContentDef',							width: null,							height: null,							orientation: 'vertical',							behaviour: 'FirstOpen',							save_url: '',							active_head_class: 'ilc_va_iheada_VAccordIHeadActive',							int_id: '',							multi: false							});						});				</script></div><div><div class="ilc_va_cntr_VAccordCntr" id="ilc_accordion_71_9"><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">Regelmäßiges Wartungsfenster: Donnerstags, 20:00–22:00<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_Paragraph ilc_text_block_Standard"><span class="ilc_text_inline_Strong">Jeden Donnerstag zwischen 20:00 Uhr und 22:00 Uhr</span> behalten wir uns vor, die Verfügbarkeit von ILIAS an der Universität Stuttgart einzuschränken bzw. die ILIAS-Installation in dieser Zeit ohne weitere Ankündigung abzuschalten, um wichtige Wartungsarbeiten an der zugrundeliegenden Server-Infrastruktur durchzuführen.<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard">Um den reibungslosen und sicheren Betrieb von ILIAS gewährleisten zu können, müssen von Zeit zu Zeit und gegebenenfalls relativ kurzfristig Aktualisierungen auf zentralen ILIAS-Servern eingespielt werden, welche Neustarts erforderlich machen und somit eine kurze Betriebsunterbrechung bedingen. Aus diesem Grund führen wir ab dem 9. August 2013 dieses regelmäßiges Wartungsfenster ein.<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard">Die Arbeiten werden unserseits grundsätzlich so schnell wie möglich ausgeführt und die tatsächliche Unterbrechung des Betriebes innerhalb des genannten Zeitfensters sollte in den allermeisten Fällen jeweils nur wenige Minuten betragen. Darüber hinaus ist eine Inanspruchnahme des Wartungsfensters nicht zwingend <span class="ilc_text_inline_Emph">jede</span> Woche notwendig.<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard"><span class="ilc_text_inline_Strong">Bitte stellen Sie sich bei Ihrer Arbeit mit ILIAS darauf ein, dass es in dem genannten Zeitraum zu kurzen, nicht explizit angekündigten Betriebsunterbrechungen kommen <span class="ilc_text_inline_Emph">kann</span>.</span><!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><script type="text/javascript">					$(function () {						il.Accordion.add({							id: 'ilc_accordion_71_9',							toggle_class: 'il_VAccordionToggleDef',							toggle_act_class: 'il_VAccordionToggleActiveDef',							content_class: 'il_VAccordionContentDef',							width: null,							height: null,							orientation: 'vertical',							behaviour: 'AllClosed',							save_url: '',							active_head_class: 'ilc_va_iheada_VAccordIHeadActive',							int_id: '',							multi: false							});						});				</script></div><!--Break--></div><!--End of Grid Cell--></div></div></div><div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6"><div class="flex-col flex-grow"><div style="height:100%"><div class="ilc_section_Information ilCOPageSection"><!--ilPageTocH241--><h2 id="ilPageTocA241" class="ilc_Paragraph ilc_heading2_Headline2"><!--PageTocPH-->Hilfe zur Anmeldung/Registrierung bei ILIAS und mehr<!--Break--></h2><!--ilPageTocH342--><h3 id="ilPageTocA342" class="ilc_Paragraph ilc_heading3_Headline3"><!--PageTocPH-->»Ich habe Fragen zu ILIAS an der Uni Stuttgart und bin …«<!--Break--></h3><div><div class="ilc_va_cntr_VAccordCntr" id="ilc_accordion_71_10"><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">Student*in an der Universität Stuttgart<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_section_Mnemonic ilCOPageSection"><div class="ilc_Paragraph ilc_text_block_Standard">Vor allem, aber keineswegs ausschließlich für Erstsemester/Studienanfänger*innen: Beachten Sie bitte auch unsere Anleitungsvideos (u.a. zum wichtigen Thema <a class="ilc_link_IntLink" href="./goto.php?target=cat_2123494" target="_top" id="il__obj_2123494_71_4">Uni-Account aktivieren</a>) und weiteren Infos unter <a class="ilc_link_IntLink" href="./goto.php?target=cat_2114195" target="_top" id="il__obj_2114195_71_5">Neu an der Uni Stuttgart? So gelingt dein digitaler Start!</a> (<a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="https://uni-stuttgart.de/loslegen">https://uni-stuttgart.de/loslegen</a>)<!--Break--></div><!--Break--></div><div><div class="ilc_va_cntr_VAccordCntr" id="ilc_accordion_71_11"><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">»Wie kann ich mich bei ILIAS anmelden?«<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><ul class="ilc_list_u_BulletedList"><li class="ilc_list_item_StandardListItem"><div class="ilc_Paragraph ilc_text_block_Standard">Als <span class="ilc_text_inline_Strong">Studentin oder Student</span> <span class="ilc_text_inline_Emph">der Universität Stuttgart</span> melden Sie sich direkt mit Ihrem <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="https://www.tik.uni-stuttgart.de/support/nutzerkonten-passwoerter-und-mailadressen/#id-2adfb839-0">Studierendenkonto</a> und dem dazugehörigen Passwort bei ILIAS an. Eine gesonderte Registrierung in ILIAS ist für eingeschriebene Studierende der Universität Stuttgart (inkl. Promotionsstudium) weder notwendig noch möglich. Ein ILIAS-Konto wird bei Ihrer ersten Anmeldung automatisch für Sie erzeugt. <span class="ilc_text_inline_Strong">Der zur Anmeldung nötige Benutzername ist der Teil vor dem <span class="ilc_text_inline_Emph">@</span> Ihrer studentischen E-Mail-Adresse (nach dem Muster <span class="ilc_text_inline_Emph">abc12345</span> bei älteren bzw. <span class="ilc_text_inline_Emph">st123456</span> bei neueren Konten), <span class="ilc_text_inline_Emph">nicht</span> die ganze E-Mail-Adresse.</span><!--Break--></div></li><li class="ilc_list_item_StandardListItem"><div class="ilc_Paragraph ilc_text_block_Standard">Zusätzlich zu dem Benutzernamen Ihres Studierendenkontos erhalten Sie <span class="ilc_text_inline_Emph">in</span> ILIAS einen lokalen Benutzernamen nach dem Schema <span class="ilc_text_inline_Emph">VornameNachname</span> (ggf. + 1 bis <span class="ilc_text_inline_Emph">n</span>, sofern ein Name bereits in ILIAS vorhanden ist, z.B. <span class="ilc_text_inline_Emph">ArnoSchmidt1</span>).<!--Break--></div></li><li class="ilc_list_item_StandardListItem"><div class="ilc_Paragraph ilc_text_block_Standard">Zur <span class="ilc_text_inline_Emph">Anmeldung</span> bei ILIAS verwenden Sie immer den Benutzername Ihres Studierendenkontos (<span class="ilc_text_inline_Emph">st123456</span>), <span class="ilc_text_inline_Emph">innerhalb</span> von ILIAS dient zu Ihrer Identifikation (z.B. zum Eintragen in Kurse oder für ILIAS-Mails) wiederum ausschließlich der ILIAS-Benutzername.<!--Break--></div></li></ul><div class="ilc_section_Attention ilCOPageSection"><div class="ilc_Paragraph ilc_text_block_Standard">Es ist leider grundsätzlich <span class="ilc_text_inline_Emph">nicht</span> möglich, ILIAS-Konten für (künftige) Studierende von irgendeiner Seite vorab zu beantragen. Wir müssen darum bitten, dass die ordentliche Immatrikulation und somit die Aktivierung des zentralen Studierendenkontos abgewartet wird.<!--Break--></div><!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">»Hilfe, ich habe Anmeldeprobleme / ich habe mein Passwort und/oder meinen Benutzernamen vergessen!«<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><ul class="ilc_list_u_BulletedList"><li class="ilc_list_item_StandardListItem"><div class="ilc_Paragraph ilc_text_block_Standard">Bitte wenden Sie sich immer und ausschließlich direkt an die <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="https://www.tik.uni-stuttgart.de/support/benutzerberatung/">studentische Benutzerberatung</a>.<!--Break--></div></li><li class="ilc_list_item_StandardListItem"><div class="ilc_Paragraph ilc_text_block_Standard">Als Studentin/Student melden sich mit Ihrem zentralen Studierendenkonto der Universität bei ILIAS an. Die Studierendenkonten werden in einem zentralen Verzeichnisdienst verwaltet, auf den ILIAS nur lesend zugreift. Deshalb lässt sich das Passwort über ILIAS nicht zurücksetzen – und deshalb kann Ihnen der ILIAS-Support bei Passwortproblemen auch nicht helfen.<!--Break--></div></li></ul><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">»Wie kann ich mein Passwort ändern?«<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><ul class="ilc_list_u_BulletedList"><li class="ilc_list_item_StandardListItem"><div class="ilc_Paragraph ilc_text_block_Standard">Ändern können Sie das Passwort Ihres studentischen Kontos über den <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="https://siam.uni-stuttgart.de/">SIAM-Selfservice</a>.<!--Break--></div></li><li class="ilc_list_item_StandardListItem"><div class="ilc_Paragraph ilc_text_block_Standard">Als Studentin/Student melden sich mit Ihrem zentralen Studierendenkonto der Universität bei ILIAS an. Die Studierendenkonten werden in einem zentralen Verzeichnisdienst verwaltet, auf den ILIAS nur lesend zugreift. Deshalb lässt sich das Passwort <span class="ilc_text_inline_Emph">in</span> ILIAS nicht ändern.<!--Break--></div></li></ul><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">»Warum kann ich in ILIAS keine E-Mails empfangen?«<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_Paragraph ilc_text_block_Standard">ILIAS ist die elektronische Lehr- und Lernplattform der Universität Stuttgart, <span class="ilc_text_inline_Emph">nicht</span> der Zugang zu Ihrem studentischen E-Mail-Postfach.<br/><br/>Das Mail-System von ILIAS dient hauptsächlich der plattforminternen Kommunikation. Es kann und soll prinzipbedingt <span class="ilc_text_inline_Emph">keinen</span> vollwertigen E-Mail-Ersatz bzw. Webmail-Client für die @stud.uni-stuttgart.de-Adressen (oder irgendwelche anderen E-Mail-Postfächer) darstellen.<br/><br/>Die Webmail-Oberfläche der Universität Stuttgart finden Sie unter <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="https://mail.uni-stuttgart.de/">mail.uni-stuttgart.de</a>.<br/> <br/>Sie können über das ILIAS-Mailsystem auch E-Mails an ILIAS-externe, vollwertige E-Mail-Adressen versenden. Ein Empfang von ("richtigen") E-Mails in ILIAS bzw. ein Zugriff auf Ihr universitäres/TIK E-Mail-Konto (bzw. die E-Mail-Adresse, die sich in Ihrem ILIAS-Profil eingetragen findet) aus ILIAS heraus ist aber <span class="ilc_text_inline_Emph">nicht</span> möglich.<br/> <br/>Es ist für Studierende auch nicht möglich, im ILIAS-Konto eine andere als die studentische E-Mail-Adresse der Universität Stuttgart einzutragen. Eine Weiterleitung an eine externe E-Mail-Adresse kann stattdessen auf dem Mail-Server eingerichtet werden.<br/> <br/>Informationen rund um das TIK-E-Mail-Konto, Zugriff auf eine Weboberfläche für das E-Mail-Postfach, Konfigurationshinweise für gängige E-Mail-Programme (z.B. Mozilla Thunderbird) sowie zur Einrichtung einer automatischen Weiterleitung an eine andere, (Universitäts-)externe E-Mail-Adresse erhalten Sie auf der folgenden Seite:<br/> <br/><a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="http://www.stud.uni-stuttgart.de/dienste/email/">www.stud.uni-stuttgart.de/dienste/email</a><br/> <br/>Innerhalb von ILIAS empfehlen wir für Mails die Einstellung "Lokal und Weiterleitung an E-Mail". Dies ist auch die Standardeinstellung. Sie stellt sicher, dass Sie Nachrichten aus ILIAS in jedem Fall in ILIAS erhalten, selbst wenn es bei der Weiterleitung an die E-Mail-Adresse zu einem Fehler (z.B. durch ein volles Ziel-Postfach) kommt.<!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">»Ich habe ein andere Frage …«<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_Paragraph ilc_text_block_Standard"><ul class="ilc_list_u_BulletedList"><li class="ilc_list_item_StandardListItem">Mit Fragen zu spezifischen Kursen, zu den Marterialien darin, zu Zugangsfristen und Beitrittsmodalitäten, Kurspasswörtern usw. wenden Sie sich bitte <span class="ilc_text_inline_Emph">immer</span> an die jeweiligen Lehrenden selbst (bzw. den/einen Kursadministrator). Im Info-Reiter des Kurses finden Sie den ILIAS-Benutzernamen des Kursbesitzers (also in der Regel der Person, die den Kurs angelegt hat) und können über ILIAS eine Mail schreiben. Weitere Kontaktdaten entnehmen Sie bitte ggf. der jeweiligen Instituts-/Lehrstuhlwebseite.</li><li class="ilc_list_item_StandardListItem">Für Fragen und Probleme rund um Ihr studentisches Benutzerkonto ist die <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="http://www.tik.uni-stuttgart.de/beratung/index.html">studentische Benutzerberatung</a> zuständig.</li><li class="ilc_list_item_StandardListItem">Zahlreiche häufige Fragen zu ILIAS und E-Learning an der Universität Stuttgart beantwortet unser Lernmodul <a class="ilc_link_IntLink" href="./goto.php?target=lm_539538" target="_top" id="il__obj_539538_71_6">E-Learning und die Nutzung von ILIAS an der Universität Stuttgart</a>.</li><li class="ilc_list_item_StandardListItem">Mit Fragen dazu oder solchen, die darüber hinaus gehen, schreiben Sie uns bitte ein E-Mail an <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="mailto:ilias-support@tik.uni-stuttgart.de">ilias-support@tik.uni-stuttgart.de</a>.</li></ul><!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><script type="text/javascript">					$(function () {						il.Accordion.add({							id: 'ilc_accordion_71_11',							toggle_class: 'il_VAccordionToggleDef',							toggle_act_class: 'il_VAccordionToggleActiveDef',							content_class: 'il_VAccordionContentDef',							width: null,							height: null,							orientation: 'vertical',							behaviour: 'AllClosed',							save_url: '',							active_head_class: 'ilc_va_iheada_VAccordIHeadActive',							int_id: '',							multi: false							});						});				</script></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">Dozent*in bzw. Mitarbeiter*in<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div><div class="ilc_va_cntr_VAccordCntr" id="ilc_accordion_71_12"><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">»Wie kann ich mich bei ILIAS anmelden? Woher bekomme ich meine Zugangsdaten?«<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_Paragraph ilc_text_block_Standard"><span class="ilc_text_inline_Strong">Dozent*innen </span>bzw. <span class="ilc_text_inline_Strong">Mitarbeiter*innen</span> melden sich direkt mir ihrem <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="http://www.tik.uni-stuttgart.de/dienste/siam/informationen/nutzerkonten/nutzer.html">Universitätsmitarbeiterkonto</a> (auch <span class="ilc_text_inline_Emph">ac-</span> oder <span class="ilc_text_inline_Emph">SIAM-Account</span> genannt) bei ILIAS an. Eine gesonderte Registrierung ist nicht notwendig und auch nicht möglich, ein ILIAS-Konto wird bei der ersten Anmeldung automatisch erzeugt. <span class="ilc_text_inline_Strong">Der Benutzername folgt <span class="ilc_text_inline_Emph">grundsätzlich</span> dem Schema <span class="ilc_text_inline_Emph">ac123456</span>. Es dient <span class="ilc_text_inline_Emph">ausschließlich</span> die Kurzfassung (also <span class="ilc_text_inline_Emph">ohne</span> @uni-stuttgart.de) zur Anmeldung.</span><!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard">Ein ac-Account wird i.d.R. für <span class="ilc_text_inline_Emph">jede</span> Person mit einem über die zentrale Verwaltung geschlossenen (Arbeits)vertrag automatisch eingerichtet. Die Account-Daten werden im Anschluss einmalig per Hauspost an das Institut/die Einrichtung geschickt, dem/der der Account zugeordnet ist. Zusätzlich können die zuständigen <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="http://www.tik.uni-stuttgart.de/dienste/siam/kontakt/#user-support">Ansprechpersonen an Ihrem Institut/Lehrstuhl/an der Einrichtung</a> die Account-Daten jederzeit aus dem sog. UniAdmin-Portal abfragen. Fragen Sie ggf. bitte vor Ort nach, wenn Sie den Hauspostbrief nicht erhalten haben.<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard"><span class="ilc_text_inline_Strong">Wichtig:</span> Sie erhalten Ihre Account-Daten <span class="ilc_text_inline_Emph">unter keinen Umständen</span> vom ILIAS-Support (vgl. auch den Menüpunkt <span class="ilc_text_inline_Emph">»Hilfe, ich habe Anmeldeprobleme …«</span> weiter unten).<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard">Dies gilt auch für externe Lehrpersonen mit über die zentrale Verwaltung geschlossenem Vertrag (vgl. auch den Menüpunkt <span class="ilc_text_inline_Emph">»Wer gilt als Mitarbeiterin/Mitarbeiter?«</span> weiter unten).<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard">Zusätzlich zu dem Benutzernamen Ihres Universitätsmitarbeiterkontos erhalten Sie dann in ILIAS einen lokalen Benutzernamen nach dem Schema <span class="ilc_text_inline_Emph">VornameNachname</span> (ggf. + 1 bis <span class="ilc_text_inline_Emph">n</span>, sofern ein Name bereits in ILIAS vorhanden ist, z.B. <span class="ilc_text_inline_Emph">ArnoSchmidt3</span>). Zur Anmeldung bei ILIAS verwenden Sie immer ausschließlich den Benutzernamen Ihren ac-Benutzernamen, innerhalb von ILIAS dient zu Ihrer Identifikation (z.B. für ILIAS-Mails) hingegen nur der ILIAS-Benutzername.<!--Break--></div><div class="ilc_section_Mnemonic ilCOPageSection"><div class="ilc_Paragraph ilc_text_block_Standard">Es ist leider nicht möglich, ILIAS-Konten für neue Mitarbeiter*innen vorab zu beantragen. Wir müssen Sie bitten, auf die Zuteilung Ihres Universitätsmitarbeiterkontos warten, bevor Sie ILIAS nutzen können.<!--Break--></div><!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">»Hilfe, ich habe Anmeldeprobleme / ich habe mein Passwort und/oder meinen Benutzernamen vergessen!«<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_Paragraph ilc_text_block_Standard">Bei Ihrem Universitätsmitarbeiterkonto (ac-/SIAM-Account) handelt es sich um Ihr zentrales Konto der Universität, welches in einem zentralen Verzeichnisdienst verwaltet wird. Auf dieses Verzeichnis greift ILIAS ausschließlich lesend zu und <span class="ilc_text_inline_Emph">kann</span> daher Ihr Passwort nicht zurücksetzen. (Auch der ILIAS-Support <span class="ilc_text_inline_Emph">kann</span> Ihnen daher kein neues Passwort zuschicken o.ä.)<br/><br/>Was Ihren Benutzernamen angeht, so denken Sie bitte daran, dass ausschließlich Ihr ac-Benutzername (Schema <span class="ilc_text_inline_Emph">ac123456</span>) zur Anmeldung dient.<br/><br/>Den Login prüfen sowie Ihr Passwort ändern können Sie über den <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="https://siam.uni-stuttgart.de/">SIAM-Selfservice.</a><br/><br/>Zurücksetzen lassen können Sie das Passwort ausschließlich durch die zuständige(n) KollegeInnen an Ihrem Institut/Ihrer Einrichtung (was in der Regel die schnellste und einfachste Variante sein sollte) bzw. <span class="ilc_text_inline_Emph">notfalls</span> auch der zentrale <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="mailto:uniadmin-support@tik.uni-stuttgart.de">UniAdmin-Support</a>.<br/><br/>Es gibt an jedem Institut/jeder Einrichtung mindestens eine(n), meist aber mehrere MitarbeiterInnen, die dafür zuständig sind und über einen entsprechenden Zugang zum sog. UniAdmin-Portal verfügen. <span class="ilc_text_inline_Emph">Wer das in Ihrem Fall ist, müssen Sie ggf. bitte vor Ort an Institut/an der Einrichtung erfragen.</span><!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">»Wie kann ich mein Passwort ändern?«<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_Paragraph ilc_text_block_Standard">Ändern können Sie das Passwort Ihres ac-/SIAM-Accounts über den <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="https://siam.uni-stuttgart.de/">SIAM-Selfservice</a>.<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard">Als Mitarbeiterin/Mitarbeiter melden sich mit Ihrem zentralen Universitätskonto der Universität bei ILIAS an. Dieses Konto wird in einem zentralen Verzeichnisdienst verwaltet, auf den ILIAS nur lesend zugreift. Deshalb lässt sich das Passwort über ILIAS nicht ändern.<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard">Bitte beachten Sie: Sie ändern Ihr Passwort damit für <span class="ilc_text_inline_Emph">alle</span> Dienste, bei denen Sie sich mit Ihrem ac-Account anmelden. Es prinzipbedingt nicht möglich, dass Passwort <span class="ilc_text_inline_Emph">nur</span> für ILIAS zu ändern.<!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">»Mein Name und/oder meine E-Mail-Adresse hat sich geändert …«<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><!--ilPageTocH264--><h2 id="ilPageTocA264" class="ilc_Paragraph ilc_heading2_Headline2"><!--PageTocPH-->Namensänderung<!--Break--></h2><div class="ilc_Paragraph ilc_text_block_Standard">Ihr Vor- und Nachname, aus denen sich auch automatisch Ihr ILIAS-Benutzername abgeleitet werden bei der ersten Anmeldung <span class="ilc_text_inline_Emph">einmalig</span> aus dem zentralen Verzeichnisdienst der Universität Stuttgart übernommen.<br/><br/>Ändert sich danach Ihr Name (z.B. durch Heirat), schreiben Sie uns bitte eine E-Mail an <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="mailto:ilias-support@tik.uni-stuttgart.de">ilias-support@tik.uni-stuttgart.de</a>.<!--Break--></div><div class="ilc_section_Special ilCOPageSection"><div class="ilc_Paragraph ilc_text_block_Standard"><span class="ilc_text_inline_Emph">Wichtig:</span> Bitte verwenden Sie zur Beantragung einer Stammdatenänderung ausschließlich Ihre E-Mail-Adresse der Universität Stuttgart.<br/><br/>Sie können eine Namensänderung darüber hinaus nur für sich selbst beantragen, nicht für Dritte.<!--Break--></div><!--Break--></div><!--ilPageTocH267--><h2 id="ilPageTocA267" class="ilc_Paragraph ilc_heading2_Headline2"><!--PageTocPH-->E-Mail-Adresse<!--Break--></h2><div class="ilc_Paragraph ilc_text_block_Standard">Auch die in Ihrem ILIAS-Konto hinterlegte E-Mail-Adresse wird bei Ihrer ersten Anmeldung aus dem zentralen Verzeichnisdienst übernommen.<br/><br/>Sollten Sie diese Adresse als »falsch« empfinden, wenden Sie sich für Hilfestellung dazu bitte mit einer gesonderten E-Mail an <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="mailto:uniadmin-support@tik.uni-stuttgart.de">uniadmin-support@tik.uni-stuttgart.de</a>.<!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">»Wer gilt als Mitarbeiterin/Mitarbeiter?«<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_Paragraph ilc_text_block_Standard">Im Kontext von ILIAS operieren wir mit einem Verständnis des Begriffs »Mitarbeiterin/Mitarbeiter«, welches sich u.U. von der Sichtweise an Instituten, Lehrstühlen oder anderen Einrichtungen unterscheidet. Mitarbeiterin/Mitarbeiter ist jede Person, die über einen (wie auch immer gearteten) durch die zentrale Verwaltung geschlossenen Arbeitsvertrag verfügt und für die somit <span class="ilc_text_inline_Emph">automatisch</span> somit ein zentrales Benutzerkonto (ac-/SIAM-Account) existiert.<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard">Hinweis: Die <span class="ilc_text_inline_Emph">Einrichtung</span> des Kontos an sich geschieht zwar zentral und automatisch, die Ausgabe der Account-Daten erfolgt aber dezentral über die Institute und Einrichtungen – und u.U. erst auf ausdrückliche Nachfrage bei den dort <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="http://www.tik.uni-stuttgart.de/dienste/siam/kontakt/#user-support">zuständigen Ansprechpersonen</a>.<!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">»Mein ac-Account ist nicht mehr gültig, ich muss aber dennoch weiterhin ILIAS-Kurse betreuen …«<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_Paragraph ilc_text_block_Standard">Es kommt vor, dass Mitarbeiterinnen/Mitarbeiter ausscheiden, etwa aufgrund des Wechsels an ein externes Institut. Der ac-Account verliert damit in der Regel seine Gültigkeit – und dadurch ist dann natürlich auch keine Anmeldung bei ILIAS mehr möglich. Solche Nutzer gelten aus der ILIAS-Sicht ab diesem Zeitpunkt als <span class="ilc_text_inline_Emph">externe</span> Nutzer (vgl. auch »Wer gilt als Mitarbeiterin/Mitarbeiter?« oben sowie die entsprechenden Abschnitte für externe Nutzer(gruppen) in dieser Hilfe weiter unten).<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard">Sind Sie davon betroffen und sollen aber im Rahmen einer Lehrverflichtung o.ä. dennoch weiterhin Kurse in ILIAS betreuen? Kein Problem – wir können Ihr bestehendes ILIAS-Konto vom der Anmeldung mit Ihrem alten ac-Account trennen und mit einem gs-Gastkonto verknüpfen. <span class="ilc_text_inline_Emph">Wichtig ist aber:</span> Den Antrag hierauf können Sie <span class="ilc_text_inline_Emph">nicht</span> selbst stellen. Dies muss <span class="ilc_text_inline_Emph">immer</span> durch eine Mitarbeiterin oder einen Mitarbeiter des Instituts/der Einrichtung <span class="ilc_text_inline_Emph">der Universität Stuttgart</span> (per E-Mail an <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="mailto:ilias-support@tik.uni-stuttgart.de">ilias-support@tik.uni-stuttgart.de</a>) geschehen, über welche(s) die Lehrverpflichtung geregelt wird.<!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">»Ich habe eine andere Frage …«<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_Paragraph ilc_text_block_Standard"><ul class="ilc_list_u_BulletedList"><li class="ilc_list_item_StandardListItem">Mit Fragen rund um Ihr zentrales Konto wenden Sie sich bitte an die Ansprechenpartner an Ihrem Institut/Ihrer Einrichtung oder an den <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="mailto:uniadmin-support@tik.uni-stuttgart.de">UniAdmin-Support</a>.</li><li class="ilc_list_item_StandardListItem">Zahlreiche häufige Fragen zu ILIAS und E-Learning an der Universität Stuttgart beantwortet unser Lernmodul <a class="ilc_link_IntLink" href="./goto.php?target=lm_539538" target="_top" id="il__obj_539538_71_7">E-Learning und die Nutzung von ILIAS an der Universität Stuttgart</a>.</li><li class="ilc_list_item_StandardListItem">Mit Fragen dazu oder solchen, die darüber hinaus gehen, schreiben Sie uns bitte ein E-Mail an <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="mailto:ilias-support@tik.uni-stuttgart.de">ilias-support@tik.uni-stuttgart.de</a>.</li></ul><!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><script type="text/javascript">					$(function () {						il.Accordion.add({							id: 'ilc_accordion_71_12',							toggle_class: 'il_VAccordionToggleDef',							toggle_act_class: 'il_VAccordionToggleActiveDef',							content_class: 'il_VAccordionContentDef',							width: null,							height: null,							orientation: 'vertical',							behaviour: 'AllClosed',							save_url: '',							active_head_class: 'ilc_va_iheada_VAccordIHeadActive',							int_id: '',							multi: false							});						});				</script></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">Doktorand*in<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_Paragraph ilc_text_block_Standard">Sind Sie als <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="https://www.uni-stuttgart.de/forschung/promotion/einschreibung/">Promotionsstudentin/-student immatrikuliert</a>, gelten für Sie die Hinweise für Studierende der Universität Stuttgart (vgl. oben).<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard">Sind Sie hingegen <span class="ilc_text_inline_Emph">nicht</span> immatrikuliert, gelten die Hinweise für Studierende <span class="ilc_text_inline_Emph">anderer Hochschulen</span> (vgl. unten), d.h. ein zeitlich befristetes zentrales gs-Konto zur Nutzung (auch) für ILIAS (bzw. ggf. dessen jeweilige Verlängung) muss vom Institut/Lehrstuhl für Sie beantragt werden (<a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="https://www.tik.uni-stuttgart.de/dienste/siam/">beim SIAM</a>). Sie können den Antrag grundsätzlich nicht selbst stellen.<!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">Student*in von einer anderen Hochschule<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div><div class="ilc_va_cntr_VAccordCntr" id="ilc_accordion_71_13"><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">… von der Universität Hohenheim oder Tübingen, vom KIT oder von der PH Ludwigsburg<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_Paragraph ilc_text_block_Standard">Dozierende der Universitäten <span class="ilc_text_inline_Strong">Stuttgart</span>, <span class="ilc_text_inline_Strong">Hohenheim</span>, <span class="ilc_text_inline_Strong">Tübingen</span> und des <span class="ilc_text_inline_Strong">KIT</span> sowie der <span class="ilc_text_inline_Strong">PH Ludwigsburg</span> haben die Möglichkeit, ihre lokalen ILIAS-Kurse für Studierende einer oder mehrerer der jeweils vier anderen Hochschulen über <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="http://www.campusconnect.de"><span class="ilc_text_inline_Strong">CampusConnect</span></a> bzw. den so genannten <span class="ilc_text_inline_Strong">E-Learning Community Server (ECS)</span> freizugeben.<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard"><span class="ilc_text_inline_Strong">Dieser Mechanismus macht die Beantragung von Zugangsdaten für Studierende der Hochschulen des o.g. Kooperationsverbundes zum Stuttgarter ILIAS überflüssig. Der Zugriff (auch der erneute) erfolgt für die Studierenden immer über die jeweilige Heimat-Lernplattform. Das bedeutet, die Studierenden erhalten und benötigen <span class="ilc_text_inline_Emph">zu keinem Zeitpunkt</span> Anmeldedaten für das Stuttgarter ILIAS – darum kümmert sich CampusConnect (auf basis einer sog. Tokenauthentifizierung) im Hintergrund automatisch.</span><!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard">Die Freigabe wird von den Lehrenden/Kursverantwortlichen für einzelne Kurse vorgenommen, sprechen Sie diese als Studentin/Student ggf. also bitte direkt darauf an. Kontakdaten von Lehrenden finden Sie über das <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="https://www.student.uni-stuttgart.de/studienorganisation/vorlesungsverzeichnis/">Vorlesungsverzeichnis</a> bzw. die entsprechende Instituts-/Einrichtungs-Website. (Bitte sehen Sie davon ab, beim ILIAS-Support nach den Kontaktdaten von Lehrpersonen zu fragen.)<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard"><span class="ilc_text_inline_Strong">Ausnahmen</span> für die Freigabe einzelner Kurse bilden – ausschließlich bezogen auf die Universität Hohenheim – an der Universität Stuttgart derzeit die Studiengänge<ul class="ilc_list_u_BulletedList"><li class="ilc_list_item_StandardListItem"><span class="ilc_text_inline_Strong"><span class="ilc_text_inline_Emph">Anglistik,</span></span></li><li class="ilc_list_item_StandardListItem"><span class="ilc_text_inline_Strong"><span class="ilc_text_inline_Emph">Germanistik</span></span>,</li><li class="ilc_list_item_StandardListItem"><span class="ilc_text_inline_Strong"><span class="ilc_text_inline_Emph">Linguistik</span></span>,</li><li class="ilc_list_item_StandardListItem"><span class="ilc_text_inline_Emph"><span class="ilc_text_inline_Strong">Wirtschaftsinformatik </span></span>und </li><li class="ilc_list_item_StandardListItem"><span class="ilc_text_inline_Strong"><span class="ilc_text_inline_Emph">Sportwissenschaft</span></span>.</li></ul>Diese werden jeweils semesterweise als Ganzes auf Kategorie-Ebene <span class="ilc_text_inline_Strong">nach Hohenheim</span> freigegeben. Es müssen und sollten, um den Zugriff durch Hohenheimer Studierende zu ermöglichen, für <span class="ilc_text_inline_Emph">diese</span> fünf Studiengänge also <span class="ilc_text_inline_Emph">keine</span> einzelnen Kurse freigeben werden.<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard">Weitere Informationen zur Kursfreigabe finden sich auf der Seite <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="https://uni-stuttgart.de/ilias-kursfreigabe">Freigabe von Kursen für Studierende der Universitäten in Hohenheim, Ulm, Tübingen, des KIT sowie der PHLB</a> in unserem ILIAS-Support-Lernmodul.<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard">Sollten Problem mit der Freigabe auftreten, wenden Sie sich bitte zunächst immer an die Lernplattform-Support an Ihrer eigenen Hochschule. Die Kolleginnen und Kollegen von dort setzten sich dann ggf. zur weiteren Klärung mit uns in Verbindung.<!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">… von der Staatlichen Hochschule für Musik und Darstellende Kunst Stuttgart (HMDK)<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_Paragraph ilc_text_block_Standard"><span class="ilc_text_inline_Strong">Als MHDK-Student*in klären Sie zunächst bitte unbedingt, ob Sie ggf. auch an der Universität Stuttgart immatrikuliert sind und somit ohnehin ein zentrales Studierendenkonto erhalten, welches Sie für den Zugriff auf ILIAS natürlich dann nutzen sollen und müssen. In diesem, <span class="ilc_text_inline_Emph">dem häufigsten Fall</span> gelten für Sie die Hinweise für Studierende der Universität Stuttgart (siehe oben).</span><!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard">Sind Sie definitiv <span class="ilc_text_inline_Emph">nur</span> an der HMDK immatrikuliert, erhalten Sie auf Nachfrage einen Code zur Registrierung eines neuen (oder Reaktivierung eines bestehenden, abgelaufenen) ILIAS-Kontos von Herrn <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="https://www.hmdk-stuttgart.de/unsere-hochschule/personenverzeichnis/?no_cache=1&L=0&tx_wtdirectory_pi1%5Bshow%5D=4&cHash=8581c8e8eecc0076e024b3bd352b8fa8">Prof. Dr. Hermann</a>, dem Prorektor für Studium und Lehre an der HMDK. (Stand: Oktober 2016)<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard">Die Zugänge sind immer nur für das jeweils aktuelle Semseter gültig. Für eine Verlängerung im nächsten Semester muss bei Herrn Hermann entsprechend ein neuer Code erfragt werden. <!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">… von der Staatlichen Akademie der Bildenden Künste Stuttgart (ABK)<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_Paragraph ilc_text_block_Standard"><span class="ilc_text_inline_Strong">Als ABK-Student*in klären Sie zunächst bitte unbedingt, ob Sie ggf. auch an der Universität Stuttgart immatrikuliert sind und somit ohnehin ein zentrales Studierendenkonto erhalten, welches Sie für den Zugriff auf ILIAS natürlich dann nutzen sollen und müssen. In diesem <span class="ilc_text_inline_Emph">(häufigen!)</span> Fall gelten für Sie die Hinweise für Studierende der Universität Stuttgart (siehe oben).</span><!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard">Sind Sie definitiv <span class="ilc_text_inline_Emph">nur</span> an der ABK immatrikuliert, erhalten Sie auf Nachfrage einen Code zur Registrierung eines neuen (oder Reaktivierung eines bestehenden, abgelaufenen) ILIAS-Kontos von Frau <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="https://www.abk-stuttgart.de/studium/studieren/pruefungsamt.html">Maike Orth</a> vom Prüfungsamt der ABK. (Stand: September 2020)<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard">Die Zugänge sind immer nur für das jeweils aktuelle Semseter gültig. Für eine Verlängerung im nächsten Semester muss bei Frau Orth entsprechend ein neuer Code erfragt werden. <!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">… von einer anderen Hochschule<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_Paragraph ilc_text_block_Standard"><span class="ilc_text_inline_Strong">Externe</span> (ausdrücklich an einer anderen Hochschule eingeschriebene) <span class="ilc_text_inline_Strong">Studierende,</span> die über kein Universtitässtudierendenkonto samt E-Mail-Adresse der Universität Stuttgart verfügen und nicht einer der o.g. Hochschulen angehören, können <span class="ilc_text_inline_Strong">auf Antrag durch ein Institut/einen Lehrstuhl/eine Einrichtung bzw. eine Mitarbeiterin oder einen Mitarbeiter</span> der Universität Stuttgart ein (in der Regel auf ein Semester) <span class="ilc_text_inline_Strong">zeitlich befristetes, zentrales Gastkonto</span> (gs-Konto) erhalten, welches auch für ILIAS nutzbar ist.<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard">Das bedeutet, externe Studierende müssen sich in der Regel an die Dozentin/den Dozenten bzw. das Institut/den Lehrstuhl/die Einrichtung wenden, deren/dessen Veranstaltung(en) sie besuchen möchten. Kontakdaten von Lehrenden finden Sie über das <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="http://www.uni-stuttgart.de/studieren/studium/vvz/">Vorlesungsverzeichnis</a> bzw. die entsprechende Instituts-/Einrichtungs-Website. Bitte sehen Sie davon ab, beim ILIAS-Support nach den Kontaktdaten von Lehrpersonen zu fragen.<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard">Mit den gs-Zuangsdaten, die solche Gaststudierende über das jeweilige Insitut erhalten, ist eine direkte Anmledung bei ILIAS möglich. Eine Registrierung entfällt.<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard"><span class="ilc_text_inline_Strong">Externe Studierende können gs-Konten oder deren erneute Freischaltung/Verlängerung grundsätzlich <span class="ilc_text_inline_Important"><span class="ilc_text_inline_Emph">nicht</span></span> für sich selbst beantragen.</span><!--Break--></div><div class="ilc_section_Attention ilCOPageSection"><div class="ilc_Paragraph ilc_text_block_Standard">Ausdrücklich davon <span class="ilc_text_inline_Emph">ausgenommen</span> sind Studierende, die von einer anderen Hochschule an die Universität Stuttgart wechseln, also in absehbarer Zeit hier immatrikuliert sein werden. In solchen Fällen muss bitte die ordentlich Immatrikulation in Stuttgart und damit die Aktivierung des regulären Studierendenkontos abgewartet werden.<!--Break--></div><!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">Nur für HMDK- und ABK-Student*innen: »Ich habe einen Code erhalten – wie kann ich ein Konto registrieren oder reaktivieren?«<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_Paragraph ilc_text_block_Standard">Für ein <span class="ilc_text_inline_Strong"><span class="ilc_text_inline_Emph">neues</span></span> Konto nutzen Sie bitte das <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="https://ilias3.uni-stuttgart.de/register.php?lang=de">Registrierungsformular</a>.<br/><br/>Die <span class="ilc_text_inline_Strong"><span class="ilc_text_inline_Emph">Reaktivierung</span></span> eines <span class="ilc_text_inline_Strong"><span class="ilc_text_inline_Emph">bestehenden</span></span>, <span class="ilc_text_inline_Strong"><span class="ilc_text_inline_Emph">abgelaufenen</span></span> Kontos geschieht einfach im Zuge der normalen Anmeldung (mit den bekannten Zugangsdaten – der Code ist <span class="ilc_text_inline_Emph">kein</span> neues Passwort, er kommt einmalig erst nach der Anmeldung zum Tragen).<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard">Für beide Fälle halten wir bebilderte Anleitungen bereit:<ul class="ilc_list_u_BulletedList"><li class="ilc_list_item_StandardListItem"><a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="https://ilias3.uni-stuttgart.de/goto_Uni_Stuttgart_wiki_wpage_2813_363814.html">Registrierung eines neuen Kontos</a></li><li class="ilc_list_item_StandardListItem"><a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="https://ilias3.uni-stuttgart.de/goto_Uni_Stuttgart_wiki_wpage_2814_363814.html">Reaktivierung eines bestehenden, abgelaufenen Kontos</a></li></ul><!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">»Hilfe, ich verfüge über ein Konto und habe mein Passwort/meinen Benutzernamen vergessen!«<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_Paragraph ilc_text_block_Standard">Studierende der Universitäten Hohenheim oder Tübingen, des KIT sowie der PH Ludwigsburg greifen immer über ihre Heimat-Lernplattform auf die freigegebenen Kurse zu und benötigen keine Zugangsdaten zum Stuttgarter ILIAS und daher hier auch keine »Passwort vergessen?«- oder »Benutzername vergessen?«-Funktion.<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard">Externe Studierende mit gs-Konto, die ihr Passwort und/oder ihren Benutzernamen vergessen haben, wenden sich bitte (in der Regel persönlich) an die <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="https://www.tik.uni-stuttgart.de/beratung/support/index.html">Benutzerberatung</a> oder ggf. an die/den Institutsverantwortliche(n), von welcher/welchem sie die gs-Zugangsdaten ursprünglich erhalten haben. Da es sich um zentrale Konten handelt, können ILIAS bzw. der ILIAS-Support grundsätzlich <span class="ilc_text_inline_Emph">nicht</span> helfen.<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard">HMDK- und ABK-Student*innen <span class="ilc_text_inline_Emph">mit Code-basierten, lokalen ILIAS-Konten</span> (Anmeldung mit Benutzername nach dem Schema <span class="ilc_text_inline_Emph">VornameNachname</span>) nutzen bitte die "<a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="https://ilias3.uni-stuttgart.de/pwassist.php?lang=de">Passwort vergessen?</a>"- bzw. "<a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="https://uni-s.de/ilias-benutzername-vergessen">Benutzername vergessen?</a>"-Funktion von ILIAS.<!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">»Ich habe eine andere Frage …«<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_Paragraph ilc_text_block_Standard"><ul class="ilc_list_u_BulletedList"><li class="ilc_list_item_StandardListItem">Mit Fragen zu spezifischen Kursen, zu den Marterialien darin, zu Zugangsfristen und Beitrittsmodalitäten, Kurspasswörtern usw. wenden Sie sich bitte <span class="ilc_text_inline_Emph">immer</span> an die jeweiligen Lehrenden selbst (bzw. den/einen Kursadministrator). Im Info-Reiter des Kurses finden Sie den ILIAS-Benutzernamen des Kursbesizters (also in der Regel der Person, die den Kurs angelegt hat) und können über ILIAS eine Mail schreiben. Weitere Kontaktdaten entnehmen Sie bitte ggf. der jeweiligen Instituts-/Lehrstuhlwebseite.</li><li class="ilc_list_item_StandardListItem">Zahlreiche häufige Fragen zu ILIAS und E-Learning an der Universität Stuttgart beantwortet unser Lernmodul <a class="ilc_link_IntLink" href="./goto.php?target=lm_539538" target="_top" id="il__obj_539538_71_8">E-Learning und die Nutzung von ILIAS an der Universität Stuttgart</a>.</li><li class="ilc_list_item_StandardListItem">Mit Fragen dazu oder solchen, die darüber hinaus gehen, schreiben Sie uns bitte ein E-Mail an <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="mailto:ilias-support@tik.uni-stuttgart.de">ilias-support@tik.uni-stuttgart.de</a>.</li></ul><!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><script type="text/javascript">					$(function () {						il.Accordion.add({							id: 'ilc_accordion_71_13',							toggle_class: 'il_VAccordionToggleDef',							toggle_act_class: 'il_VAccordionToggleActiveDef',							content_class: 'il_VAccordionContentDef',							width: null,							height: null,							orientation: 'vertical',							behaviour: 'AllClosed',							save_url: '',							active_head_class: 'ilc_va_iheada_VAccordIHeadActive',							int_id: '',							multi: false							});						});				</script></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">Externe Lehrkraft<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div><div class="ilc_va_cntr_VAccordCntr" id="ilc_accordion_71_14"><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">»Wie erhalte ich Zugang zu ILIAS?«<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_Paragraph ilc_text_block_Standard"><span class="ilc_text_inline_Strong">Externe Lehrpersonen</span>, die über kein zentrales Universitätskonto (ac- oder SIAM-Account, vgl. unsere Informationen zur Mitarbeiteranmeldung oben) verfügen, können <span class="ilc_text_inline_Strong">auf Antrag durch ein Institut/einen Lehrstuhl/eine Einrichtung bzw. eine Mitarbeiterin oder einen Mitarbeiter</span> der Universität Stuttgart ein <span class="ilc_text_inline_Strong">zeitlich befristetes, zentrales</span><span class="ilc_text_inline_Strong"> Gastkonto</span> (gs-Konto) erhalten, das sich (auch) für ILIAS nutzen lässt.<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard">Das bedeutet, solche externen Lehrenden müssen sich in der Regel an das Institut/den Lehrstuhl/die Einrichtung wenden, für die sie tätig sind.<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard">Auch die Verlängerung eines bestehenden, abgelaufenen Kontos muss vom Institut/von der Einrichtung beantragt werden.<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard"><span class="ilc_text_inline_Strong">Externe Lehrende können ein Konto (bzw. die Verlängerung) grundsätzlich <span class="ilc_text_inline_Important"><span class="ilc_text_inline_Emph">nicht</span></span> für sich selbst beantragen.</span><!--Break--></div><div class="ilc_section_Attention ilCOPageSection"><div class="ilc_Paragraph ilc_text_block_Standard">Achtung: Diese Regelung gilt nur dann, wenn Sie definitiv keinen (wie auch immer gearteten) Arbeitsvertrag über die zentrale Verwaltung der Universität Stuttgart erhalten. Wenn letzteres (doch) der Fall ist, erhalten Sie auch einen ac-Account und sind aus unserer Sicht damit Mitarbeiterin/Mitarbeiter, d.h. für Sie gelten die die entsprechende Informationen weiter oben.<br/><br/> Bitte beachten Sie: Der ILIAS-Support hat mit der Erstellung, Verwaltung und/oder Zuteilung der ac-Accounts nichts zu tun.<!--Break--></div><!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">»Ich verfüge über einen gs-Account. Kann ich diesen auch für ILIAS nutzen?«<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_Paragraph ilc_text_block_Standard">Seit dem 31.07.2018 ja. Für <span class="ilc_text_inline_Emph">neue</span> externe Lehrkräfte ist dies sogar die einzige Möglichkeit. <!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard">Verfügen Sie hingegen noch über ein altes, Code-basiertes, lokales ILIAS-Konto (Anmeldung mit Benuzternamen nach dem Schema <span class="ilc_text_inline_Emph">VornameNachname</span>), können Sie dies bis zum Ende des laufenden Gültigkeitzeitraums weiternutzen. Es wird als lokales Konto aber nicht verlängt. Erhalten Sie vom Institut/der Einrichtung ein gs-Konto, können wir die Anmeldung ihres vorhandenen ILIAS-Kontos darauf umstellen. Schreiben Sie uns dazu bitte an <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="mailto:ilias-support@tik.uni-stuttgart.de">ilias-support@tik.uni-stuttgart.de</a>, <span class="ilc_text_inline_Emph">unbedingt</span> aber von der Adresse aus, die auch in Ihrem ILIAS-Konto hinterlegt ist und <span class="ilc_text_inline_Emph">bevor</span> Sie versuche, sich mit dem gs-Konto in ILIAS einzuloggen.<!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">»Ich habe einen Code erhalten – wie kann ich ein Konto registrieren oder reaktivieren?«<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_Paragraph ilc_text_block_Standard">Für ein <span class="ilc_text_inline_Strong"><span class="ilc_text_inline_Emph">neues</span></span> Konto nutzen Sie bitte das <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="https://ilias3.uni-stuttgart.de/register.php?lang=de">Registrierungsformular</a>.<br/><br/>Die <span class="ilc_text_inline_Strong"><span class="ilc_text_inline_Emph">Reaktivierung</span></span> eines <span class="ilc_text_inline_Strong"><span class="ilc_text_inline_Emph">bestehenden</span></span>, <span class="ilc_text_inline_Strong"><span class="ilc_text_inline_Emph">abgelaufenen</span></span> Kontos geschieht einfach im Zuge der normalen Anmeldung (mit den bekannten Zugangsdaten – der Code ist <span class="ilc_text_inline_Emph">kein</span> neues Passwort, er kommt einmalig erst nach der Anmeldung zum Tragen).<!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">»Hilfe, ich verfüge über ein Konto und habe mein Passwort/meinen Benutzernamen vergessen!«<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_Paragraph ilc_text_block_Standard">Externe Lehrkräfte mit gs-Konto, die ihr Passwort und/oder ihren Benutzernamen vergessen haben, wenden sich bitte an die/den Institutsverantwortliche(n), von welcher/welchem sie die gs-Zugangsdaten ursprünglich erhalten haben. Da es sich um zentrale Konten handelt, können ILIAS bzw. der ILIAS-Support grundsätzlich <span class="ilc_text_inline_Emph">nicht</span> helfen.<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard">Externe Lehrende, die noch ein altes, lokales ILIAS-Konto (Benutzernamensschema <span class="ilc_text_inline_Emph">VornameNachname</span>) verwenden, nutzen bitte die "<a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="https://ilias3.uni-stuttgart.de/pwassist.php?lang=de">Passwort vergessen?</a>"- bzw. "<a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="https://uni-s.de/ilias-benutzername-vergessen">Benutzername vergessen?</a>"-Funktion von ILIAS.<!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">»Ich habe eine andere Frage …«<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_Paragraph ilc_text_block_Standard"><ul class="ilc_list_u_BulletedList"><li class="ilc_list_item_StandardListItem">Zahlreiche häufige Fragen zu ILIAS und E-Learning an der Universität Stuttgart beantwortet unser Lernmodul <a class="ilc_link_IntLink" href="./goto.php?target=lm_539538" target="_top" id="il__obj_539538_71_9">E-Learning und die Nutzung von ILIAS an der Universität Stuttgart</a>.</li><li class="ilc_list_item_StandardListItem">Mit Fragen dazu oder solchen, die darüber hinaus gehen, schreiben Sie uns bitte ein E-Mail an <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="mailto:ilias-support@tik.uni-stuttgart.de">ilias-support@tik.uni-stuttgart.de</a>.</li></ul><!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><script type="text/javascript">					$(function () {						il.Accordion.add({							id: 'ilc_accordion_71_14',							toggle_class: 'il_VAccordionToggleDef',							toggle_act_class: 'il_VAccordionToggleActiveDef',							content_class: 'il_VAccordionContentDef',							width: null,							height: null,							orientation: 'vertical',							behaviour: 'AllClosed',							save_url: '',							active_head_class: 'ilc_va_iheada_VAccordIHeadActive',							int_id: '',							multi: false							});						});				</script></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">Gasthörer*in (Studium Generale)<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_section_Attention ilCOPageSection"><div class="ilc_Paragraph ilc_text_block_Standard"><span class="ilc_text_inline_Strong">Grundsätzlicher Hinweis:</span> Beim ILIAS-Zugang für Gasthörerinnen und Gasthörer handelt es sich ausdrücklich <span class="ilc_text_inline_Emph">nicht</span> um eine von der Gasthörergebühr abgedeckte Leistung, sondern um ein <span class="ilc_text_inline_Emph">freiwilliges und kostenloses Zusatzangebot</span> der Universität Stuttgart im Rahmen des Studium Generale. Ergänzend zu den Informationen in diesem Hilfe-Menü sowie in unserem Lernmodul <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="https://ilias3.uni-stuttgart.de/goto_Uni_Stuttgart_pg_315441_539538.html">E-Learning und die Nutzung von ILIAS an der Universität Stuttgart</a> können wir aus diesem Grund nur einen eingeschränkten Support per E-Mail sowie <span class="ilc_text_inline_Emph">grundsätzlich </span><span class="ilc_text_inline_Emph">keinerlei</span> telefonische Unterstützung für Gasthörerinnen und Gasthörer anbieten.<!--Break--></div><!--Break--></div><div><div class="ilc_va_cntr_VAccordCntr" id="ilc_accordion_71_15"><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">»Wie erhalte ich Zugang zu ILIAS?«<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_Paragraph ilc_text_block_Standard">Als Gasthörerin oder Gasthörer erhalten Sie immer nur für die Dauer eines Semesters einen Zugang zu ILIAS. Gasthörerkonten in ILIAS <span class="ilc_text_inline_Emph">nicht</span> durch den ILIAS-Support angelegt oder verlängert. Stattdessen erhalten Sie mit Ihrer (ggf. erneuten) Einschreibung einen Code, mit dem Sie selbst entweder a) ein neues ILIAS-Konto registrieren oder b) ein bereits vorhandenes, <span class="ilc_text_inline_Emph">abgelaufenes</span> Konto für ein weiteres Semester (bis zum 30.9. bzw. 31.3.) reaktivieren können (s.u.).<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard"><span class="ilc_text_inline_Emph">Hinweise zum Zugang zu ILIAS</span><!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard"><ul class="ilc_list_u_BulletedList"><li class="ilc_list_item_StandardListItem">Den Code erhalten Sie ausschließlich von der <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="http://www.uni-stuttgart.de/sg/gasthoerer/ilias.html">Registrierungsstelle für das Gasthörerstudium</a>, unter keinen Umständen aber vom ILIAS-Support. Jede(r) Gasthörer(in) erhält pro Semester genau <span class="ilc_text_inline_Emph">einen</span> Code. Dieser ist genau <span class="ilc_text_inline_Emph">einmal</span> zur Registrierung eines neuen <span class="ilc_text_inline_Emph">oder</span> Reaktivierung eines bestehenden, abgelaufenen Kontos gültig.</li><li class="ilc_list_item_StandardListItem">Die Reaktivierung ist erst nach dem tatsächlichen Ablauf eines bestehenden Kontos möglich, nicht vorher. Bis Ihr bestehendes Konto abgelaufen ist, bewahren Sie den Code ggf. bitte einfach auf.</li><li class="ilc_list_item_StandardListItem">Der Code ist <span class="ilc_text_inline_Emph">kein</span> (neues) Passwort für Ihr ggf. bereits bestehende ILIAS-Konto. Der Code dient nur der <span class="ilc_text_inline_Emph">einmaligen</span> Verwendung zur Registrierung oder Reaktivierung. Das Passwort eines ggf. bestehenden ILIAS-Kontos ändert sich im Zuge einer Reaktivierung <span class="ilc_text_inline_Emph">nicht</span>.</li><li class="ilc_list_item_StandardListItem">Sollten Sie ein neues Konto registrieren, obwohl Sie bereits über ein (ggf. abgelaufenes) Konto verfügt haben, können und müssen Sie künftig ausschließlich das neue Konto nutzen. Das alte Konto wird in einem solchen Fall nach Ablauf gelöscht.</li></ul><!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">»Ich habe einen Code erhalten – wie kann ich ein Konto registrieren oder reaktivieren?«<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_Paragraph ilc_text_block_Standard">Für ein <span class="ilc_text_inline_Strong"><span class="ilc_text_inline_Emph">neues</span></span> Konto nutzen Sie bitte das <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="https://ilias3.uni-stuttgart.de/register.php?lang=de">Registrierungsformular</a>.<br/><br/>Die <span class="ilc_text_inline_Strong"><span class="ilc_text_inline_Emph">Reaktivierung</span></span> eines <span class="ilc_text_inline_Strong"><span class="ilc_text_inline_Emph">bestehenden</span></span>, <span class="ilc_text_inline_Strong"><span class="ilc_text_inline_Emph">abgelaufenen</span></span> Kontos geschieht einfach im Zuge der normalen Anmeldung (mit den bekannten Zugangsdaten – der Code ist <span class="ilc_text_inline_Emph">kein</span> neues Passwort, er kommt einmalig erst nach der Anmeldung zum Tragen).<!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">»Hilfe, ich habe mein Passwort und/oder meinen Benutzernamen vergessen!«<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_Paragraph ilc_text_block_Standard">Bitte nutzen Sie die "<a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="https://ilias3.uni-stuttgart.de/pwassist.php?lang=de">Passwort vergessen?</a>"- bzw. "<a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="https://uni-s.de/ilias-benutzername-vergessen">Benutzername vergessen?</a>"-Funktion von ILIAS.<!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">»Wie bekomme ich Zugang zu ›meinen‹ Veranstaltungen bzw. Kursen?«<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_Paragraph ilc_text_block_Standard">Als Gasthörerin oder Gasthörer können Sie Kursen in ILIAS normalerweise <span class="ilc_text_inline_Emph">nicht</span> selbst beitreten. Stattdessen muss die zuständige Lehrperson bzw. ein Kursadministrator Sie in den Kurs aufnehmen. Nennen dieser Person (nach Registrierung oder Reaktivierung eines ILIAS-Kontos) dazu Ihren Benutzernamen, das erleichtert den Vorgang.<br/><br/>Im <span class="ilc_text_inline_Emph">Info</span>-Reiter des Kurses finden Sie den ILIAS-Benutzernamen des Kursbesitzers (also in der Regel der Person, die den Kurs angelegt hat) und können über ILIAS eine Mail schreiben. Weitere Kontaktdaten entnehmen Sie bitte ggf. der jeweiligen Instituts-/Lehrstuhlwebseite. (Den/die Namen der Lehrenden sehen Sie in vielen Fällen direkt im Beschreibungsfeld des Kurses oder ansonsten natürlich im Vorlesungsverzeichnis.)<br/><br/>Nach der Aufnahme erscheint der jeweilige Kurs direkt auf Ihrem <span class="ilc_text_inline_Emph">Persönlichen Schreibtisch</span> in ILIAS im Bereich <span class="ilc_text_inline_Emph">Ausgewählte Angebote</span>.<br/><br/><span class="ilc_text_inline_Emph">Ausgewählte</span> (aber keineswegs alle!) Kurse des <span class="ilc_text_inline_Emph">Historischen Instituts</span> sind von dieser Regelung ausgenommen. Diesen können Sie selbstständig beitreten. Bitte erkundigen Sie sich darüber ggf. <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="http://www.uni-stuttgart.de/hi/edv/tricks/ilias_gasthoerer.html">direkt am Historischen Institut</a>.<br/><br/>Sollten Sie Probleme mit dem Beitritt zu einem Kurs oder Fragen zum Zugang zu Veranstaltungsmaterialien/den Kursinhalten haben, wenden Sie sich bitte <span class="ilc_text_inline_Emph">grundsätzlich</span> direkt an die jeweiligen Lehrenden. Diese sind für die Beitrittseinstellungen bzw. Teilnehmerverwaltung sowie die Materialien in ihren Kursen usw. selbst verantwortlich.<br/><br/>Beachten Sie bitte auch, dass Veranstaltungsmaterialien bzw. ILIAS- Kurse u.U. nur für das jeweils aktuelle Semester zugänglich sind. Auch dies liegt allein in der Verantwortung der Lehrenden selbst.<br/><br/>Es besteht im Übrigen keinerlei Anspruch auf einen fortwährenden Zugriff auf Kursmaterialien aus vergangenen Semestern; Kurse werden von den Lehrenden häufig ganz bewusst nicht über den Ablauf des jeweiligen Semesters hinaus verfügbar gemacht.<!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">»Ich habe eine andere Frage …«<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_Paragraph ilc_text_block_Standard"><ul class="ilc_list_u_BulletedList"><li class="ilc_list_item_StandardListItem">Mit Fragen zu spezifischen Kursen, zu den Marterialien darin, zu Zugangsfristen und Beitrittsmodalitäten, Kurspasswörtern usw. wenden Sie sich bitte <span class="ilc_text_inline_Emph">immer</span> an die jeweiligen Lehrenden selbst (bzw. den/einen Kursadministrator). Im Info-Reiter des Kurses finden Sie den ILIAS-Benutzernamen des Kursbesitzers (also in der Regel der Person, die den Kurs angelegt hat) und können über ILIAS eine Mail schreiben. Weitere Kontaktdaten entnehmen Sie bitte ggf. der jeweiligen Instituts-/Lehrstuhlwebseite.</li><li class="ilc_list_item_StandardListItem">Zahlreiche häufige Fragen zu ILIAS und E-Learning an der Universität Stuttgart beantwortet unser Lernmodul <a class="ilc_link_IntLink" href="./goto.php?target=lm_539538" target="_top" id="il__obj_539538_71_10">E-Learning und die Nutzung von ILIAS an der Universität Stuttgart</a>.</li><li class="ilc_list_item_StandardListItem">Mit Fragen dazu oder solchen, die darüber hinaus gehen, schreiben Sie uns bitte ein E-Mail an <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="mailto:ilias-support@tik.uni-stuttgart.de">ilias-support@tik.uni-stuttgart.de</a>; sofern Ihre Frage tatsächlich hier im Hilfe-Menü beantwortet wird, können wir allerdings nicht mehr tun, als Sie hierhin zurück zu verweisen.</li><li class="ilc_list_item_StandardListItem">Wir können für Gasthörer leider grundsätzlich <span class="ilc_text_inline_Emph">keinen</span> telefonischen Support anbieten, sehen Sie daher von Anrufen bei Mitarbeitern der TIK-Dienste bitte ab.</li></ul><!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><script type="text/javascript">					$(function () {						il.Accordion.add({							id: 'ilc_accordion_71_15',							toggle_class: 'il_VAccordionToggleDef',							toggle_act_class: 'il_VAccordionToggleActiveDef',							content_class: 'il_VAccordionContentDef',							width: null,							height: null,							orientation: 'vertical',							behaviour: 'AllClosed',							save_url: '',							active_head_class: 'ilc_va_iheada_VAccordIHeadActive',							int_id: '',							multi: false							});						});				</script></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">Sonstiger externer Gast / Master-Online-Kontaktstudent*in / HND BW<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div><div class="ilc_va_cntr_VAccordCntr" id="ilc_accordion_71_16"><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">»(Wie) kann ich Zugang zu ILIAS an der Universität Stuttgart erhalten?«<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div><div class="ilc_va_cntr_VAccordCntr" id="ilc_accordion_71_17"><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">Sonderfall »Ich bin Gymnasiallehrer(in) und interessieren mich für den Vertiefungskurs Mathematik (MathePlus) …«<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_Paragraph ilc_text_block_Standard">Informartionen dazu sowie eine Kontakadresse zur Beantragung eines Kontos finden Sie auf der Seite <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="https://www.f08.uni-stuttgart.de/schulen/angebot-fuer-lehrkraefte/vertiefungskurs.html">Vertiefungskurs Mathematik</a> des <span class="ilc_text_inline_Emph">Lehrstuhls für Analysis und Mathematische Physik</span>. Sie erhalten Zugangsdaten vom zuständigen Kollegen dort.<!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><script type="text/javascript">					$(function () {						il.Accordion.add({							id: 'ilc_accordion_71_17',							toggle_class: 'il_VAccordionToggleDef',							toggle_act_class: 'il_VAccordionToggleActiveDef',							content_class: 'il_VAccordionContentDef',							width: null,							height: null,							orientation: 'vertical',							behaviour: 'AllClosed',							save_url: '',							active_head_class: 'ilc_va_iheada_VAccordIHeadActive',							int_id: '',							multi: false							});						});				</script></div><div class="ilc_Paragraph ilc_text_block_Standard"><span class="ilc_text_inline_Strong">E</span><span class="ilc_text_inline_Strong">xterne Gastnutzer</span> (<span class="ilc_text_inline_Emph">nicht</span> Gasthörerinnen und Gasthörer) können <span class="ilc_text_inline_Strong">auf Antrag durch ein Institut/einen Lehrstuhl/eine Einrichtung bzw. eine Mitarbeiterin oder einen Mitarbeiter</span> der Universität Stuttgart ein <span class="ilc_text_inline_Strong">zeitlich befristetes, zentrales Gastkonto</span> (gs-Konto) erhalten, das sich (auch) für ILIAS nutzen lässt.<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard">Das bedeutet, externe Nutzer müssen sich in der Regel an die Dozentin/den Dozenten bzw. das Institut/den Lehrstuhl/die Einrichtung wenden, deren/dessen Veranstaltung(en) sie besuchen bzw. an deren/dessen Kursen/Gruppen sie teilnehmen möchten/sollen.<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard">Mit den gs-Zuangsdaten, die solche Gaststudierende über das jeweilige Insitut erhalten, ist eine direkte Anmeldung bei ILIAS möglich. Eine Registrierung entfällt.<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard">Auch die Verlängerung eines bestehenden, abgelaufenen Kontos muss vom Institut/von der Einrichtung beantragt werden.<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard"><span class="ilc_text_inline_Strong">Externe Nutzer können ein Konto (bzw. die Verlängerung) grundsätzlich <span class="ilc_text_inline_Important"><span class="ilc_text_inline_Emph">nicht</span></span> für sich selbst beantragen.</span><!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">»Ich habe einen Code erhalten – wie kann ich ein Konto registrieren oder reaktivieren?« (HND BW)<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_Paragraph ilc_text_block_Standard"><span class="ilc_text_inline_Strong">Achtung, dies ist nur noch für Gastnutzer aus dem Kontext des HND BW relevant.</span><!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard">Für ein <span class="ilc_text_inline_Strong"><span class="ilc_text_inline_Emph">neues</span></span> Konto nutzen Sie bitte das <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="https://ilias3.uni-stuttgart.de/register.php?lang=de">Registrierungsformular</a>.<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard">Die <span class="ilc_text_inline_Strong"><span class="ilc_text_inline_Emph">Reaktivierung</span></span> eines <span class="ilc_text_inline_Strong"><span class="ilc_text_inline_Emph">bestehenden</span></span>, <span class="ilc_text_inline_Strong"><span class="ilc_text_inline_Emph">abgelaufenen</span></span> Kontos geschieht einfach im Zuge der normalen Anmeldung (mit den bekannten Zugangsdaten – der Code ist <span class="ilc_text_inline_Emph">kein</span> neues Passwort, er kommt einmalig erst nach der Anmeldung zum Tragen).<!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">»Hilfe, ich habe Anmeldeprobleme / ich habe mein Passwort und/oder meinen Benutzernamen vergessen!«<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_Paragraph ilc_text_block_Standard">Gastnutzer mit gs-Konto, die ihr Passwort und/oder ihren Benutzernamen vergessen haben, wenden sich bitte an die/den Institutsverantwortliche(n), von welcher/welchem sie die gs-Zugangsdaten ursprünglich erhalten haben. Da es sich um zentrale Konten handelt, können ILIAS bzw. der ILIAS-Support grundsätzlich <span class="ilc_text_inline_Emph">nicht</span> helfen.<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard">HND-BW-Gastnutzer (inkl. Ringvorlesung), sonstiges Gastnutzer sowie Master:Online-Studierende, die (bislang noch) ein altes, lokales ILIAS-Konto (Benutzernamensschema <span class="ilc_text_inline_Emph">VornameNachname</span>) verwenden, nutzen bitte die "<a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="https://ilias3.uni-stuttgart.de/pwassist.php?lang=de">Passwort vergessen?</a>"- bzw. "<a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="https://uni-s.de/ilias-benutzername-vergessen">Benutzername vergessen?</a>"-Funktion von ILIAS.<!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">»Ich habe eine andere Frage …«<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_Paragraph ilc_text_block_Standard"><ul class="ilc_list_u_BulletedList"><li class="ilc_list_item_StandardListItem">Zahlreiche häufige Fragen zu ILIAS und E-Learning an der Universität Stuttgart beantwortet unser Lernmodul <a class="ilc_link_IntLink" href="./goto.php?target=lm_539538" target="_top" id="il__obj_539538_71_11">E-Learning und die Nutzung von ILIAS an der Universität Stuttgart</a>.</li><li class="ilc_list_item_StandardListItem">Mit Fragen dazu oder solchen, die darüber hinaus gehen, schreiben Sie uns bitte ein E-Mail an <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="mailto:ilias-support@tik.uni-stuttgart.de">ilias-support@tik.uni-stuttgart.de</a>.</li></ul><!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><script type="text/javascript">					$(function () {						il.Accordion.add({							id: 'ilc_accordion_71_16',							toggle_class: 'il_VAccordionToggleDef',							toggle_act_class: 'il_VAccordionToggleActiveDef',							content_class: 'il_VAccordionContentDef',							width: null,							height: null,							orientation: 'vertical',							behaviour: 'AllClosed',							save_url: '',							active_head_class: 'ilc_va_iheada_VAccordIHeadActive',							int_id: '',							multi: false							});						});				</script></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><script type="text/javascript">					$(function () {						il.Accordion.add({							id: 'ilc_accordion_71_10',							toggle_class: 'il_VAccordionToggleDef',							toggle_act_class: 'il_VAccordionToggleActiveDef',							content_class: 'il_VAccordionContentDef',							width: null,							height: null,							orientation: 'vertical',							behaviour: 'AllClosed',							save_url: '',							active_head_class: 'ilc_va_iheada_VAccordIHeadActive',							int_id: '',							multi: false							});						});				</script></div><!--Break--></div><div class="ilc_section_Mnemonic ilCOPageSection"><!--ilPageTocH2134--><h2 id="ilPageTocA2134" class="ilc_Paragraph ilc_heading2_Headline2"><!--PageTocPH-->Antworten auf häufige Fragen zur C@MPUS-ILIAS-Schnittstelle<!--Break--></h2><div><div class="ilc_va_cntr_VAccordCntr" id="ilc_accordion_71_18"><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">Übertragungszeiträume<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><!--ilPageTocH2135--><h2 id="ilPageTocA2135" class="ilc_Paragraph ilc_heading2_Headline2"><!--PageTocPH-->Dauer des Kurs- und Teilnehmerabgleichs<!--Break--></h2><div class="ilc_Paragraph ilc_text_block_Standard"><ul class="ilc_list_u_BulletedList"><li class="ilc_list_item_StandardListItem">Kurs- und Teilnehmerübertragung für ein neues Semester beginnen immer gleichzeitig.</li><li class="ilc_list_item_StandardListItem">Kurse<ul class="ilc_list_u_BulletedList"><li class="ilc_list_item_StandardListItem">Kurse werden immer nur aus dem jeweils aktuellen Sommer- <span class="ilc_text_inline_Emph">oder</span> Wintersemester übertragen.</li><li class="ilc_list_item_StandardListItem"><span class="ilc_text_inline_Emph">Beispiel:</span> In dem Moment, in dem wir Anfangen, Kurse für das Wintersemester 2021/22 zu übertragen, hören wir mit der Übertragung von Kursen aus dem Sommersemester 2021 auf usw.</li></ul></li><li class="ilc_list_item_StandardListItem">Teilnehmer<ul class="ilc_list_u_BulletedList"><li class="ilc_list_item_StandardListItem">Teilnehmer werden immer ›rollend‹ für je ein Sommer- <span class="ilc_text_inline_Emph">und</span> Wintersemester übertragen.</li><li class="ilc_list_item_StandardListItem"><span class="ilc_text_inline_Emph">Beispiel:</span> Bis zu dem Zeitpunkt, an dem wir mit der Kurs- und Teilnehmerübertragung für das Wintersemester 2021/22 beginnen, übertragen wir Teilnehmer aus dem Wintersemester 2020/21 und Sommersemester 2021. Mit Beginn der Übertragung des Wintersemesters 2021/22 fällt das Wintersemester 2020/21 (automatisch) weg. Mit Beginn der Übertragung für das Sommersemester 2022 fällt das Sommersemester 2021 weg usw.</li></ul></li></ul><!--Break--></div><!--ilPageTocH2137--><h2 id="ilPageTocA2137" class="ilc_Paragraph ilc_heading2_Headline2"><!--PageTocPH-->Übertragungsbeginn für das jeweilige Folgesemester<!--Break--></h2><div class="ilc_Paragraph ilc_text_block_Standard">Seit dem Wintersemester 2019/20 gelten (in der Regel) feste Zeitpunkte für den Beginn der Übertragung für das jeweilige Folgesemester:<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard"><ul class="ilc_list_u_BulletedList"><li class="ilc_list_item_StandardListItem">Im Wintersemester beginnt die Übertragung für das folgende Sommersemester immer am 1. Februar</li><li class="ilc_list_item_StandardListItem">Im Sommersemester beginnt die Übertragung für das folgende Wintersemester immer am 1. Juli</li></ul><!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard">Es werden (Stand Dezember 2020) sowohl LV mit dem Status <span class="ilc_text_inline_Emph">gemeldet</span> als auch <span class="ilc_text_inline_Emph">genehmigt</span> übertragen.<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard"><span class="ilc_text_inline_Emph">Hinweis:</span> Der <span class="ilc_text_inline_Emph">allgemeine</span> Genehmigungstermin, an dem alle bis dahin gemeldeten (und noch nicht individuell genehmigten) LV gesammelt genehmigt werden, liegt i.d.R. jeweils ca. zwei Wochen nach Vorlesungsende. Lehrende, die bereits vorher ihre ILIAS-Kurse benötigen, können sich an ihre Stundenplanbeauftragten wenden, um individuelle LV vor dem jeweiligen Stichtag melden bzw. genehmigen zu lassen (und so bereits ab dem 1.2. respektive 1.7. an die Kurse zu gelangen).<!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><script type="text/javascript">					$(function () {						il.Accordion.add({							id: 'ilc_accordion_71_18',							toggle_class: 'il_VAccordionToggleDef',							toggle_act_class: 'il_VAccordionToggleActiveDef',							content_class: 'il_VAccordionContentDef',							width: null,							height: null,							orientation: 'vertical',							behaviour: 'AllClosed',							save_url: '',							active_head_class: 'ilc_va_iheada_VAccordIHeadActive',							int_id: '',							multi: false							});						});				</script></div><div><div class="ilc_va_cntr_VAccordCntr" id="ilc_accordion_71_19"><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">Für alle C@MPUS-Nutzer<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_Paragraph ilc_text_block_Standard"><span class="ilc_text_inline_Strong">Zugang zu Kursen:</span> Sowohl Lehrende als auch Studierenden müssen keine Kurse im Magazin von ILIAS suchen. Die Schnittstelle trägt alle Nutzer gemäß ihrer Rolle in den Lehrveranstaltungen in C@MPUS in die zugehörigen Kurse ein, so dass diese – für die Studierenden natürlich erst nach der Online-Schaltung der Kurse – direkt unter <span class="ilc_text_inline_Strong">»Meine Kurse und Gruppen«</span> sichtbar werden.<!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">Für Studierende<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_Paragraph ilc_text_block_Standard"><span class="ilc_text_inline_Strong">Nicht funktionierende Links</span><span class="ilc_text_inline_Strong"> in Bestätigungsmails zur Kurs-Aufanhme:</span> Eigentlich sollte ILIAS an Studierende <span class="ilc_text_inline_Emph">gar keine</span> Bestätigungsmails zur Kursaufnahme versenden, wenn diese über die Schnittstelle erfolgt. In Einzelfällen passiert aktuell aber dennoch. Dieser bekannte Fehler kann erst in einem künftigen Major Release von ILIAS behoben werden.<br/>Dass die Links in diesen Mails oft nicht zum Kurs führen, braucht nicht zu beunruhigen. Die Kurse wurden von den Lehrenden ganz einfach noch nicht online geschaltet. Sobald dies passiert, finden Sie die Kurse auf Ihrem Persönlicher Schreibtisch. <span class="ilc_text_inline_Emph">Wann</span> dies passiert, darüber können allerdings nur die Lehrenden selbst Auskunft geben. Die Mails dürfen Sie einfach ignorieren. (Vgl. auch unsere <a class="ilc_link_IntLink" href="./goto.php?target=st_315873" target="_top" id="il__st_315873_71_12">Kurzreferenz zur C@MPUS-ILIAS-Schnittstelle</a>.)<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard"><span class="ilc_text_inline_Strong"><span class="ilc_text_inline_Emph">Keine</span> Bestätigungsmails zur Kursaufnahme erhalten?</span> Das ist <span class="ilc_text_inline_Emph">kein</span> Fehler – so soll es eigentlich (beim Eintrag durch die C@MPUS-ILIAS-Schnittstelle) sein, da die Kurse zum Zeitpunkt der Aufnahme durch die Schnittstelle meist ohnehin noch offline sind. Sobald sich dass ändert, werden Sie unter »Meine Kurse und Gruppen« sichtbar.<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard"><span class="ilc_text_inline_Strong">Kein ILIAS-Kurse für <span class="ilc_text_inline_Emph">jede</span> Lehrveranstaltung:</span> Die Schnittstelle legt <span class="ilc_text_inline_Emph">nicht</span> pauschal für <span class="ilc_text_inline_Emph">jede</span> Lehrveranstaltung in C@MPUS einen ILIAS-Kurs an, sondern nur für die LV, bei denen die entsprechende »LV-Kategorie« auch von (einer) der Lehrperson(en) gesetzt wurde. Ob dies der Fall ist, lässt sich in der LV-<span class="ilc_text_inline_Emph">Detailansicht</span> unter <span class="ilc_text_inline_Emph">LV-Kategorien</span> » <span class="ilc_text_inline_Emph">Zuordnungen</span> erkennen. Steht dort <span class="ilc_text_inline_Emph">ILIAS[Kein ILIAS-Kurs]</span>, dann gibt es auch keinen solchen.<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard"><span class="ilc_text_inline_Strong">Austritt aus Kursen:</span> Es ist <span class="ilc_text_inline_Emph">nicht</span> möglich, (nur) in ILIAS aus aktiv von der C@MPUS-ILIAS-Schnittstelle verwalteten Kursen dauerhaft auszutreten. Nähere Informationen dazu, welche Möglichkeiten zum »Aufräumen« des <span class="ilc_text_inline_Emph">Persönlichen Schreibtisches</span> bzw. zum Kursaustritt dennoch gibt, finden sich im Abschnitt <a class="ilc_link_IntLink" href="./goto.php?target=st_374754" target="_top" id="il__st_374754_71_13">Austritt aus Kursen</a> in unserem Support-Lernmodul zur Schnittstelle.<!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">Für Lehrende<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_Paragraph ilc_text_block_Standard"><span class="ilc_text_inline_Strong">Zuordnung und Verlinkung von Kursen im Magazin:</span> Kurse werden gemäß der ersten zwei Ziffern der LV-Nummern bzw. der <span class="ilc_text_inline_Emph">Stellung im Studienplan</span> der zurgehörigen C@MPUS-LV in <span class="ilc_text_inline_Emph">einer</span> der zutreffenden Studiengangs-Kategorien im Magazin angelegt und in den weiteren Kategorien automatisch verlinkt. <span class="ilc_text_inline_Strong">Wichtig:</span> Die Kurslinks werden erst bei Online-Schaltung der Kurse sichtbar.<!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard">Nach welchen Kriterien die Zuordnung im Detail erfolgt, erfahren Sie hier: <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="https://uni-stuttgart.de/campus-ilias-einsortierung">https://uni-stuttgart.de/campus-ilias-einsortierung</a><!--Break--></div><div class="ilc_Paragraph ilc_text_block_Standard"><span class="ilc_text_inline_Strong">Diskrepanz bei der Teilnehmerzahl zwischen C@MPUS-LV und ILIAS-Kurs:</span> ILIAS-Konten von Studierenden, die sich bislang noch nie aktiv in ILIAS eingeloggt haben (in der Regel vor allem Erstsemester), werden von der Schnittstelle <span class="ilc_text_inline_Emph">nicht </span>automatisch angelegt. Erst wenn die Studierenden diesen Schritt bewusst vollziehen, werden sie in den Kurs eingetragen. Die Schnittstelle ist aus Datenschutzgründen mit ausdrücklicher Absicht so konzipiert worden.<!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div class="ilc_va_icntr_VAccordICntr"><div class="il_VAccordionToggleDef"><div tabindex="0" role="button" aria-expanded="false" class="ilc_va_ihead_VAccordIHead" style=""><div class="ilc_va_ihcap_VAccordIHeadCap">Weiterführende Informationen<!--Break--></div><!--Break--></div></div><div class="il_VAccordionContentDef ilAccHideContent"><div class="ilc_va_icont_VAccordICont" style=""><div class="ilc_Paragraph ilc_text_block_Standard">Ausführliche Information zur Schnittstelle von ILIAS-Seite finden Sie hier: <a class="ilc_link_ExtLink" rel="noopener" target="_blank" href="https://uni-stuttgart.de/campus-ilias-schnittstelle">https://uni-stuttgart.de/campus-ilias-schnittstelle</a><!--Break--></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><div style="clear:both;"><!--Break--></div></div><script type="text/javascript">					$(function () {						il.Accordion.add({							id: 'ilc_accordion_71_19',							toggle_class: 'il_VAccordionToggleDef',							toggle_act_class: 'il_VAccordionToggleActiveDef',							content_class: 'il_VAccordionContentDef',							width: null,							height: null,							orientation: 'vertical',							behaviour: 'AllClosed',							save_url: '',							active_head_class: 'ilc_va_iheada_VAccordIHeadActive',							int_id: '',							multi: false							});						});				</script></div><!--Break--></div><a style="display:block;" href="./goto.php?target=root_1" target="_top" id="il__obj_1_71_14" class="ilc_section_Link ilCOPageSection"><div class="ilc_Paragraph ilc_text_block_Standard">→  Zum öffentlichen Bereich<!--Break--></div><!--Break--></a><!--End of Grid Cell--></div></div></div><!--Break--></div><div style="clear:both;"><!--Break--></div><div class='il-copg-mob-fullscreen-modal'><div class="modal fade il-modal-roundtrip" tabindex="-1" role="dialog" id="il_ui_fw_6261377a8a9934_58676552">
+	<div class="modal-dialog" role="document" data-replace-marker="component">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<span class="modal-title">Vollbild</span>
+			</div>
+			<div class="modal-body">
+				
+				<iframe class='il-copg-mob-fullscreen' id='il-copg-mob-fullscreen-auth-71'></iframe>
+				
+			</div>
+			<div class="modal-footer">
+				
+				<button class="btn btn-default" data-dismiss="modal" aria-label="Close">Abbrechen</button>
+			</div>
+		</div>
+	</div>
+</div></div><script>$(function () { il.COPagePres.setFullscreenModalShowSignal('il_signal_6261377a8a6af4_01910025', '-auth-71'); });</script>
+
+
+
+	
+</div>
+<div class="ilStartupSection">
+	
+	
+	
+	
+	
+	
+	<!--p class="ilStartupSection">
+		
+<a class="il_ContainerItemCommand" href="ilias.php?lang=de&target=file_2897528_download&cmdClass=ilaccountregistrationgui&cmdNode=123:1n&baseClass=ilStartUpGUI">Neues Benutzerkonto registrieren</a>
+
+
+<a class="il_ContainerItemCommand" href="./index.php?client_id=Uni_Stuttgart&lang=de">Zum öffentlichen Bereich</a>
+
+
+<a class="il_ContainerItemCommand" href="ilias.php?lang=de&target=file_2897528_download&cmdClass=ilpasswordassistancegui&cmdNode=123:v7&baseClass=ilStartUpGUI">Passwort vergessen?</a>
+<a class="il_ContainerItemCommand" href="ilias.php?lang=de&target=file_2897528_download&cmd=showUsernameAssistanceForm&cmdClass=ilpasswordassistancegui&cmdNode=123:v7&baseClass=ilStartUpGUI">Benutzernamen vergessen?</a>
+
+
+
+	</p-->
+	
+	
+	<p>
+		<a class="il_ContainerItemCommand" href="ilias.php?lang=de&target=file_2897528_download&cmd=showTermsOfService&cmdClass=ilstartupgui&cmdNode=123&baseClass=ilStartUpGUI">Nutzungsbedingungen</a>
+
+	</p>
+	
+</div>
+<script>
+<!--
+if (document.formlogin.username && document.formlogin.password)
+{
+	if(document.formlogin.username.value!="") document.formlogin.password.focus();
+	else document.formlogin.username.focus();
+}
+//-->
+</script>
+
+
+
+
+
+
+								
+								
+								
+								
+							</div>
+
+							
+
+							
+						</div>
+					</div>
+
+					
+					
+				
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+<!--<div id="minheight"></div>-->
+<!--<footer id="ilFooter" class="ilFooter hidden-print"><div class="container-fluid ilContainerWidth">-->
+<!--<div class="row"><div class="ilFooterContainer form-inline"> </div></div></div></footer>-->
+
+
+
+
+			</div>
+
+
+			
+			<footer role="contentinfo">
+				<div class="il-maincontrols-footer">
+	<div class="il-footer-content">
+
+		
+
+		<div class="il-footer-text">
+			powered by ILIAS (v7.7 2022-03-09)
+		</div>
+		
+		<div class="il-footer-links">
+			<ul>
+	
+	<li><a href="https://ilias3.uni-stuttgart.de/goto_Uni_Stuttgart_impr_0.html" >Impressum & Nutzungsbedingungen</a></li>
+	
+	<li><a href="mailto:ilias-support@tik.uni-stuttgart.de" >ILIAS-/E-Learning-Support kontaktieren</a></li>
+	
+	<li><a href="ilias.php?cmdClass=ilaccessibilitycontrolconceptgui&cmdNode=17&baseClass=ilaccessibilitycontrolconceptgui" >Info Barrierefreiheit</a></li>
+	
+</ul>
+		</div>
+		
+	</div>
+	
+</div>
+
+			</footer>
+			
+		</main>
+
+
+	</div>
+
+
+
+<script>
+	
+		il.Util.addOnLoad(function() {
+			try { $(document).on('il_signal_6261377a8a6af4_01910025', function(event, signalData) { il.UI.modal.showModal('il_ui_fw_6261377a8a9934_58676552', {"ajaxRenderUrl":"","keyboard":true,"url":"#il_ui_fw_6261377a8a9934_58676552"}, signalData); return false; });$(document).on('il_signal_6261377a8a6bf0_06796109', function() { il.UI.modal.closeModal('il_ui_fw_6261377a8a9934_58676552'); return false; });$(document).on('il_signal_6261377a8a6c11_17682809', function(event, signalData) { il.UI.modal.replaceFromSignal('il_ui_fw_6261377a8a9934_58676552', signalData);}); } catch (e) { console.log(e); }
+try {  } catch (e) { console.log(e); }
+try { il.ExtLink.autolink('.ilc_Paragraph, .ilc_page_fn_Footnote','ilc_link_ExtLink'); } catch (e) { console.log(e); }
+try { il.ExtLink.autolink('.ilc_Paragraph, .ilc_page_fn_Footnote','ilc_link_ExtLink'); } catch (e) { console.log(e); }
+try { il.GS.Client.init('{"hashing":true,"logging":false}'); } catch (e) { console.log(e); }
+try { il.Help.setAjaxUrl('ilias.php?help_screen_id=.&cmdClass=ilhelpgui&cmdNode=eb&baseClass=ilhelpgui&cmdMode=asynch'); } catch (e) { console.log(e); }
+try { il.Help.listHelp(null); } catch (e) { console.log(e); }
+try {  } catch (e) { console.log(e); }
+try { $('#il_ui_fw_6261377b085402_77990228').on('click', function() {
+                                    console.log('trigger help slate');
+                                    $('body').trigger('il-help-toggle-slate');
+                                    return false;
+                                }) } catch (e) { console.log(e); }
+try { $('#il_ui_fw_6261377b088947_59380937').on('click', function(event) {
+						$(this).trigger('il_signal_6261377b06a519_45246359',
+							{
+								'id' : 'il_signal_6261377b06a519_45246359', 'event' : 'click',
+								'triggerer' : $(this),
+								'options' : JSON.parse('[]')
+							}
+						);
+						return false;
+					});$('#il_ui_fw_6261377b088947_59380937').on('click', function(event) {
+						$(this).trigger('il_signal_6261377b06afe7_35885822',
+							{
+								'id' : 'il_signal_6261377b06afe7_35885822', 'event' : 'click',
+								'triggerer' : $(this),
+								'options' : JSON.parse('[]')
+							}
+						);
+						return false;
+					}); } catch (e) { console.log(e); }
+try { fn = il.UI.maincontrols.slate.onSignal;$(document).on('il_signal_6261377b06afe7_35885822', function(event, signalData) { fn('toggle', event, signalData, 'il_ui_fw_6261377b09b016_73758477'); return false;});$(document).on('il_signal_6261377b06b025_91434542', function(event, signalData) { fn('engage', event, signalData, 'il_ui_fw_6261377b09b016_73758477'); return false;});$(document).on('il_signal_6261377b06b042_78361629', function(event, signalData) { fn('replace', event, signalData, 'il_ui_fw_6261377b09b016_73758477'); return false;}); } catch (e) { console.log(e); }
+try { $('#il_ui_fw_6261377b09ca81_49476250').on('click', function(event) {
+						$(this).trigger('il_signal_6261377b06a519_45246359',
+							{
+								'id' : 'il_signal_6261377b06a519_45246359', 'event' : 'click',
+								'triggerer' : $(this),
+								'options' : JSON.parse('[]')
+							}
+						);
+						return false;
+					});$('#il_ui_fw_6261377b09ca81_49476250').on('click', function(event) {
+						$(this).trigger('il_signal_6261377b07bb97_54765738',
+							{
+								'id' : 'il_signal_6261377b07bb97_54765738', 'event' : 'click',
+								'triggerer' : $(this),
+								'options' : JSON.parse('[]')
+							}
+						);
+						return false;
+					}); } catch (e) { console.log(e); }
+try { fn = il.UI.maincontrols.slate.onSignal;$(document).on('il_signal_6261377b07bb97_54765738', function(event, signalData) { fn('toggle', event, signalData, 'il_ui_fw_6261377b0a3e71_82246073'); return false;});$(document).on('il_signal_6261377b07bc38_06137187', function(event, signalData) { fn('engage', event, signalData, 'il_ui_fw_6261377b0a3e71_82246073'); return false;});$(document).on('il_signal_6261377b07bc56_31175643', function(event, signalData) { fn('replace', event, signalData, 'il_ui_fw_6261377b0a3e71_82246073'); return false;}); } catch (e) { console.log(e); }
+try { 
+					il.UI.maincontrols.metabar.registerSignals(
+						'il_ui_fw_6261377b0a4141_29189270',
+						'il_signal_6261377b06a519_45246359',
+						'il_signal_6261377b06a607_77914976',
+					);
+					il.UI.maincontrols.metabar.init();
+					$(window).resize(il.UI.maincontrols.metabar.init);
+				 } catch (e) { console.log(e); }
+try { 
+                        il.UI.maincontrols.mainbar.addPartIdAndEntry('0:0', 'triggerer', 'il_ui_fw_6261377b0a8732_47097488', false);
+                        il.UI.maincontrols.mainbar.addMapping('494c4941535c4d61696e4d656e755c50726f76696465725c5374616e64617264546f704974656d7350726f76696465727c7265706f7369746f7279','0:0');
+                    
+$('#il_ui_fw_6261377b0a8732_47097488').on('click', function(event) {
+						$(this).trigger('il_signal_6261377b0a6331_89657650',
+							{
+								'id' : 'il_signal_6261377b0a6331_89657650', 'event' : 'click',
+								'triggerer' : $(this),
+								'options' : JSON.parse('{"entry_id":"0:0","action":"trigger"}')
+							}
+						);
+						return false;
+					}); } catch (e) { console.log(e); }
+try { 
+                                    il.UI.maincontrols.mainbar.addTriggerSignal('il_signal_6261377b0aaa71_35966343');
+                                    il.UI.maincontrols.mainbar.addPartIdAndEntry('0:0:1', 'triggerer', 'il_ui_fw_6261377b0b0854_10546856');
+                                
+$('#il_ui_fw_6261377b0b0854_10546856').on('click', function(event) {
+						$(this).trigger('il_signal_6261377b0aaa71_35966343',
+							{
+								'id' : 'il_signal_6261377b0aaa71_35966343', 'event' : 'click',
+								'triggerer' : $(this),
+								'options' : JSON.parse('{"entry_id":"0:0:1","action":"trigger"}')
+							}
+						);
+						return false;
+					}); } catch (e) { console.log(e); }
+try {  } catch (e) { console.log(e); }
+try { fn = il.UI.maincontrols.slate.onSignal;$(document).on('il_signal_6261377ad763d4_27873247', function(event, signalData) { fn('toggle', event, signalData, 'il_ui_fw_6261377b0b45d2_87951765'); return false;});$(document).on('il_signal_6261377ad76427_68201138', function(event, signalData) { fn('engage', event, signalData, 'il_ui_fw_6261377b0b45d2_87951765'); return false;});$(document).on('il_signal_6261377ad76446_41377957', function(event, signalData) { fn('replace', event, signalData, 'il_ui_fw_6261377b0b45d2_87951765'); return false;});il.UI.maincontrols.mainbar.addPartIdAndEntry('0:0:1', 'slate', 'il_ui_fw_6261377b0b45d2_87951765');
+$('#il_ui_fw_6261377b0b45d2_87951765').on('in_view', function(event) {
+						$(this).trigger('il_signal_6261377ad76446_41377957',
+							{
+								'id' : 'il_signal_6261377ad76446_41377957', 'event' : 'in_view',
+								'triggerer' : $(this),
+								'options' : JSON.parse('{"url":".\/gs_content.php?item=494c4941535c5265706f7369746f72795c50726f76696465725c5265706f7369746f72794d61696e42617250726f76696465727c7265705f747265655f76696577"}')
+							}
+						);
+						return false;
+					}); } catch (e) { console.log(e); }
+try { fn = il.UI.maincontrols.slate.onSignal;$(document).on('il_signal_6261377ad75878_79653807', function(event, signalData) { fn('toggle', event, signalData, 'il_ui_fw_6261377b0b4895_45365089'); return false;});$(document).on('il_signal_6261377ad758d1_06783305', function(event, signalData) { fn('engage', event, signalData, 'il_ui_fw_6261377b0b4895_45365089'); return false;});$(document).on('il_signal_6261377ad758f6_19428285', function(event, signalData) { fn('replace', event, signalData, 'il_ui_fw_6261377b0b4895_45365089'); return false;});il.UI.maincontrols.mainbar.addPartIdAndEntry('0:0', 'slate', 'il_ui_fw_6261377b0b4895_45365089'); } catch (e) { console.log(e); }
+try { 
+                        il.UI.maincontrols.mainbar.addPartIdAndEntry('0:1', 'triggerer', 'il_ui_fw_6261377b0b6440_35390540', false);
+                        il.UI.maincontrols.mainbar.addMapping('494c4941535c4d61696e4d656e755c50726f76696465725c437573746f6d4d61696e42617250726f76696465727c36313430623431306263303761','0:1');
+                    
+$('#il_ui_fw_6261377b0b6440_35390540').on('click', function(event) {
+						$(this).trigger('il_signal_6261377b0b4a61_76817043',
+							{
+								'id' : 'il_signal_6261377b0b4a61_76817043', 'event' : 'click',
+								'triggerer' : $(this),
+								'options' : JSON.parse('{"entry_id":"0:1","action":"trigger"}')
+							}
+						);
+						return false;
+					}); } catch (e) { console.log(e); }
+try { fn = il.UI.maincontrols.slate.onSignal;$(document).on('il_signal_6261377ad768b7_01259168', function(event, signalData) { fn('toggle', event, signalData, 'il_ui_fw_6261377b0e3235_51139759'); return false;});$(document).on('il_signal_6261377ad768e2_16422498', function(event, signalData) { fn('engage', event, signalData, 'il_ui_fw_6261377b0e3235_51139759'); return false;});$(document).on('il_signal_6261377ad768f2_36730400', function(event, signalData) { fn('replace', event, signalData, 'il_ui_fw_6261377b0e3235_51139759'); return false;});il.UI.maincontrols.mainbar.addPartIdAndEntry('0:1', 'slate', 'il_ui_fw_6261377b0e3235_51139759'); } catch (e) { console.log(e); }
+try { 
+                        il.UI.maincontrols.mainbar.addPartIdAndEntry('0:2', 'triggerer', 'il_ui_fw_6261377b0e57c5_04018892', false);
+                        il.UI.maincontrols.mainbar.addMapping('_mb_more_entry','0:2');
+                    
+$('#il_ui_fw_6261377b0e57c5_04018892').on('click', function(event) {
+						$(this).trigger('il_signal_6261377b0e3a16_59422259',
+							{
+								'id' : 'il_signal_6261377b0e3a16_59422259', 'event' : 'click',
+								'triggerer' : $(this),
+								'options' : JSON.parse('{"entry_id":"0:2","action":"trigger"}')
+							}
+						);
+						return false;
+					}); } catch (e) { console.log(e); }
+try { fn = il.UI.maincontrols.slate.onSignal;$(document).on('il_signal_6261377b0a5f37_19806611', function(event, signalData) { fn('toggle', event, signalData, 'il_ui_fw_6261377b0e9c37_84335369'); return false;});$(document).on('il_signal_6261377b0a5f75_03916174', function(event, signalData) { fn('engage', event, signalData, 'il_ui_fw_6261377b0e9c37_84335369'); return false;});$(document).on('il_signal_6261377b0a5f85_02005198', function(event, signalData) { fn('replace', event, signalData, 'il_ui_fw_6261377b0e9c37_84335369'); return false;});il.UI.maincontrols.mainbar.addPartIdAndEntry('0:2', 'slate', 'il_ui_fw_6261377b0e9c37_84335369'); } catch (e) { console.log(e); }
+try { il.UI.maincontrols.mainbar.addToolEntry('T:0', false, true, '696c48656c704753546f6f6c50726f76696465727c68656c70');
+                        il.UI.maincontrols.mainbar.addPartIdAndEntry('T:0', 'triggerer', 'il_ui_fw_6261377b0eb774_69491731', true);
+                        il.UI.maincontrols.mainbar.addMapping('696c48656c704753546f6f6c50726f76696465727c68656c70','T:0');
+                    
+$('#il_ui_fw_6261377b0eb774_69491731').on('click', function(event) {
+						$(this).trigger('il_signal_6261377b0e9ef5_64392862',
+							{
+								'id' : 'il_signal_6261377b0e9ef5_64392862', 'event' : 'click',
+								'triggerer' : $(this),
+								'options' : JSON.parse('{"entry_id":"T:0","action":"trigger"}')
+							}
+						);
+						return false;
+					}); } catch (e) { console.log(e); }
+try {  } catch (e) { console.log(e); }
+try { 
+                                                 $('body').on('il-help-toggle-slate', function(){
+                                                    if (!$('#il_ui_fw_6261377b0ede98_06523457').hasClass('disengaged')) {
+                                                        il.Help.resetCurrentPage();
+                                                        il.UI.maincontrols.mainbar.removeTool('696c48656c704753546f6f6c50726f76696465727c68656c70');
+                                                    } else {
+                                                        il.UI.maincontrols.mainbar.engageTool('696c48656c704753546f6f6c50726f76696465727c68656c70');
+                                                    }
+                                                 });
+fn = il.UI.maincontrols.slate.onSignal;$(document).on('il_signal_6261377ad83949_36067739', function(event, signalData) { fn('toggle', event, signalData, 'il_ui_fw_6261377b0ede98_06523457'); return false;});$(document).on('il_signal_6261377ad839b8_77649897', function(event, signalData) { fn('engage', event, signalData, 'il_ui_fw_6261377b0ede98_06523457'); return false;});$(document).on('il_signal_6261377ad839c1_55981802', function(event, signalData) { fn('replace', event, signalData, 'il_ui_fw_6261377b0ede98_06523457'); return false;});il.UI.maincontrols.mainbar.addPartIdAndEntry('T:0', 'slate', 'il_ui_fw_6261377b0ede98_06523457'); } catch (e) { console.log(e); }
+try { $('#il_ui_fw_6261377b0ef3b7_46680838').on('click', function(event) {
+						$(this).trigger('il_signal_6261377ad74e81_66554547',
+							{
+								'id' : 'il_signal_6261377ad74e81_66554547', 'event' : 'click',
+								'triggerer' : $(this),
+								'options' : JSON.parse('{"action":"toggle_tools"}')
+							}
+						);
+						return false;
+					}); } catch (e) { console.log(e); }
+try { $('#il_ui_fw_6261377b0f31e3_21065465').on('click', function(event) {
+						$(this).trigger('il_signal_6261377ad74e41_95137427',
+							{
+								'id' : 'il_signal_6261377ad74e41_95137427', 'event' : 'click',
+								'triggerer' : $(this),
+								'options' : JSON.parse('{"action":"disengage_all"}')
+							}
+						);
+						return false;
+					}); } catch (e) { console.log(e); }
+try { il.UI.maincontrols.mainbar.addTriggerSignal('il_signal_6261377ad74e41_95137427');il.UI.maincontrols.mainbar.addTriggerSignal('il_signal_6261377ad74e81_66554547');il.UI.maincontrols.mainbar.addTriggerSignal('il_signal_6261377b0a6331_89657650');il.UI.maincontrols.mainbar.addTriggerSignal('il_signal_6261377b0b4a61_76817043');il.UI.maincontrols.mainbar.addTriggerSignal('il_signal_6261377b0e3a16_59422259');il.UI.maincontrols.mainbar.addTriggerSignal('il_signal_6261377b0e9ef5_64392862');il.UI.maincontrols.mainbar.addTriggerSignal('il_signal_6261377ad83c27_63545151');
+                    window.addEventListener('resize', il.UI.maincontrols.mainbar.adjustToScreenSize);
+                    il.UI.maincontrols.mainbar.init('');
+                 } catch (e) { console.log(e); }
+try {  } catch (e) { console.log(e); }
+		});
+	
+</script>
+
+
+</body>
+</html>
