@@ -3,22 +3,17 @@
 
 /*
 	Tries to allocate a new Node.
-	This function will try to allocate a new Node.
-	The ptr to insel will be owned by the returned Node.
-	The new node will be assigned to dst.
+	The ptr to insel will be owned by the allocated Node.
 
-	If an error occurs, dst will be invalidated as NULL.
-	May return KokosError:NullPointerError if insel is a nullptr.
-	May return KokosError:OutOfMemoryError if memory could not be allocated.
-
-	If no error occurred, a KokosError:None will be returned.
+	@insel insel to push into dst
+	@dst the new node
+	@return 1 if insel is a nullptr, 2 if allocation of a Node failed, otherwise 0
 */
-KokosError node_new(Insel* insel, Node** dst) {
+int node_new(Insel* insel, Node** dst) {
 
 	// Sanity check
 	if (!insel) {
-		*dst = NULL;
-		return kokos_nullptr(1);
+		return 1;
 	}
 
 	// Try allocating enough memory to hold a Node
@@ -26,8 +21,7 @@ KokosError node_new(Insel* insel, Node** dst) {
 
 	// Sanity check
 	if (!new_node) {
-		*dst = NULL;
-		return kokos_memory();
+		return 2;
 	}
 
 	// Assign
@@ -36,13 +30,16 @@ KokosError node_new(Insel* insel, Node** dst) {
 	new_node->prev = NULL;
 	*dst = new_node;
 
-	return kokos_noerr();
+	return 0;
 }
 
 /*
 	Returns a pointer to the last Node element of node.
 	If node doesn't have a next node, it will return itself.
 	If the passed node was a nullptr, a nullptr will be returned.
+
+	@node Node to find the last node for
+	@return last Node
 */
 Node* _last_node(Node* node) {
 
@@ -51,6 +48,7 @@ Node* _last_node(Node* node) {
 
 	Node* last_node = node;
 
+	// Iterate through the nodes, to find the last one
 	while (last_node->next) {
 		last_node = last_node->next;
 	}
@@ -59,23 +57,21 @@ Node* _last_node(Node* node) {
 }
 
 /*
-	Tries to push 'node' in 'into'.
-	This function will push 'node' as the last element of 'into'.
+	Tries to push 'node' as the last element of 'into'.
 
-	May return KokosError:NullPointerError
-	if either 'into' or 'node' are nullptr.
-
-	If no error occurred, a KokosError:None will be returned.
+	@into Node where 'node' will be pushed into
+	@node node to push
+	@return 1 if into was a nullptr, 2 if node was a nullptr, otherwise 0
 */
-KokosError node_push_back(Node* into, Node* node) {
+int node_push_back(Node* into, Node* node) {
 	// Sanity check
 	if (!into) {
-		return kokos_nullptr(1);
+		return 1;
 	}
 
 	// Sanity check
 	if (!node) {
-		return kokos_nullptr(2);
+		return 2;
 	}
 
 	// Get the last node
@@ -85,13 +81,16 @@ KokosError node_push_back(Node* into, Node* node) {
 	last->next = node;
 	node->prev = last;
 
-	return kokos_noerr();
+	return 0;
 }
 
 /*
 	Dequeues the last Node element in 'node'.
 	If 'node' is the only element or 'node' is a nullptr, 
 	this function will return a nullptr.
+
+	@node Node where an element should be dequeued
+	@return dequeued Node
 */
 Node* _node_dq(Node* node) {
 
@@ -114,44 +113,31 @@ Node* _node_dq(Node* node) {
 /*
 	Performs the cleanup of node.
 	No-Op if node is a nullptr.
+
+	@node node to be freed
 */
 void _cleanup_node(Node* node) {
 
 	// Sanity check
 	if (!node) return;
 
-	/* 
-		Free and invalidate the owned insel ptr.
-	*/
-	KokosError free_result = insel_free(node->insel);
-
-	/*
-		If node->insel is already null, then invalidation
-		doesn't have to be handled.
-	*/
-	if (!kokos_has_error(&free_result)) {
-		node->insel = NULL;
-	}
+	// Free and invalidate the owned insel ptr.
+	insel_free(node->insel);
+	node->insel = NULL;
 
 	// Free the node itself
 	free(node);
 }
 
 /*
-	Frees a Node.
 	This function will attempt to free a heap
 	allocated Node, as well as all consecutive nodes 
 	owned by 'node'.
+	If node is a nullptr, this function is a No-Op.
 
-	May return a KokosError:NullpointerError if node is a nullptr.
-	If no error occurred, a KokosError:None will be returned.
+	@node the node to be freed
 */
-KokosError node_free(Node* node) {
-	
-	// Sanity check
-	if (!node) {
-		return kokos_nullptr(1);
-	}
+void node_free(Node* node) {
 
 	// Try dequeue the last node owned by node
 	Node* dq_node = _node_dq(node);
@@ -168,45 +154,40 @@ KokosError node_free(Node* node) {
 
 	// Cleanup 'node' itself
 	_cleanup_node(node);
-
-	return kokos_noerr();
 }
 
 /*
-	Pushes an insel into node.
 	This function will push a new Node with insel
 	as the last element of node.
 	The Insel pointer will be owned by the new Node.
 
-	May return a KokosError:NullPointerError if either 
-	node or insel are nullptr.
-	May return a KokosError:OutOfMemoryError if
-	the allocation of a new Node failed.
-
-	If no error occurred, a KokosError:None will be returned.
+	@node node where element should be pushed
+	@insel the insel to be owned by the new node
+	@return 1 if node is a nullptr, 
+			2 if insel is a nullptr, 
+			3 if allocation of a new node failed
 */
-KokosError node_push_back_insel(Node* node, Insel* insel) {
+int node_push_back_insel(Node* node, Insel* insel) {
 
 	// Sanity check
 	if (!node) {
-		return kokos_nullptr(1);
+		return 1;
 	}
 
 	// Sanity check
 	if (!insel) {
-		return kokos_nullptr(2);
+		return 2;
 	}
 
 	Node* new_node;
-	KokosError alloc_result = node_new(insel, &new_node);
 
 	// Check if allocation succeeded
-	if (kokos_has_error(&alloc_result)) {
-		return alloc_result;
+	if (node_new(insel, &new_node)) {
+		return 3;
 	}
 
 	// Error handling can be ignored since both ptr are valid
 	node_push_back(node, new_node);
 
-	return kokos_noerr();
+	return 0;
 }
