@@ -1,0 +1,1 @@
+gcc -I ./src/ -g ./src/main.c ./src/node.c ./src/insel.c -o ./bin/main.exe && ./bin/main.exe
