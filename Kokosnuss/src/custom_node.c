@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include "node.h"
+#include "custom_node.h"
 
 /*
 	Tries to allocate a new Node.

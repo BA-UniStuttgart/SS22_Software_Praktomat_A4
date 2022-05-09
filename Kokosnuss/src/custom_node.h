@@ -1,5 +1,5 @@
-#ifndef _NODE_H_
-#define _NODE_H_
+#ifndef _CSTM_NODE_H_
+#define _CSTM_NODE_H_
 
 #include "insel.h"
 

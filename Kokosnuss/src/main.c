@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "node.h"
+#include "custom_node.h"
 
 // Gets size of an array
 #define SIZEOF(ARR) sizeof(ARR) / sizeof(ARR[0])
