@@ -133,17 +133,13 @@ int main() {
         return 1;
     }
 
-    while(1) {
-        // User operation request
-        int op;
-        printf("Bitte die Tour Nummer (1-4) eingeben oder mit 0 beenden: ");
-        scanf("%d", &op);
+    // User operation request
+    int op;
+    printf("Bitte die Tour Nummer (1-4) eingeben oder mit 0 beenden: ");
+    scanf("%d", &op);
 
-        // If user operation is not in range 1..=4, break
-        if(op < 1 || op > 4) {
-            break;
-        }
-        
+    // If user operation is in range 1..=4, display tour
+    if(op > 0 && op < 5) {
         // Output the tour
         int index = op - 1;
         Output_Tour(theTours.tours + index, op);
