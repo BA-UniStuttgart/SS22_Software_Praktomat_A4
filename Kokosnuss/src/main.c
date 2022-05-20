@@ -1,9 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "tour.h"
-
-// Gets size of an array
-#define SIZEOF(ARR) sizeof(ARR) / sizeof(ARR[0])
+#include "util.h"
 
 // Divider used for printing
 const char* DIV = "---------------------------------------------------";
@@ -29,7 +27,7 @@ int _setup_tour(Tour* tour) {
         return 2;
     }
 
-    // First create a new insel and initialise the root node
+    // First create a new insel
     Insel* insel;
     int alloc_err = insel_new_from(tour->inseltypes[0], &insel);
 
@@ -39,7 +37,7 @@ int _setup_tour(Tour* tour) {
         return 1;
     }
 
-    Node* new_node;
+    // Now initialise the root node
     alloc_err = node_new(insel, &(tour->root) );
 
     // Check if allocation failed. Release acquired insel on fail
@@ -50,13 +48,10 @@ int _setup_tour(Tour* tour) {
     }
 
     // Iterate over each inseltype and try pushing the rest
-    InselType* start = tour->inseltypes + 1;
-    InselType* end = tour->inseltypes + tour->inselcount;
+    FOR_EACH(const InselType*, inselty, tour->inseltypes + 1, tour->inselcount - 1, {
 
-    for(InselType* inseltype = start; inseltype != end; inseltype++) {
-        
         Insel* insel;
-        alloc_err = insel_new_from(*inseltype, &insel);
+        alloc_err = insel_new_from(*inselty, &insel);
 
         // Check if allocation failed
         if(alloc_err) {
@@ -77,7 +72,8 @@ int _setup_tour(Tour* tour) {
             node_free(tour->root);
             return 1;
         }
-    }
+
+    })
 
     return 0;
 }
@@ -89,10 +85,7 @@ int _setup_tour(Tour* tour) {
 int Setup_Tours() {
 
     // Iterate over each tour in theTours and initialise it
-    Tour* start = theTours.tours;
-    Tour* end = theTours.tours + theTours.tourcount;
-
-    for(Tour* tour = start; tour != end; tour++) {
+    FOR_EACH(Tour*, tour, theTours.tours, theTours.tourcount, {
 
         int err = _setup_tour(tour);
 
@@ -100,7 +93,8 @@ int Setup_Tours() {
         if(err) {
             return 1;
         }
-    }
+
+    })
 
     return 0;
 }
@@ -123,13 +117,11 @@ void Output_Tour(const Tour* tour, int id) {
 
 // Release the memory held by each tour
 void Cleanup_Tour() {
+    
    // Iterate over each tour in theTours and free the root nodes
-    Tour* start = theTours.tours;
-    Tour* end = theTours.tours + theTours.tourcount;
-
-    for(Tour* tour = start; tour != end; tour++) {
+    FOR_EACH(const Tour*, tour, theTours.tours, theTours.tourcount, {
         node_free(tour->root);
-    }
+    })
 }
 
 int main() {
@@ -148,7 +140,7 @@ int main() {
         scanf("%d", &op);
 
         // If user operation is not in range 1..=4, break
-        if(op > 4 || op == 0) {
+        if(op < 1 || op > 4) {
             break;
         }
         
