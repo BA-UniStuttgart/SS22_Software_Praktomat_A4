@@ -126,11 +126,9 @@ void Cleanup_Tour() {
 
 int main() {
 
-    // Check if setup failed
+    // Release memory and exit program on setup fail
     if (Setup_Tours()) {
-        // Release memory
-        Cleanup_Tour();
-        return 1;
+        goto release_memory;
     }
 
     while(1) {
@@ -139,18 +137,25 @@ int main() {
         printf("Bitte die Tour Nummer (1-4) eingeben oder mit 0 beenden: ");
         scanf("%d", &op);
 
-        // If user operation is not in range 1..=4, break
-        if(op < 1 || op > 4) {
+        // If user operation is not in range 1..=4, ask again
+        // Release mem and exit, on exit request (op = 0)
+        switch(op) {
+            case 0: goto release_memory;
+            case 1:
+            case 2:
+            case 3:
+            case 4:
+                // Output Tour at corresponding tour index
+                Output_Tour(theTours.tours + op - 1, op);
+            break;
+            
+            default: continue; 
             break;
         }
-        
-        // Output the tour
-        int index = op - 1;
-        Output_Tour(theTours.tours + index, op);
     }
 
-    // Release memory
-    Cleanup_Tour();
+// Release memory
+release_memory: Cleanup_Tour();
 
     return 0;
 }
